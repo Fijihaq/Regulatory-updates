@@ -1,0 +1,37 @@
+name: Fetch Regulatory Updates
+
+on:
+  schedule:
+    - cron: '0 * * * *'   # Every hour
+  workflow_dispatch:        # Allow manual trigger
+
+jobs:
+  fetch-updates:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install feedparser requests beautifulsoup4 lxml
+
+      - name: Fetch regulatory updates
+        env:
+          GNEWS_API_KEY: ${{ secrets.GNEWS_API_KEY }}
+        run: python scripts/fetch_updates.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/regulatory-updates.json
+          git diff --staged --quiet || git commit -m "chore: update regulatory feed [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git push
