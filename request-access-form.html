@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Request Access — Fiji Haq</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&family=Syne:wght@500;600;700&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       transparent;
+      --surface:  #ffffff;
+      --border:   #d8d2c8;
+      --border-f: #2c3e2d;
+      --text:     #1a1a18;
+      --muted:    #7a7568;
+      --accent:   #2c3e2d;
+      --accent-h: #1a2a1b;
+      --gold:     #8b6914;
+      --error:    #8b2020;
+      --overlay:  rgba(10, 12, 10, 0.72);
+      --font-head:'Cormorant Garamond', Georgia, serif;
+      --font-ui:  'Syne', sans-serif;
+      --font-mono:'IBM Plex Mono', monospace;
+      --radius:   6px;
+      --ease:     cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    body {
+      background: transparent;
+      font-family: var(--font-head);
+      min-height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem 1rem;
+    }
+
+    /* ═══════════════════════════════════════
+       TRIGGER BUTTON
+    ═══════════════════════════════════════ */
+    .trigger-wrap {
+      text-align: center;
+    }
+
+    .trigger-eyebrow {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+
+    .trigger-eyebrow::before,
+    .trigger-eyebrow::after {
+      content: '';
+      display: inline-block;
+      width: 24px;
+      height: 1px;
+      background: var(--border);
+    }
+
+    .trigger-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      padding: 0.85rem 2rem;
+      font-family: var(--font-ui);
+      font-size: 0.88rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      color: #fff;
+      background: var(--accent);
+      border: none;
+      border-radius: var(--radius);
+      cursor: pointer;
+      transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .trigger-btn::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(255,255,255,0.07) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    .trigger-btn:hover {
+      background: var(--accent-h);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(44,62,45,0.28);
+    }
+
+    .trigger-btn:active { transform: translateY(0); }
+
+    .trigger-arrow {
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+    .trigger-btn:hover .trigger-arrow { transform: translateX(4px); }
+
+    .trigger-note {
+      font-family: var(--font-head);
+      font-size: 0.78rem;
+      font-style: italic;
+      color: var(--muted);
+      margin-top: 0.65rem;
+    }
+
+    /* ═══════════════════════════════════════
+       OVERLAY BACKDROP
+    ═══════════════════════════════════════ */
+    .overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: var(--overlay);
+      z-index: 9998;
+      backdrop-filter: blur(3px);
+      -webkit-backdrop-filter: blur(3px);
+      animation: overlayIn 0.25s ease both;
+    }
+
+    .overlay.visible { display: block; }
+
+    @keyframes overlayIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+
+    /* ═══════════════════════════════════════
+       MODAL
+    ═══════════════════════════════════════ */
+    .modal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      overflow-y: auto;
+    }
+
+    .modal.visible {
+      display: flex;
+    }
+
+    .modal-card {
+      width: 100%;
+      max-width: 480px;
+      background: var(--surface);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow:
+        0 2px 8px rgba(0,0,0,0.12),
+        0 24px 64px rgba(0,0,0,0.22);
+      animation: modalIn 0.38s var(--ease) both;
+      position: relative;
+      margin: auto;
+    }
+
+    @keyframes modalIn {
+      from { opacity: 0; transform: translateY(28px) scale(0.97); }
+      to   { opacity: 1; transform: translateY(0)    scale(1); }
+    }
+
+    /* Top colour stripe */
+    .modal-stripe {
+      height: 4px;
+      background: linear-gradient(90deg, var(--accent) 0%, #4a6741 60%, #8b6914 100%);
+    }
+
+    /* Close button */
+    .modal-close {
+      position: absolute;
+      top: 0.9rem;
+      right: 1rem;
+      width: 28px; height: 28px;
+      border-radius: 50%;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--muted);
+      font-size: 1rem;
+      line-height: 1;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.18s;
+    }
+    .modal-close:hover { background: #f0ece6; color: var(--text); border-color: var(--text); }
+
+    /* ── Modal header ── */
+    .modal-head {
+      padding: 1.5rem 1.75rem 1.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .modal-eyebrow {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.45rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .modal-eyebrow::before {
+      content: '';
+      display: inline-block;
+      width: 16px; height: 1px;
+      background: var(--gold);
+    }
+
+    .modal-title {
+      font-family: var(--font-head);
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--text);
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+      margin-bottom: 0.5rem;
+    }
+
+    .modal-desc {
+      font-family: var(--font-head);
+      font-size: 0.88rem;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    /* ── What you receive ── */
+    .wyg {
+      padding: 0.9rem 1.75rem;
+      background: #f5f3ee;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .wyg-label {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.45rem;
+    }
+
+    .wyg-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+    }
+
+    .wyg-tag {
+      font-family: var(--font-mono);
+      font-size: 0.63rem;
+      padding: 0.2rem 0.55rem;
+      border-radius: 3px;
+      background: rgba(44,62,45,0.07);
+      border: 1px solid rgba(44,62,45,0.14);
+      color: var(--accent);
+      letter-spacing: 0.03em;
+    }
+
+    /* ── Form body ── */
+    .modal-form {
+      padding: 1.4rem 1.75rem 1.6rem;
+    }
+
+    .field {
+      margin-bottom: 1rem;
+    }
+
+    label {
+      display: block;
+      font-family: var(--font-mono);
+      font-size: 0.59rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.35rem;
+    }
+
+    label .req { color: var(--gold); margin-left: 2px; }
+
+    input, select, textarea {
+      width: 100%;
+      font-family: var(--font-head);
+      font-size: 0.92rem;
+      color: var(--text);
+      background: #faf9f6;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 0.62rem 0.8rem;
+      outline: none;
+      transition: border-color 0.18s, box-shadow 0.18s;
+      appearance: none;
+      -webkit-appearance: none;
+    }
+
+    input::placeholder, textarea::placeholder {
+      color: #bbb5ab;
+      font-style: italic;
+    }
+
+    input:focus, select:focus, textarea:focus {
+      border-color: var(--border-f);
+      background: #fff;
+      box-shadow: 0 0 0 3px rgba(44,62,45,0.07);
+    }
+
+    input.err, select.err, textarea.err {
+      border-color: var(--error);
+      box-shadow: 0 0 0 3px rgba(139,32,32,0.07);
+    }
+
+    .field-err {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      color: var(--error);
+      margin-top: 0.25rem;
+      display: none;
+      letter-spacing: 0.03em;
+    }
+    .field-err.show { display: block; }
+
+    /* Select custom arrow */
+    .sel-wrap { position: relative; }
+    .sel-wrap::after {
+      content: '▾';
+      position: absolute;
+      right: 0.8rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--muted);
+      font-size: 0.72rem;
+      pointer-events: none;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 80px;
+      line-height: 1.55;
+    }
+
+    /* Privacy */
+    .privacy-note {
+      font-family: var(--font-head);
+      font-size: 0.76rem;
+      font-style: italic;
+      color: var(--muted);
+      line-height: 1.55;
+      margin-top: 1rem;
+      padding-top: 0.85rem;
+      border-top: 1px solid var(--border);
+    }
+
+    /* Submit */
+    .submit-btn {
+      width: 100%;
+      margin-top: 1.1rem;
+      padding: 0.9rem 1.5rem;
+      font-family: var(--font-ui);
+      font-size: 0.88rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      color: #fff;
+      background: var(--accent);
+      border: none;
+      border-radius: var(--radius);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      transition: background 0.2s, transform 0.18s, box-shadow 0.2s;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .submit-btn::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(255,255,255,0.07) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    .submit-btn:hover {
+      background: var(--accent-h);
+      transform: translateY(-1px);
+      box-shadow: 0 4px 14px rgba(44,62,45,0.24);
+    }
+    .submit-btn:active { transform: translateY(0); }
+    .submit-btn:disabled { opacity: 0.55; cursor: not-allowed; transform: none; box-shadow: none; }
+
+    .btn-arrow { transition: transform 0.2s; }
+    .submit-btn:hover .btn-arrow { transform: translateX(4px); }
+
+    /* ── Success screen ── */
+    .success-panel {
+      display: none;
+      padding: 2.75rem 1.75rem;
+      text-align: center;
+      animation: fadeUp 0.4s var(--ease) both;
+    }
+
+    @keyframes fadeUp {
+      from { opacity:0; transform:translateY(10px); }
+      to   { opacity:1; transform:translateY(0); }
+    }
+
+    .success-icon {
+      width: 54px; height: 54px;
+      border-radius: 50%;
+      background: rgba(44,62,45,0.07);
+      border: 2px solid var(--accent);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 1.1rem;
+      font-size: 1.3rem;
+      animation: popIn 0.45s cubic-bezier(0.34,1.56,0.64,1) both 0.1s;
+    }
+
+    @keyframes popIn {
+      from { transform:scale(0.4); opacity:0; }
+      to   { transform:scale(1);   opacity:1; }
+    }
+
+    .success-title {
+      font-family: var(--font-head);
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 0.5rem;
+    }
+
+    .success-msg {
+      font-family: var(--font-head);
+      font-size: 0.9rem;
+      font-style: italic;
+      color: var(--muted);
+      line-height: 1.65;
+      max-width: 320px;
+      margin: 0 auto 1.1rem;
+    }
+
+    .success-badge {
+      display: inline-block;
+      font-family: var(--font-mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.09em;
+      color: var(--muted);
+      background: #f3f1ec;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 0.4rem 0.9rem;
+    }
+
+    .success-close {
+      display: inline-block;
+      margin-top: 1.25rem;
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--accent);
+      cursor: pointer;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      background: none;
+      border: none;
+    }
+    .success-close:hover { color: var(--accent-h); }
+  </style>
+</head>
+<body>
+
+  <!-- ── TRIGGER BUTTON (what shows on your page) ── -->
+  <div class="trigger-wrap">
+    <div class="trigger-eyebrow">Controlled Access</div>
+    <button class="trigger-btn" id="openModal">
+      Request Access <span class="trigger-arrow">→</span>
+    </button>
+    <p class="trigger-note">I respond to all genuine requests within 48 hours</p>
+  </div>
+
+  <!-- ── OVERLAY ── -->
+  <div class="overlay" id="overlay"></div>
+
+  <!-- ── MODAL ── -->
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card" id="modalCard">
+      <div class="modal-stripe"></div>
+      <button class="modal-close" id="closeModal" aria-label="Close">✕</button>
+
+      <!-- Header -->
+      <div class="modal-head">
+        <div class="modal-eyebrow">Controlled Access</div>
+        <h2 class="modal-title" id="modalTitle">Request Evidence Access</h2>
+        <p class="modal-desc">
+          Complete the short form below. Evidence is shared via
+          encrypted email and is not for onward distribution without consent.
+        </p>
+      </div>
+
+      <!-- What you receive -->
+      <div class="wyg">
+        <div class="wyg-label">Upon approval you will receive</div>
+        <div class="wyg-tags">
+          <span class="wyg-tag">Anonymised Case Files</span>
+          <span class="wyg-tag">MI Dashboards</span>
+          <span class="wyg-tag">Additional Reports on Request</span>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div class="modal-form" id="formBody">
+
+        <div class="field">
+          <label>Your Name <span class="req">*</span></label>
+          <input type="text" id="f-name" placeholder="Full name" autocomplete="name"/>
+          <div class="field-err" id="e-name">Please enter your full name</div>
+        </div>
+
+        <div class="field">
+          <label>Organisation <span class="req">*</span></label>
+          <input type="text" id="f-org" placeholder="Firm or company"/>
+          <div class="field-err" id="e-org">Please enter your organisation</div>
+        </div>
+
+        <div class="field">
+          <label>Your Email <span class="req">*</span></label>
+          <input type="email" id="f-email" placeholder="Work email preferred" autocomplete="email"/>
+          <div class="field-err" id="e-email">Please enter a valid email address</div>
+        </div>
+
+        <div class="field">
+          <label>Your Role <span class="req">*</span></label>
+          <input type="text" id="f-role" placeholder="e.g. CCO, MLRO, Compliance Manager, Recruiter"/>
+          <div class="field-err" id="e-role">Please enter your role</div>
+        </div>
+
+        <div class="field">
+          <label>Nature of Enquiry <span class="req">*</span></label>
+          <div class="sel-wrap">
+            <select id="f-purpose">
+              <option value="" disabled selected>Select purpose</option>
+              <option value="Recruitment / Talent Assessment">Recruitment / Talent Assessment</option>
+              <option value="Professional Reference">Professional Reference</option>
+              <option value="Peer Learning / Knowledge Sharing">Peer Learning / Knowledge Sharing</option>
+              <option value="Consulting Engagement">Consulting Engagement</option>
+              <option value="Academic / Research">Academic / Research</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <div class="field-err" id="e-purpose">Please select a purpose</div>
+        </div>
+
+        <div class="field">
+          <label>Brief Context
+            <span style="font-style:italic;color:var(--muted);text-transform:none;letter-spacing:0;font-family:var(--font-head);">(optional)</span>
+          </label>
+          <textarea id="f-context" placeholder="A sentence on the engagement context or what evidence you are looking for…"></textarea>
+        </div>
+
+        <p class="privacy-note">
+          Your details are used solely to verify your identity and share
+          the requested evidence. Never shared with third parties.
+        </p>
+
+        <button class="submit-btn" id="submitBtn" type="button">
+          Request Access <span class="btn-arrow">→</span>
+        </button>
+
+      </div><!-- /modal-form -->
+
+      <!-- Success panel -->
+      <div class="success-panel" id="successPanel">
+        <div class="success-icon">✓</div>
+        <div class="success-title">Request Received</div>
+        <p class="success-msg">
+          Thank you. I will review your request and respond within
+          48 hours via the email address you provided.
+        </p>
+        <div class="success-badge">RESPONSE TIME · UP TO 48 HOURS</div>
+        <br/>
+        <button class="success-close" id="successClose">Close this window</button>
+      </div>
+
+    </div><!-- /modal-card -->
+  </div><!-- /modal -->
+
+<script>
+/* ─────────────────────────────────────────────────────
+   CONFIGURATION
+   Replace these values after setting up your Google Form.
+   Full instructions are in the README / setup guide.
+   ───────────────────────────────────────────────────── */
+const FORM_ACTION = 'https://docs.google.com/forms/d/e/1FAIpQLSfPsuxm0yFgdfBNEfXrQo6MPefVcis9OBr9x7G3CI8jRGjnyw/formResponse';
+
+const ENTRY = {
+  name:    'entry.YOUR_NAME_ENTRY',
+  org:     'entry.YOUR_ORG_ENTRY',
+  email:   'entry.YOUR_EMAIL_ENTRY',
+  role:    'entry.YOUR_ROLE_ENTRY',
+  purpose: 'entry.YOUR_PURPOSE_ENTRY',
+  context: 'entry.YOUR_CONTEXT_ENTRY',
+};
+/* ───────────────────────────────────────────────────── */
+
+const $ = id => document.getElementById(id);
+
+/* ── Open / Close modal ── */
+function openModal() {
+  $('overlay').classList.add('visible');
+  $('modal').classList.add('visible');
+  document.body.style.overflow = 'hidden';
+  // Focus first input for accessibility
+  setTimeout(() => $('f-name').focus(), 80);
+}
+
+function closeModal() {
+  $('overlay').classList.remove('visible');
+  $('modal').classList.remove('visible');
+  document.body.style.overflow = '';
+}
+
+$('openModal').addEventListener('click', openModal);
+$('closeModal').addEventListener('click', closeModal);
+$('overlay').addEventListener('click', closeModal);
+$('successClose').addEventListener('click', closeModal);
+
+// Close on Escape key
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeModal();
+});
+
+/* ── Validation ── */
+const isEmail = v => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
+const val     = id => $(id).value.trim();
+
+function setErr(fId, eId, show) {
+  $(fId).classList.toggle('err', show);
+  $(eId).classList.toggle('show', show);
+}
+
+function validate() {
+  let ok = true;
+
+  const name = val('f-name');
+  setErr('f-name', 'e-name', !name);
+  if (!name) ok = false;
+
+  const org = val('f-org');
+  setErr('f-org', 'e-org', !org);
+  if (!org) ok = false;
+
+  const email = val('f-email');
+  setErr('f-email', 'e-email', !isEmail(email));
+  if (!isEmail(email)) ok = false;
+
+  const role = val('f-role');
+  setErr('f-role', 'e-role', !role);
+  if (!role) ok = false;
+
+  const purpose = val('f-purpose');
+  setErr('f-purpose', 'e-purpose', !purpose);
+  if (!purpose) ok = false;
+
+  return ok;
+}
+
+// Clear errors on input
+['f-name','f-org','f-email','f-role','f-purpose'].forEach(id => {
+  const errId = 'e-' + id.slice(2);
+  $( id).addEventListener('input',  () => setErr(id, errId, false));
+  $( id).addEventListener('change', () => setErr(id, errId, false));
+});
+
+/* ── Submit ── */
+$('submitBtn').addEventListener('click', async () => {
+  if (!validate()) return;
+
+  const btn = $('submitBtn');
+  btn.disabled = true;
+  btn.innerHTML = '<span style="opacity:0.65">Sending…</span>';
+
+  const body = new URLSearchParams();
+  body.append(ENTRY.name,    val('f-name'));
+  body.append(ENTRY.org,     val('f-org'));
+  body.append(ENTRY.email,   val('f-email'));
+  body.append(ENTRY.role,    val('f-role'));
+  body.append(ENTRY.purpose, val('f-purpose'));
+  body.append(ENTRY.context, val('f-context'));
+
+  try {
+    /* Google Forms uses no-cors — response is always opaque.
+       We send and proceed to success regardless.             */
+    await fetch(FORM_ACTION, {
+      method:  'POST',
+      mode:    'no-cors',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body:    body.toString()
+    });
+  } catch (_) {
+    // Expected — no-cors fetch throws, submission still works
+  }
+
+  showSuccess();
+});
+
+function showSuccess() {
+  $('formBody').style.display     = 'none';
+  $('successPanel').style.display = 'block';
+  $('modalCard').scrollTop        = 0;
+}
+</script>
+</body>
+</html>
