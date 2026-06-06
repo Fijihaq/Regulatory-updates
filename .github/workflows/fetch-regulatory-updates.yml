@@ -3,27 +3,27 @@ name: Fetch Regulatory Updates
 on:
   schedule:
     - cron: '0 * * * *'   # Every hour
-  workflow_dispatch:        # Allow manual trigger
+  workflow_dispatch:        # Manual trigger
 
 jobs:
   fetch-updates:
     runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     permissions:
       contents: write
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4.2.2
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v5.4.0
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install feedparser requests beautifulsoup4 lxml
+        run: |
+          pip install --upgrade pip
+          pip install feedparser requests beautifulsoup4 lxml
 
       - name: Fetch regulatory updates
         env:
@@ -35,5 +35,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add data/regulatory-updates.json
-          git diff --staged --quiet || git commit -m "chore: update regulatory feed [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git diff --staged --quiet || git commit -m "chore: regulatory feed update [$(date -u '+%Y-%m-%d %H:%M UTC')]"
           git push
