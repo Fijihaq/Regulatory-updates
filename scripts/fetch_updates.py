@@ -290,74 +290,56 @@ def fetch_rss(cfg: dict) -> list:
 # ── 2. NCA Scraper ───────────────────────────────────────────────────────────
 
 def fetch_nca() -> list:
-    """NCA press releases — no reliable RSS, scrape news page."""
+    """NCA press releases — scrape the live 'All news' listing.
+
+    The site is Joomla-based; there is no <time> tag on listing items,
+    so the date is extracted via regex from the surrounding text
+    (format on-site is e.g. "09 June 2026").
+    """
     items = []
-    urls = [
-        "https://www.nationalcrimeagency.gov.uk/news",
-        "https://www.nationalcrimeagency.gov.uk/news/press-releases",
-    ]
-    for url in urls:
-        try:
-            resp = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
-            resp.raise_for_status()
-            soup = BeautifulSoup(resp.text, "html.parser")
+    url = "https://www.nationalcrimeagency.gov.uk/news/all-news"
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, "html.parser")
+        main = soup.find("main") or soup
 
-            # NCA uses article cards
-            cards = (
-                soup.select("div.news-listing__item")
-                or soup.select("article.news-item")
-                or soup.select("div.views-row")
-                or soup.select("li.views-row")
-            )
+        seen_links = set()
+        for a in main.find_all("a", href=True):
+            href = a["href"]
+            if "/news/" not in href:
+                continue
+            title = a.get_text(strip=True)
+            # Filters out nav/breadcrumb links like "News" / "All news"
+            if not title or len(title) < 15:
+                continue
 
-            if not cards:
-                # Fallback: any anchor with meaningful text in main
-                main = soup.find("main") or soup
-                cards = [{"a": a} for a in main.find_all("a", href=True)
-                         if len(a.get_text(strip=True)) > 25][:MAX_PER_SOURCE]
+            link = href if href.startswith("http") else f"https://www.nationalcrimeagency.gov.uk{href}"
+            if link in seen_links:
+                continue
+            seen_links.add(link)
 
-            for card in cards[:MAX_PER_SOURCE]:
-                if isinstance(card, dict):
-                    a = card["a"]
-                    title = a.get_text(strip=True)
-                    href  = a["href"]
-                else:
-                    a = card.find("a", href=True)
-                    if not a:
-                        continue
-                    title = a.get_text(strip=True)
-                    href  = a["href"]
+            # Date sits as plain text near the headline, e.g. "09 June 2026"
+            block = a.find_parent(["div", "li", "article"]) or a
+            block_text = block.get_text(separator=" ", strip=True)
+            date_str = now_iso()
+            m = re.search(
+                r"\b(\d{1,2})\s+(January|February|March|April|May|June|July|"
+                r"August|September|October|November|December)\s+(\d{4})\b",
+                block_text)
+            if m:
+                date_str = parse_date_text(m.group())
 
-                if not title or len(title) < 15:
-                    continue
+            p = block.find("p") if hasattr(block, "find") else None
+            summary = p.get_text(strip=True) if p else ""
 
-                link = href if href.startswith("http") else f"https://www.nationalcrimeagency.gov.uk{href}"
-
-                # Date
-                date_str = now_iso()
-                time_tag = (card if not isinstance(card, dict) else BeautifulSoup("", "html.parser")).find("time") if not isinstance(card, dict) else None
-                if time_tag:
-                    try:
-                        date_str = datetime.fromisoformat(
-                            time_tag.get("datetime", "").replace("Z", "+00:00")).isoformat()
-                    except Exception:
-                        pass
-
-                # Summary
-                summary = ""
-                if not isinstance(card, dict):
-                    p = card.find("p")
-                    if p:
-                        summary = p.get_text(strip=True)
-
-                items.append(make_item(title, link, summary, date_str,
-                                       "NCA", "UK", "🇬🇧", "Regulator",
-                                       ["AML", "Financial Crime", "SAR"], 10))
-
-            if items:
+            items.append(make_item(title, link, summary, date_str,
+                                   "NCA", "UK", "🇬🇧", "Regulator",
+                                   ["AML", "Financial Crime", "SAR"], 10))
+            if len(items) >= MAX_PER_SOURCE:
                 break
-        except Exception as e:
-            print(f"        ⚠  NCA scrape error ({url}): {e}")
+    except Exception as e:
+        print(f"        ⚠  NCA scrape error: {e}")
     return items
 
 # ── 3. SFO Scraper ───────────────────────────────────────────────────────────
