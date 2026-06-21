@@ -1,6 +1,9 @@
 name: Fetch Regulatory Updates
 
 on:
+  push:
+    paths:
+      - 'scripts/fetch_updates.py'
   schedule:
     - cron: '0 * * * *'   # Every hour
   workflow_dispatch:        # Manual trigger
@@ -13,10 +16,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4.2.2
+        uses: actions/checkout@v6
 
       - name: Set up Python
-        uses: actions/setup-python@v5.6.0
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
