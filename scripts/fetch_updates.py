@@ -9,7 +9,7 @@ Sources:
   GNews  : AML + Sanctions news (optional — requires GNEWS_API_KEY secret)
 
 Each item is scored 0-100 for Top-5 selection. Score breakdown:
-  Recency      : 0-40 pts  (today=40, yesterday=32, 2d=24, 3d=16, 4d=8, older=0)
+  Recency      : 0-40 pts  (today=40, yesterday=32, linear decay 4pts/day after that)
   AML keywords : 0-25 pts  (up to 5 matched keywords x 5pts each)
   UK regulator : 0-15 pts  (FCA/HMRC/NCA/SFO/PSR/ICO = +15)
   Impact tier  : 0-10 pts  (enforcement/fine/penalty=10, guidance=6, consultation=3)
@@ -32,6 +32,10 @@ MAX_PER_SOURCE = 10
 MAX_TOTAL      = 100
 GNEWS_KEY      = os.environ.get("GNEWS_API_KEY", "")
 TIMEOUT        = 25
+
+# Sentinel for items where no publication date could be parsed.
+# Scores 0 on recency so they never masquerade as fresh updates.
+UNKNOWN_DATE = "1970-01-01T00:00:00+00:00"
 
 HEADERS = {
     "User-Agent": (
@@ -142,6 +146,16 @@ def strip_html(text: str) -> str:
 def now_iso() -> str:
     return datetime.now(timezone.utc).isoformat()
 
+def format_pub_date(date_iso: str) -> str:
+    """Return a human-readable publication date string, e.g. '16 Jun 2026'."""
+    if date_iso == UNKNOWN_DATE:
+        return "Date unknown"
+    try:
+        dt = datetime.fromisoformat(date_iso.replace("Z", "+00:00"))
+        return dt.strftime("%-d %b %Y")
+    except Exception:
+        return "Date unknown"
+
 def safe_rss_date(entry) -> str:
     for attr in ("published_parsed", "updated_parsed"):
         t = getattr(entry, attr, None)
@@ -157,7 +171,8 @@ def safe_rss_date(entry) -> str:
                 return parsedate_to_datetime(raw).isoformat()
             except Exception:
                 pass
-    return now_iso()
+    # No date found — use sentinel so item scores 0 on recency
+    return UNKNOWN_DATE
 
 def parse_date_text(text: str) -> str:
     """Try to parse various date text formats into ISO."""
@@ -171,37 +186,50 @@ def parse_date_text(text: str) -> str:
             return datetime.strptime(text, fmt).replace(tzinfo=timezone.utc).isoformat()
         except Exception:
             pass
-    return now_iso()
+    # No format matched — use sentinel so item scores 0 on recency
+    return UNKNOWN_DATE
 
 def score_item(title: str, summary: str, source: str, date_iso: str, trust: int = 10) -> dict:
     """
     Score an item 0-100. Returns score + breakdown for transparency.
+    recency_label now shows exact age e.g. '6 days ago', '11 days ago'.
+    Items with UNKNOWN_DATE score 0 on recency and show 'date unknown'.
     """
     text = (title + " " + summary).lower()
     now  = datetime.now(timezone.utc)
 
     # 1. Recency score (0-40)
     recency_score = 0
-    recency_label = "older"
-    try:
-        pub = datetime.fromisoformat(date_iso.replace("Z", "+00:00"))
-        if pub.tzinfo is None:
-            pub = pub.replace(tzinfo=timezone.utc)
-        age_days = (now - pub).days
-        if age_days == 0:
-            recency_score, recency_label = 40, "today"
-        elif age_days == 1:
-            recency_score, recency_label = 32, "yesterday"
-        elif age_days == 2:
-            recency_score, recency_label = 24, "2 days ago"
-        elif age_days == 3:
-            recency_score, recency_label = 16, "3 days ago"
-        elif age_days <= 7:
-            recency_score, recency_label = 8, "this week"
-        elif age_days <= 14:
-            recency_score, recency_label = 4, "last 2 weeks"
-    except Exception:
-        pass
+    recency_label = "date unknown"
+
+    if date_iso == UNKNOWN_DATE:
+        # Sentinel — no confirmed publication date; score 0, label clearly
+        recency_score = 0
+        recency_label = "date unknown"
+    else:
+        try:
+            pub = datetime.fromisoformat(date_iso.replace("Z", "+00:00"))
+            if pub.tzinfo is None:
+                pub = pub.replace(tzinfo=timezone.utc)
+            age_days = (now - pub).days
+
+            if age_days == 0:
+                recency_score, recency_label = 40, "today"
+            elif age_days == 1:
+                recency_score, recency_label = 32, "yesterday"
+            elif age_days <= 14:
+                # Linear decay: 4 pts per day from day 2 onwards, floor 0
+                recency_score = max(0, 40 - (age_days * 4))
+                recency_label = f"{age_days} days ago"
+            elif age_days <= 30:
+                recency_score = 2
+                recency_label = f"{age_days} days ago"
+            else:
+                recency_score = 0
+                recency_label = f"{age_days} days ago"
+        except Exception:
+            recency_score = 0
+            recency_label = "date unknown"
 
     # 2. AML keyword score (0-25, capped)
     aml_hits = {}
@@ -232,14 +260,14 @@ def score_item(title: str, summary: str, source: str, date_iso: str, trust: int 
     return {
         "score": total,
         "score_breakdown": {
-            "recency":  recency_score,
+            "recency":       recency_score,
             "recency_label": recency_label,
-            "aml":      aml_score,
-            "aml_keywords": list(aml_hits.keys())[:5],
-            "uk_bonus": uk_score,
-            "impact":   impact_score,
-            "impact_label": impact_label,
-            "trust":    trust_score,
+            "aml":           aml_score,
+            "aml_keywords":  list(aml_hits.keys())[:5],
+            "uk_bonus":      uk_score,
+            "impact":        impact_score,
+            "impact_label":  impact_label,
+            "trust":         trust_score,
         },
         "is_aml": is_aml,
         "is_uk":  is_uk,
@@ -250,15 +278,17 @@ def make_item(title, link, summary, date, source, country, flag,
     clean_summary = strip_html(summary)[:400]
     scoring = score_item(title, clean_summary, source, date, trust)
     return {
-        "title":    title.strip(),
-        "link":     link.strip(),
-        "summary":  clean_summary,
-        "date":     date,
-        "source":   source,
-        "country":  country,
-        "flag":     flag,
-        "category": category,
-        "tags":     tags or [],
+        "title":          title.strip(),
+        "link":           link.strip(),
+        "summary":        clean_summary,
+        "date":           date,                      # original publication date (ISO)
+        "pub_date":       format_pub_date(date),     # human-readable e.g. "16 Jun 2026"
+        "date_confirmed": date != UNKNOWN_DATE,      # False = no date could be parsed
+        "source":         source,
+        "country":        country,
+        "flag":           flag,
+        "category":       category,
+        "tags":           tags or [],
         **scoring,
     }
 
@@ -295,6 +325,7 @@ def fetch_nca() -> list:
     The site is Joomla-based; there is no <time> tag on listing items,
     so the date is extracted via regex from the surrounding text
     (format on-site is e.g. "09 June 2026").
+    Falls back to UNKNOWN_DATE (not today) if no date found.
     """
     items = []
     url = "https://www.nationalcrimeagency.gov.uk/news/all-news"
@@ -310,7 +341,6 @@ def fetch_nca() -> list:
             if "/news/" not in href:
                 continue
             title = a.get_text(strip=True)
-            # Filters out nav/breadcrumb links like "News" / "All news"
             if not title or len(title) < 15:
                 continue
 
@@ -322,7 +352,7 @@ def fetch_nca() -> list:
             # Date sits as plain text near the headline, e.g. "09 June 2026"
             block = a.find_parent(["div", "li", "article"]) or a
             block_text = block.get_text(separator=" ", strip=True)
-            date_str = now_iso()
+            date_str = UNKNOWN_DATE   # ← sentinel; not now_iso()
             m = re.search(
                 r"\b(\d{1,2})\s+(January|February|March|April|May|June|July|"
                 r"August|September|October|November|December)\s+(\d{4})\b",
@@ -372,7 +402,7 @@ def fetch_sfo() -> list:
                         continue
                     href = a["href"]
                     link = href if href.startswith("http") else f"https://www.sfo.gov.uk{href}"
-                    items.append(make_item(title, link, "", now_iso(),
+                    items.append(make_item(title, link, "", UNKNOWN_DATE,   # ← sentinel
                                            "SFO", "UK", "🇬🇧", "Regulator",
                                            ["AML", "Fraud", "Enforcement"], 10))
                 break
@@ -387,7 +417,7 @@ def fetch_sfo() -> list:
                 href = a["href"]
                 link = href if href.startswith("http") else f"https://www.sfo.gov.uk{href}"
 
-                date_str = now_iso()
+                date_str = UNKNOWN_DATE   # ← sentinel; not now_iso()
                 time_tag = card.find("time")
                 if time_tag:
                     try:
@@ -395,7 +425,7 @@ def fetch_sfo() -> list:
                             time_tag.get("datetime", "").replace("Z", "+00:00")).isoformat()
                     except Exception:
                         raw = time_tag.get_text(strip=True)
-                        date_str = parse_date_text(raw)
+                        date_str = parse_date_text(raw)   # returns UNKNOWN_DATE if no match
 
                 p = card.find("p")
                 summary = p.get_text(strip=True) if p else ""
@@ -442,7 +472,7 @@ def fetch_fatf() -> list:
                         continue
                     href = a["href"]
                     link = href if href.startswith("http") else f"https://www.fatf-gafi.org{href}"
-                    items.append(make_item(t, link, "", now_iso(),
+                    items.append(make_item(t, link, "", UNKNOWN_DATE,   # ← sentinel
                                            "FATF", "GLOBAL", "🌍", "Regulator",
                                            ["AML", "Financial Crime"], 10))
                 if items:
@@ -462,7 +492,7 @@ def fetch_fatf() -> list:
                 p = card.find("p")
                 summary = p.get_text(strip=True) if p else ""
 
-                date_str = now_iso()
+                date_str = UNKNOWN_DATE   # ← sentinel; not now_iso()
                 time_tag = card.find("time")
                 if time_tag:
                     try:
@@ -517,7 +547,7 @@ def fetch_ofac() -> list:
                     continue
                 href = a["href"]
                 link = href if href.startswith("http") else f"https://ofac.treasury.gov{href}"
-                items.append(make_item(t, link, "", now_iso(),
+                items.append(make_item(t, link, "", UNKNOWN_DATE,   # ← sentinel
                                        "OFAC", "US", "🇺🇸", "Sanctions",
                                        ["Sanctions"], 10))
             return items
@@ -532,7 +562,7 @@ def fetch_ofac() -> list:
             href = a["href"]
             link = href if href.startswith("http") else f"https://ofac.treasury.gov{href}"
 
-            date_str = now_iso()
+            date_str = UNKNOWN_DATE   # ← sentinel; not now_iso()
             rt = row.get_text(separator=" ")
             m = re.search(r"\b(\d{1,2})/(\d{1,2})/(\d{4})\b", rt)
             if m:
@@ -577,7 +607,7 @@ def fetch_gnews(query, label, flag, country, category, tags, trust=4) -> list:
             link    = (art.get("url") or "").strip()
             summary = (art.get("description") or "").strip()
             pub     = art.get("publishedAt", "")
-            date_str = now_iso()
+            date_str = UNKNOWN_DATE   # ← sentinel; not now_iso()
             if pub:
                 try:
                     date_str = datetime.fromisoformat(pub.replace("Z", "+00:00")).isoformat()
@@ -649,40 +679,45 @@ def main():
     top5_uk_aml = uk_aml[:5]
 
     # Stats
-    aml_count    = sum(1 for i in deduped if i.get("is_aml"))
-    uk_aml_count = len(uk_aml)
+    aml_count       = sum(1 for i in deduped if i.get("is_aml"))
+    uk_aml_count    = len(uk_aml)
+    unknown_count   = sum(1 for i in deduped if not i.get("date_confirmed"))
 
-    print(f"\n  Total items : {len(deduped)}")
-    print(f"  AML-tagged  : {aml_count}")
-    print(f"  UK AML      : {uk_aml_count}")
+    print(f"\n  Total items   : {len(deduped)}")
+    print(f"  AML-tagged    : {aml_count}")
+    print(f"  UK AML        : {uk_aml_count}")
+    print(f"  Date unknown  : {unknown_count}")
     print(f"\n  Top 5 overall (by score):")
     for i, item in enumerate(top5_overall, 1):
         b = item["score_breakdown"]
         print(f"    {i}. [{item['score']}pts] {item['source']} — {item['title'][:70]}")
-        print(f"       recency={b['recency']} aml={b['aml']} uk={b['uk_bonus']} impact={b['impact']} trust={b['trust']}")
+        print(f"       pub={item['pub_date']} | {b['recency_label']} | recency={b['recency']} aml={b['aml']} uk={b['uk_bonus']} impact={b['impact']} trust={b['trust']}")
 
     print(f"\n  Top 5 UK AML:")
     for i, item in enumerate(top5_uk_aml, 1):
         print(f"    {i}. [{item['score']}pts] {item['source']} — {item['title'][:70]}")
+        print(f"       pub={item['pub_date']} | {item['score_breakdown']['recency_label']}")
 
     # Build payload
     payload = {
-        "last_updated":  datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
-        "total":         len(deduped),
-        "aml_count":     aml_count,
-        "uk_aml_count":  uk_aml_count,
-        "top5_overall":  top5_overall,
-        "top5_uk_aml":   top5_uk_aml,
-        "items":         deduped,
+        "last_updated":   datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
+        "total":          len(deduped),
+        "aml_count":      aml_count,
+        "uk_aml_count":   uk_aml_count,
+        "unknown_dates":  unknown_count,
+        "top5_overall":   top5_overall,
+        "top5_uk_aml":    top5_uk_aml,
+        "items":          deduped,
         "scoring_rules": {
             "recency_max": 40, "aml_max": 25, "uk_bonus": 15,
             "impact_max": 10, "trust_max": 10, "total_max": 100,
             "description": (
                 "Each item scored 0-100. Recency (0-40): today=40, yesterday=32, "
-                "2d=24, 3d=16, 7d=8, 14d=4. AML keywords (0-25): matched terms "
-                "from 30-word AML lexicon, capped at 25. UK regulator bonus (0-15): "
-                "+15 for FCA/HMRC/NCA/SFO/PSR/ICO/TPR. Impact tier (0-10): "
-                "enforcement/fine=10, guidance=6, consultation=3. "
+                "then linear decay of 4pts/day (e.g. 6 days ago = 16pts, 10 days ago = 0pts). "
+                "Items with no parseable date score 0 on recency and show 'date unknown'. "
+                "AML keywords (0-25): matched terms from 30-word AML lexicon, capped at 25. "
+                "UK regulator bonus (0-15): +15 for FCA/HMRC/NCA/SFO/PSR/ICO/TPR. "
+                "Impact tier (0-10): enforcement/fine=10, guidance=6, consultation=3. "
                 "Source trust (0-10): official regulator RSS=10, scrape=7, news=4."
             )
         }
