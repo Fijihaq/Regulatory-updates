@@ -158,65 +158,79 @@ def format_pub_date(date_iso: str) -> str:
 
 def safe_rss_date(entry) -> str:
     """
-    Exhaustive date extraction from a feedparser entry.
-    Tries in order:
-      1. Parsed time-tuple attributes (standard RSS pubDate / Atom updated)
-      2. String date attributes parsed via email.utils (RFC 2822)
-      3. String date attributes parsed as ISO 8601
-      4. Dublin Core dc:date field (used by FCA, ESMA and others)
-      5. Date embedded in the entry id or link URL  e.g. /2026/06/14/
-    Falls back to UNKNOWN_DATE — never now_iso() — so stale items
-    cannot masquerade as today's updates.
+    Extract publication date from a feedparser entry.
+    Entirely crash-proof — all branches guard against non-string values.
+    Dublin Core dc:date (FCA, ESMA) is handled by raw XML regex in
+    fetch_rss, not here, because feedparser does not surface it.
+    Falls back to UNKNOWN_DATE — never now_iso().
     """
-    # 1. Parsed time tuples — fastest path (standard feeds)
-    for attr in ("published_parsed", "updated_parsed", "created_parsed"):
-        t = getattr(entry, attr, None)
-        if t:
-            try:
-                return datetime(*t[:6], tzinfo=timezone.utc).isoformat()
-            except Exception:
-                pass
+    try:
+        # 1. Parsed time tuples (standard RSS pubDate / Atom updated)
+        for attr in ("published_parsed", "updated_parsed", "created_parsed"):
+            t = getattr(entry, attr, None)
+            if t:
+                try:
+                    return datetime(*t[:6], tzinfo=timezone.utc).isoformat()
+                except Exception:
+                    pass
 
-    # 2. RFC 2822 string dates  e.g. "Mon, 14 Jun 2026 09:00:00 +0000"
-    for attr in ("published", "updated", "created"):
-        raw = getattr(entry, attr, None)
-        if raw:
+        # 2. RFC 2822 / ISO 8601 string attributes
+        for attr in ("published", "updated", "created"):
+            raw = getattr(entry, attr, None)
+            if not raw or not isinstance(raw, str):
+                continue
             try:
                 return parsedate_to_datetime(raw).isoformat()
             except Exception:
                 pass
-            # 3. ISO 8601 fallback  e.g. "2026-06-14T09:00:00Z"
             try:
                 return datetime.fromisoformat(
                     raw.replace("Z", "+00:00")).isoformat()
             except Exception:
                 pass
 
-    # 4. Dublin Core dc:date — used by FCA and ESMA RSS feeds
-    for dc_attr in ("date", "dc_date"):
-        raw = entry.get(dc_attr) or getattr(entry, dc_attr, None)
-        if raw:
-            try:
-                return datetime.fromisoformat(
-                    raw.replace("Z", "+00:00")).isoformat()
-            except Exception:
-                result = parse_date_text(raw)
-                if result != UNKNOWN_DATE:
-                    return result
+        # 3. Date embedded in entry id or link URL e.g. /2026/06/14/
+        for field in ("id", "link"):
+            val = getattr(entry, field, None)
+            if not val or not isinstance(val, str):
+                continue
+            m = re.search(r"/(\d{4})/(\d{2})/(\d{2})", val)
+            if m:
+                try:
+                    return datetime(
+                        int(m.group(1)), int(m.group(2)), int(m.group(3)),
+                        tzinfo=timezone.utc).isoformat()
+                except Exception:
+                    pass
+    except Exception:
+        pass
 
-    # 5. Date embedded in entry id or link URL  e.g. /news/2026/06/14/slug
-    for field in ("id", "link"):
-        val = getattr(entry, field, "") or ""
-        m = re.search(r"/(\d{4})/(\d{2})/(\d{2})/", val)
-        if m:
-            try:
-                return datetime(
-                    int(m.group(1)), int(m.group(2)), int(m.group(3)),
-                    tzinfo=timezone.utc).isoformat()
-            except Exception:
-                pass
+    return UNKNOWN_DATE
 
-    # Nothing worked — sentinel, scores 0 on recency
+
+# Compiled once — covers pubDate (RSS), dc:date (FCA/ESMA), updated/published (Atom)
+_RAW_DATE_PATTERNS = [
+    re.compile(r"<(?:pubDate|lastBuildDate)>\s*([^<]{10,50}?)\s*</(?:pubDate|lastBuildDate)>"),
+    re.compile(r"<dc:date>\s*([^<]{10,30}?)\s*</dc:date>"),
+    re.compile(r"<(?:updated|published)>\s*([^<]{10,30}?)\s*</(?:updated|published)>"),
+]
+
+def _date_from_raw_xml_block(block: str) -> str:
+    """Parse first date tag found in a raw XML item/entry block."""
+    for pat in _RAW_DATE_PATTERNS:
+        m = pat.search(block)
+        if not m:
+            continue
+        raw = m.group(1).strip()
+        try:
+            return parsedate_to_datetime(raw).isoformat()
+        except Exception:
+            pass
+        try:
+            return datetime.fromisoformat(
+                raw.replace("Z", "+00:00")).isoformat()
+        except Exception:
+            pass
     return UNKNOWN_DATE
 
 def parse_date_text(text: str) -> str:
@@ -340,20 +354,51 @@ def make_item(title, link, summary, date, source, country, flag,
 # ── 1. RSS Fetcher ───────────────────────────────────────────────────────────
 
 def fetch_rss(cfg: dict) -> list:
+    """
+    Fetch an RSS/Atom feed.
+    Date extraction order:
+      1. feedparser parsed attributes (most feeds)
+      2. Raw XML regex fallback — catches dc:date used by FCA and ESMA
+         which feedparser does not surface via standard attributes.
+    """
     items = []
     try:
-        parsed = feedparser.parse(
+        # Fetch raw so we can run XML regex if feedparser misses the date
+        resp = requests.get(
             cfg["url"],
-            request_headers={"User-Agent": HEADERS["User-Agent"]}
+            headers={"User-Agent": HEADERS["User-Agent"]},
+            timeout=TIMEOUT
         )
-        for entry in parsed.entries[:MAX_PER_SOURCE]:
+        resp.raise_for_status()
+        raw_xml  = resp.text
+        parsed   = feedparser.parse(raw_xml)
+
+        # Split raw XML into per-item blocks for targeted date extraction
+        # Works for both RSS (<item>) and Atom (<entry>)
+        item_blocks: list[str] = []
+        for tag in ("<item>", "<entry>"):
+            close = tag.replace("<", "</")
+            parts = raw_xml.split(tag)
+            if len(parts) > 1:
+                item_blocks = [tag + p.split(close)[0] for p in parts[1:]]
+                break
+
+        for idx, entry in enumerate(parsed.entries[:MAX_PER_SOURCE]):
             title   = (entry.get("title") or "").strip()
             link    = (entry.get("link") or "").strip()
             summary = entry.get("summary", entry.get("description", ""))
             if not title or len(title) < 10:
                 continue
+
+            # Primary: feedparser date extraction
+            date = safe_rss_date(entry)
+
+            # Fallback: raw XML regex (catches dc:date — FCA, ESMA)
+            if date == UNKNOWN_DATE and idx < len(item_blocks):
+                date = _date_from_raw_xml_block(item_blocks[idx])
+
             items.append(make_item(
-                title, link, summary, safe_rss_date(entry),
+                title, link, summary, date,
                 cfg["source"], cfg["country"], cfg["flag"],
                 cfg.get("category", "Regulator"), cfg.get("tags", []),
                 cfg.get("trust", 10)
