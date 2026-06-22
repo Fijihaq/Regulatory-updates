@@ -157,21 +157,66 @@ def format_pub_date(date_iso: str) -> str:
         return "Date unknown"
 
 def safe_rss_date(entry) -> str:
-    for attr in ("published_parsed", "updated_parsed"):
+    """
+    Exhaustive date extraction from a feedparser entry.
+    Tries in order:
+      1. Parsed time-tuple attributes (standard RSS pubDate / Atom updated)
+      2. String date attributes parsed via email.utils (RFC 2822)
+      3. String date attributes parsed as ISO 8601
+      4. Dublin Core dc:date field (used by FCA, ESMA and others)
+      5. Date embedded in the entry id or link URL  e.g. /2026/06/14/
+    Falls back to UNKNOWN_DATE — never now_iso() — so stale items
+    cannot masquerade as today's updates.
+    """
+    # 1. Parsed time tuples — fastest path (standard feeds)
+    for attr in ("published_parsed", "updated_parsed", "created_parsed"):
         t = getattr(entry, attr, None)
         if t:
             try:
                 return datetime(*t[:6], tzinfo=timezone.utc).isoformat()
             except Exception:
                 pass
-    for attr in ("published", "updated"):
+
+    # 2. RFC 2822 string dates  e.g. "Mon, 14 Jun 2026 09:00:00 +0000"
+    for attr in ("published", "updated", "created"):
         raw = getattr(entry, attr, None)
         if raw:
             try:
                 return parsedate_to_datetime(raw).isoformat()
             except Exception:
                 pass
-    # No date found — use sentinel so item scores 0 on recency
+            # 3. ISO 8601 fallback  e.g. "2026-06-14T09:00:00Z"
+            try:
+                return datetime.fromisoformat(
+                    raw.replace("Z", "+00:00")).isoformat()
+            except Exception:
+                pass
+
+    # 4. Dublin Core dc:date — used by FCA and ESMA RSS feeds
+    for dc_attr in ("date", "dc_date"):
+        raw = entry.get(dc_attr) or getattr(entry, dc_attr, None)
+        if raw:
+            try:
+                return datetime.fromisoformat(
+                    raw.replace("Z", "+00:00")).isoformat()
+            except Exception:
+                result = parse_date_text(raw)
+                if result != UNKNOWN_DATE:
+                    return result
+
+    # 5. Date embedded in entry id or link URL  e.g. /news/2026/06/14/slug
+    for field in ("id", "link"):
+        val = getattr(entry, field, "") or ""
+        m = re.search(r"/(\d{4})/(\d{2})/(\d{2})/", val)
+        if m:
+            try:
+                return datetime(
+                    int(m.group(1)), int(m.group(2)), int(m.group(3)),
+                    tzinfo=timezone.utc).isoformat()
+            except Exception:
+                pass
+
+    # Nothing worked — sentinel, scores 0 on recency
     return UNKNOWN_DATE
 
 def parse_date_text(text: str) -> str:
