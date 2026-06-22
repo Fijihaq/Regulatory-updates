@@ -16,10 +16,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
@@ -32,6 +32,25 @@ jobs:
         env:
           GNEWS_API_KEY: ${{ secrets.GNEWS_API_KEY }}
         run: python scripts/fetch_updates.py
+
+      - name: Warn if unknown dates detected
+        run: |
+          UNKNOWN=$(python3 - <<'EOF'
+          import json, sys
+          try:
+              with open("data/regulatory-updates.json") as f:
+                  data = json.load(f)
+              count = data.get("unknown_dates", 0)
+              total = data.get("total", 0)
+              print(count)
+              if count > 0:
+                  pct = round(count / total * 100) if total else 0
+                  print(f"::warning::⚠ {count} of {total} items ({pct}%) have no confirmed publication date — scraper date parsing may need attention", file=sys.stderr)
+          except Exception as e:
+              print(f"::warning::Could not read unknown_dates from JSON: {e}", file=sys.stderr)
+              print(0)
+          EOF
+          )
 
       - name: Commit and push if changed
         run: |
