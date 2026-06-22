@@ -1,980 +1,17 @@
 {
-  "last_updated": "2026-06-22 00:06 UTC",
+  "last_updated": "2026-06-22 02:51 UTC",
   "total": 50,
   "aml_count": 2,
   "uk_aml_count": 1,
+  "unknown_dates": 20,
   "top5_overall": [
-    {
-      "title": "Beyond the headlines: the unseen fight against financial crime",
-      "link": "https://www.fca.org.uk/news/speeches/beyond-headlines-unseen-fight-against-financial-crime",
-      "summary": "Speech by Therese Chambers, joint executive director of enforcement and market oversight, delivered at the International Bar Association (IBA) Anti-Corruption Conference.\n\nI’ve been practising law for over 3 decades now.Starting out, I thought every case would be like the ones on US television: dramatic, with a big reveal and resounding outcome, all packed into a single 30-minute episode. But real",
-      "date": "2026-06-22T00:06:17.520879+00:00",
-      "source": "FCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "Conduct"
-      ],
-      "score": 79,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 4,
-        "aml_keywords": [
-          "financial crime"
-        ],
-        "uk_bonus": 15,
-        "impact": 10,
-        "impact_label": "enforcement",
-        "trust": 10
-      },
-      "is_aml": true,
-      "is_uk": true
-    },
-    {
-      "title": "FCA decides to fine Carlos Ricardo Fuenmayor £99,600 for disclosure failures",
-      "link": "https://www.fca.org.uk/news/press-releases/fca-decides-fine-carlos-ricardo-fuenmayor-disclosure-failures",
-      "summary": "",
-      "date": "2026-06-22T00:06:17.521154+00:00",
-      "source": "FCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "Conduct"
-      ],
-      "score": 75,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 10,
-        "impact_label": "fine",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "FCA takes action against Neil Woodford and W4.0 for operating without authorisation",
-      "link": "https://www.fca.org.uk/news/statements/fca-takes-action-against-neil-woodford-and-w40-operating-without-authorisation",
-      "summary": "The FCAhasstartedcivil proceedings against Mr Neil Woodford andW4.0.The FCAallegesthat Mr Woodford and W4.0 are providing regulated investment advice and making financial promotions through the subscription-based platform, www.w4pz.com, without authorisation.In the FCA’sview, the activitybreachessections 19 and 21 of the Financial Services and Markets Act 2000 (FSMA).The FCA is seekingan injunctio",
-      "date": "2026-06-22T00:06:17.521310+00:00",
-      "source": "FCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "Conduct"
-      ],
-      "score": 74,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 9,
-        "impact_label": "action against",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "FCA proposes changes to help more people access mortgages",
-      "link": "https://www.fca.org.uk/news/press-releases/fca-proposals-help-more-access-mortgages",
-      "summary": "First-time buyers, older borrowers and the self-employed could find it easier to get a mortgage, as the FCA sets out next steps to help reform the market.\n\nIts proposed mortgage rule changes would give lenders more flexibility to consider individual circumstances and develop products that better meet people's needs – while maintaining strong consumer protections.They include:Reducing barriers for ",
-      "date": "2026-06-22T00:06:17.521249+00:00",
-      "source": "FCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "Conduct"
-      ],
-      "score": 72,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 3,
-        "aml_keywords": [
-          "str"
-        ],
-        "uk_bonus": 15,
-        "impact": 4,
-        "impact_label": "rule",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "FCA update on reforms to the UK Money Market Fund Regulation",
-      "link": "https://www.fca.org.uk/news/statements/reforms-uk-money-market-fund-regulation",
-      "summary": "We set out next steps on issuing new rules and guidance on Money Market Funds (MMFs), following Government plans to replace the current rules.\n\nOn 15 May, the Government set out its expectation that it will lay legislation that will replace the UK Money Market Funds Regulation. Read the Government statement.Money Market Funds (MMFs) play an important role in the financial system. MMFs are widely u",
-      "date": "2026-06-22T00:06:17.521368+00:00",
-      "source": "FCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "Conduct"
-      ],
-      "score": 71,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 6,
-        "impact_label": "guidance",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    }
-  ],
-  "top5_uk_aml": [
-    {
-      "title": "Beyond the headlines: the unseen fight against financial crime",
-      "link": "https://www.fca.org.uk/news/speeches/beyond-headlines-unseen-fight-against-financial-crime",
-      "summary": "Speech by Therese Chambers, joint executive director of enforcement and market oversight, delivered at the International Bar Association (IBA) Anti-Corruption Conference.\n\nI’ve been practising law for over 3 decades now.Starting out, I thought every case would be like the ones on US television: dramatic, with a big reveal and resounding outcome, all packed into a single 30-minute episode. But real",
-      "date": "2026-06-22T00:06:17.520879+00:00",
-      "source": "FCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "Conduct"
-      ],
-      "score": 79,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 4,
-        "aml_keywords": [
-          "financial crime"
-        ],
-        "uk_bonus": 15,
-        "impact": 10,
-        "impact_label": "enforcement",
-        "trust": 10
-      },
-      "is_aml": true,
-      "is_uk": true
-    }
-  ],
-  "items": [
-    {
-      "title": "ESMA publishes shortlist of candidates for position of Chair",
-      "link": "https://www.esma.europa.eu/press-news/esma-news/esma-publishes-shortlist-candidates-position-chair-0",
-      "summary": "ESMA publishes shortlist of candidates for position of Chair\n  \n20 May 2026\n\n\n      \n              About ESMA\n              Board of Supervisors\n              Press Releases\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published the shortlist of candidates for the position of Chair, which it has sent to the",
-      "date": "2026-06-22T00:06:19.456802+00:00",
-      "source": "ESMA",
-      "country": "EU",
-      "flag": "🇪🇺",
-      "category": "Regulator",
-      "tags": [
-        "Market Integrity",
-        "Capital Markets"
-      ],
-      "score": 50,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 0,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": false
-    },
-    {
-      "title": "ESMA consults on revised guidelines to support smoother allocations and confirmations under T+1",
-      "link": "https://www.esma.europa.eu/press-news/esma-news/esma-consults-revised-guidelines-support-smoother-allocations-and",
-      "summary": "ESMA consults on revised guidelines to support smoother allocations and confirmations under T+1\n  \n26 May 2026\n\n\n      \n              Post Trading\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has launched a consultation on the updated guidelines on standardised procedures and messaging protocols. This review is",
-      "date": "2026-06-22T00:06:19.456734+00:00",
-      "source": "ESMA",
-      "country": "EU",
-      "flag": "🇪🇺",
-      "category": "Regulator",
-      "tags": [
-        "Market Integrity",
-        "Capital Markets"
-      ],
-      "score": 56,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 0,
-        "impact": 6,
-        "impact_label": "guideline",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": false
-    },
-    {
-      "title": "New Q&As available",
-      "link": "https://www.esma.europa.eu/press-news/esma-news/new-qas-available-may-2026",
-      "summary": "New Q&amp;As available\n  \n28 May 2026\n\n\n      \n              Digital Finance and Innovation\n              Market Abuse\n              Sustainable finance\n          \n  \n            \nThe European Securities and Markets Authority (ESMA), the EU's securities markets regulator, has published the following question and answer:\n\n\n      \n            EU ESG Ratings Regulation (ESGRR)\n\nDefined ranking system",
-      "date": "2026-06-22T00:06:19.456685+00:00",
-      "source": "ESMA",
-      "country": "EU",
-      "flag": "🇪🇺",
-      "category": "Regulator",
-      "tags": [
-        "Market Integrity",
-        "Capital Markets"
-      ],
-      "score": 60,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 0,
-        "impact": 10,
-        "impact_label": "fine",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": false
-    },
-    {
-      "title": "ESMA’s annual data report shows increased quality, wider use and digital progress",
-      "link": "https://www.esma.europa.eu/press-news/esma-news/esmas-annual-data-report-shows-increased-quality-wider-use-and-digital",
-      "summary": "ESMA’s annual data report shows increased quality, wider use and digital progress\n  \n29 May 2026\n\n\n      \n              Market data\n              Simplification and Burden Reduction\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, published today its annual report on the quality and use of regulatory data. It shows",
-      "date": "2026-06-22T00:06:19.456617+00:00",
-      "source": "ESMA",
-      "country": "EU",
-      "flag": "🇪🇺",
-      "category": "Regulator",
-      "tags": [
-        "Market Integrity",
-        "Capital Markets"
-      ],
-      "score": 50,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 0,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": false
-    },
-    {
-      "title": "ESMA publishes latest edition of its newsletter",
-      "link": "https://www.esma.europa.eu/press-news/esma-news/esma-publishes-latest-edition-its-newsletter-43",
-      "summary": "ESMA publishes latest edition of its newsletter\n  \n01 June 2026\n\n\n      \n              ESMA newsletter\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published today the latest edition of its Spotlight on Markets newsletter, covering ESMA’s key activities and publications from April and May 2026.\n\n      \n    ",
-      "date": "2026-06-22T00:06:19.456549+00:00",
-      "source": "ESMA",
-      "country": "EU",
-      "flag": "🇪🇺",
-      "category": "Regulator",
-      "tags": [
-        "Market Integrity",
-        "Capital Markets"
-      ],
-      "score": 50,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 0,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": false
-    },
-    {
-      "title": "The GMTF presents its findings on EU gas and gas derivative markets",
-      "link": "https://www.esma.europa.eu/press-news/esma-news/gmtf-presents-its-findings-eu-gas-and-gas-derivative-markets",
-      "summary": "The GMTF presents its findings on EU gas and gas derivative markets\n  \n02 June 2026\n\n\n      \n              Trading\n          \n  \n            The Gas Market Task Force (GMTF), has published today a&nbsp;report on the functioning of EU gas and gas derivatives markets, summarising the analytical work it has conducted in 2025.\n\n      \n            The report also suggests further work in several areas ",
-      "date": "2026-06-22T00:06:19.456501+00:00",
-      "source": "ESMA",
-      "country": "EU",
-      "flag": "🇪🇺",
-      "category": "Regulator",
-      "tags": [
-        "Market Integrity",
-        "Capital Markets"
-      ],
-      "score": 50,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 0,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": false
-    },
-    {
-      "title": "ESAs publish the first report on DORA major ICT-related incidents",
-      "link": "https://www.esma.europa.eu/press-news/esma-news/esas-publish-first-report-dora-major-ict-related-incidents",
-      "summary": "ESAs publish the first report on DORA major ICT-related incidents\n  \n03 June 2026\n\n\n      \n              Digital Finance and Innovation\n              Joint Committee\n          \n  \n            The European Supervisory Authorities (EBA, EIOPA and ESMA) today published their first annual overview of major ICT-related incidents in the EU financial sector based on a reporting mechanism established by t",
-      "date": "2026-06-22T00:06:19.456434+00:00",
-      "source": "ESMA",
-      "country": "EU",
-      "flag": "🇪🇺",
-      "category": "Regulator",
-      "tags": [
-        "Market Integrity",
-        "Capital Markets"
-      ],
-      "score": 50,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 0,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": false
-    },
-    {
-      "title": "​Euribor panel to include KBC Bank​",
-      "link": "https://www.esma.europa.eu/press-news/esma-news/euribor-panel-include-kbc-bank",
-      "summary": "​Euribor panel to include KBC Bank​ \n  \n11 June 2026\n\n\n      \n              Benchmarks\n              Press Releases\n          \n  \n            \nOn 27 May 2026, the European Money Markets Institute (EMMI), the administrator of Euribor, announced the inclusion of KBC Bank in the Euribor panel.&nbsp;\n\n\nESMA and the Belgian Financial Services and Markets Authority (FSMA) welcome the inclusion of KBC Ba",
-      "date": "2026-06-22T00:06:19.456370+00:00",
-      "source": "ESMA",
-      "country": "EU",
-      "flag": "🇪🇺",
-      "category": "Regulator",
-      "tags": [
-        "Market Integrity",
-        "Capital Markets"
-      ],
-      "score": 53,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 3,
-        "aml_keywords": [
-          "str"
-        ],
-        "uk_bonus": 0,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": false
-    },
-    {
-      "title": "ESMA  2025 Annual Report: focus on stronger supervision, regulatory simplification, and innovation",
-      "link": "https://www.esma.europa.eu/press-news/esma-news/esma-2025-annual-report-focus-stronger-supervision-regulatory-simplification",
-      "summary": "ESMA  2025 Annual Report: focus on stronger supervision, regulatory simplification, and innovation\n  \n17 June 2026\n\n\n      \n              About ESMA\n              Board of Supervisors\n              Management Board\n              Press Releases\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has today published its",
-      "date": "2026-06-22T00:06:19.456277+00:00",
-      "source": "ESMA",
-      "country": "EU",
-      "flag": "🇪🇺",
-      "category": "Regulator",
-      "tags": [
-        "Market Integrity",
-        "Capital Markets"
-      ],
-      "score": 53,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 3,
-        "aml_keywords": [
-          "str"
-        ],
-        "uk_bonus": 0,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": false
-    },
-    {
-      "title": "ESMA contributes to global CCP fire drill exercise",
-      "link": "https://www.esma.europa.eu/press-news/esma-news/esma-contributes-global-ccp-fire-drill-exercise",
-      "summary": "ESMA contributes to global CCP fire drill exercise\n  \n19 June 2026\n\n\n      \n              CCP\n          \n  \n            In November 2025, 38 central counterparties (‘CCPs’) from across the world, together with clearing members, conducted a coordinated fire drill exercise simulating the failure of a hypothetical common participant. Known as the CCP Global International Default Simulation (CIDS), th",
-      "date": "2026-06-22T00:06:19.456175+00:00",
-      "source": "ESMA",
-      "country": "EU",
-      "flag": "🇪🇺",
-      "category": "Regulator",
-      "tags": [
-        "Market Integrity",
-        "Capital Markets"
-      ],
-      "score": 50,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 0,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": false
-    },
-    {
-      "title": "FCA update on reforms to the UK Money Market Fund Regulation",
-      "link": "https://www.fca.org.uk/news/statements/reforms-uk-money-market-fund-regulation",
-      "summary": "We set out next steps on issuing new rules and guidance on Money Market Funds (MMFs), following Government plans to replace the current rules.\n\nOn 15 May, the Government set out its expectation that it will lay legislation that will replace the UK Money Market Funds Regulation. Read the Government statement.Money Market Funds (MMFs) play an important role in the financial system. MMFs are widely u",
-      "date": "2026-06-22T00:06:17.521368+00:00",
-      "source": "FCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "Conduct"
-      ],
-      "score": 71,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 6,
-        "impact_label": "guidance",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "FCA takes action against Neil Woodford and W4.0 for operating without authorisation",
-      "link": "https://www.fca.org.uk/news/statements/fca-takes-action-against-neil-woodford-and-w40-operating-without-authorisation",
-      "summary": "The FCAhasstartedcivil proceedings against Mr Neil Woodford andW4.0.The FCAallegesthat Mr Woodford and W4.0 are providing regulated investment advice and making financial promotions through the subscription-based platform, www.w4pz.com, without authorisation.In the FCA’sview, the activitybreachessections 19 and 21 of the Financial Services and Markets Act 2000 (FSMA).The FCA is seekingan injunctio",
-      "date": "2026-06-22T00:06:17.521310+00:00",
-      "source": "FCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "Conduct"
-      ],
-      "score": 74,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 9,
-        "impact_label": "action against",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "FCA proposes changes to help more people access mortgages",
-      "link": "https://www.fca.org.uk/news/press-releases/fca-proposals-help-more-access-mortgages",
-      "summary": "First-time buyers, older borrowers and the self-employed could find it easier to get a mortgage, as the FCA sets out next steps to help reform the market.\n\nIts proposed mortgage rule changes would give lenders more flexibility to consider individual circumstances and develop products that better meet people's needs – while maintaining strong consumer protections.They include:Reducing barriers for ",
-      "date": "2026-06-22T00:06:17.521249+00:00",
-      "source": "FCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "Conduct"
-      ],
-      "score": 72,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 3,
-        "aml_keywords": [
-          "str"
-        ],
-        "uk_bonus": 15,
-        "impact": 4,
-        "impact_label": "rule",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Opening the door to mortgages: rules focused on better outcomes for people",
-      "link": "https://www.fca.org.uk/news/blogs/opening-door-mortgages-rules-focused-better-outcomes-people",
-      "summary": "Buying a home is different now to even a decade ago.People are living longer, the way they work has changed and, for many, how much they earn can vary month-to-month. People will also carry mortgage debt for longer and use it more flexibly across their lives.That’s why we’re proposing changes to help more people to access a mortgage – including first-time buyers, older borrowers and the self-emplo",
-      "date": "2026-06-22T00:06:17.521186+00:00",
-      "source": "FCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "Conduct"
-      ],
-      "score": 69,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 4,
-        "impact_label": "rule",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "FCA decides to fine Carlos Ricardo Fuenmayor £99,600 for disclosure failures",
-      "link": "https://www.fca.org.uk/news/press-releases/fca-decides-fine-carlos-ricardo-fuenmayor-disclosure-failures",
-      "summary": "",
-      "date": "2026-06-22T00:06:17.521154+00:00",
-      "source": "FCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "Conduct"
-      ],
-      "score": 75,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 10,
-        "impact_label": "fine",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Amplifi Capital (U.K.) Limited enters administration",
-      "link": "https://www.fca.org.uk/news/news-stories/amplifi-capital-uk-limited-enters-administration",
-      "summary": "On 9 June 2026, Amplifi Capital (U.K.) Limited (Amplifi) entered administration. Robert Spence and Gareth Slater of Interpath Advisory were appointed joint administrators.\n\nAmplifi is authorised by the FCA. Amplifi trades under the names Reevo Money and My Community Finance. Reevo Money provided personal loans to consumers. My Community Finance acted as a credit broker, introducing customers to cr",
-      "date": "2026-06-22T00:06:17.521102+00:00",
-      "source": "FCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "Conduct"
-      ],
-      "score": 68,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 3,
-        "aml_keywords": [
-          "str"
-        ],
-        "uk_bonus": 15,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Court orders appointment of special administrators for Euro Exchange Securities UK Limited",
-      "link": "https://www.fca.org.uk/news/press-releases/court-orders-appointment-special-administrators-euro-exchange-securities-uk-limited",
-      "summary": "The High Court today confirmed the appointment of special administrators for Euro Exchange Securities UK Limited (EES).\n\nEES did not seek to overturn the court’s initial decision, which saw the firm cease trading with immediate effect last week.In light of the FCA's actions, EES agreed it is not in the company’s interests to seek to return to normal trading and will work with the appointed special",
-      "date": "2026-06-22T00:06:17.521035+00:00",
-      "source": "FCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "Conduct"
-      ],
-      "score": 68,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 3,
-        "aml_keywords": [
-          "str"
-        ],
-        "uk_bonus": 15,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Later life lending: building the fourth retirement pillar",
-      "link": "https://www.fca.org.uk/news/speeches/later-life-lending-building-fourth-retirement-pillar",
-      "summary": "Speech by Emad Aladhal, director of retail banking at the Later Life Lending Summit.\n\nIntroductionIn the years ahead, housing wealth will become an increasing part of how many people provide for their retirement. But it continues to be seen as an option of last resort, if thought about at all.Knowing I had this speech, as an experiment at a recent BBQ I had a conversation with my friends about ret",
-      "date": "2026-06-22T00:06:17.520948+00:00",
-      "source": "FCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "Conduct"
-      ],
-      "score": 65,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Beyond the headlines: the unseen fight against financial crime",
-      "link": "https://www.fca.org.uk/news/speeches/beyond-headlines-unseen-fight-against-financial-crime",
-      "summary": "Speech by Therese Chambers, joint executive director of enforcement and market oversight, delivered at the International Bar Association (IBA) Anti-Corruption Conference.\n\nI’ve been practising law for over 3 decades now.Starting out, I thought every case would be like the ones on US television: dramatic, with a big reveal and resounding outcome, all packed into a single 30-minute episode. But real",
-      "date": "2026-06-22T00:06:17.520879+00:00",
-      "source": "FCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "Conduct"
-      ],
-      "score": 79,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 4,
-        "aml_keywords": [
-          "financial crime"
-        ],
-        "uk_bonus": 15,
-        "impact": 10,
-        "impact_label": "enforcement",
-        "trust": 10
-      },
-      "is_aml": true,
-      "is_uk": true
-    },
-    {
-      "title": "FCA closes investigation into Drax Group PLC",
-      "link": "https://www.fca.org.uk/news/statements/fca-closes-investigation-drax-group-plc",
-      "summary": "Drax Group PLC (Drax) has announced the FCA has closed its investigation into the company.We undertook an extensive investigation following concerns raised regarding disclosures to the market about the sustainability of Drax’s Canadian biomass. We did not find evidence that justified any further action.Thousands of pages of complex material were reviewed as part of the investigation, and individua",
-      "date": "2026-06-22T00:06:17.520731+00:00",
-      "source": "FCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "Conduct"
-      ],
-      "score": 68,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 3,
-        "impact_label": "review",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Official Statistics: HMRC statistics: pre-release access list",
-      "link": "https://www.gov.uk/government/statistics/hmrc-statistics-pre-release-access-list",
-      "summary": "HM Revenue and Customs' record of those who have pre-release access to Official Statistics.",
-      "date": "2026-06-19T17:30:03+00:00",
-      "source": "HMRC",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Tax",
-        "Financial Crime"
-      ],
-      "score": 49,
-      "score_breakdown": {
-        "recency": 24,
-        "recency_label": "2 days ago",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Guidance: Import Control System 2: service availability and issues",
-      "link": "https://www.gov.uk/government/publications/import-control-system-2-service-availability-and-issues",
-      "summary": "Check the availability and any issues affecting the  Import Control System 2 (ICS2) service.",
-      "date": "2026-06-19T16:08:15+00:00",
-      "source": "HMRC",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Tax",
-        "Financial Crime"
-      ],
-      "score": 55,
-      "score_breakdown": {
-        "recency": 24,
-        "recency_label": "2 days ago",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 6,
-        "impact_label": "guidance",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Form: Initial registration as a reporting fund (CISC1)",
-      "link": "https://www.gov.uk/government/publications/collective-investment-schemes-initial-registration-as-a-reporting-fund-cisc1",
-      "summary": "Use form CISC1 to complete the initial application process to enter the reporting funds regime.",
-      "date": "2026-06-19T14:26:20+00:00",
-      "source": "HMRC",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Tax",
-        "Financial Crime"
-      ],
-      "score": 52,
-      "score_breakdown": {
-        "recency": 24,
-        "recency_label": "2 days ago",
-        "aml": 3,
-        "aml_keywords": [
-          "str"
-        ],
-        "uk_bonus": 15,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "PAYE rules for labour supply chains that include umbrella companies from 6 April 2026",
-      "link": "https://www.gov.uk/guidance/paye-rules-for-labour-supply-chains-that-include-umbrella-companies-from-6-april-2026",
-      "summary": "What you need to know about the new rules if you're in a labour supply chain which includes an umbrella company, or any third person supplying labour.",
-      "date": "2026-06-19T14:03:14+00:00",
-      "source": "HMRC",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Tax",
-        "Financial Crime"
-      ],
-      "score": 53,
-      "score_breakdown": {
-        "recency": 24,
-        "recency_label": "2 days ago",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 4,
-        "impact_label": "rule",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Notice: Notices made under the Taxation (Cross-border Trade) Act 2018",
-      "link": "https://www.gov.uk/government/publications/notices-to-be-made-under-the-taxation-cross-border-trade-act-2018",
-      "summary": "Notices made which have the force of law under the Taxation (Cross-border Trade) Act 2018.",
-      "date": "2026-06-19T13:50:14+00:00",
-      "source": "HMRC",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Tax",
-        "Financial Crime"
-      ],
-      "score": 49,
-      "score_breakdown": {
-        "recency": 24,
-        "recency_label": "2 days ago",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Tax Credits Manual",
-      "link": "https://www.gov.uk/hmrc-internal-manuals/tax-credits-manual",
-      "summary": "How HM Revenue and Customs handles Child Tax Credit and Working Tax Credit cases",
-      "date": "2026-06-19T13:08:48+00:00",
-      "source": "HMRC",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Tax",
-        "Financial Crime"
-      ],
-      "score": 49,
-      "score_breakdown": {
-        "recency": 24,
-        "recency_label": "2 days ago",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Choose the right software for Pillar 2 Top-up Taxes",
-      "link": "https://www.gov.uk/guidance/choose-the-right-software-for-pillar-2-top-up-taxes",
-      "summary": "Find out what commercial software is available to report Domestic Top-up Tax and Multinational Top-up Tax.",
-      "date": "2026-06-19T12:23:20+00:00",
-      "source": "HMRC",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Tax",
-        "Financial Crime"
-      ],
-      "score": 49,
-      "score_breakdown": {
-        "recency": 24,
-        "recency_label": "2 days ago",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Accredited official statistics: Private pension statistics",
-      "link": "https://www.gov.uk/government/statistics/announcements/private-pension-statistics--2",
-      "summary": "HMRC statistics on personal pensions, the estimated cost of pension tax relief, the annual allowance, and taxable flexible payments from pensions.",
-      "date": "2026-06-19T12:19:10+00:00",
-      "source": "HMRC",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Tax",
-        "Financial Crime"
-      ],
-      "score": 49,
-      "score_breakdown": {
-        "recency": 24,
-        "recency_label": "2 days ago",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
     {
       "title": "Guidance: Child Trust Fund providers guidance",
       "link": "https://www.gov.uk/government/publications/child-trust-fund-guidance-notes-for-providers",
       "summary": "Guidance for Child Trust Fund (CTF) providers on how to operate a Child Trust Fund scheme.",
       "date": "2026-06-19T12:17:42+00:00",
+      "pub_date": "19 Jun 2026",
+      "date_confirmed": true,
       "source": "HMRC",
       "country": "UK",
       "flag": "🇬🇧",
@@ -984,9 +21,9 @@
         "Tax",
         "Financial Crime"
       ],
-      "score": 58,
+      "score": 66,
       "score_breakdown": {
-        "recency": 24,
+        "recency": 32,
         "recency_label": "2 days ago",
         "aml": 3,
         "aml_keywords": [
@@ -1005,6 +42,8 @@
       "link": "https://www.gov.uk/hmrc-internal-manuals/vat-registration-manual",
       "summary": "Guidance about how to determine whether someone must, or may voluntarily, register for VAT; the entity to be registered; and changes to the details held on the VAT Register.",
       "date": "2026-06-19T12:04:02+00:00",
+      "pub_date": "19 Jun 2026",
+      "date_confirmed": true,
       "source": "HMRC",
       "country": "UK",
       "flag": "🇬🇧",
@@ -1014,9 +53,443 @@
         "Tax",
         "Financial Crime"
       ],
-      "score": 58,
+      "score": 66,
       "score_breakdown": {
-        "recency": 24,
+        "recency": 32,
+        "recency_label": "2 days ago",
+        "aml": 3,
+        "aml_keywords": [
+          "str"
+        ],
+        "uk_bonus": 15,
+        "impact": 6,
+        "impact_label": "guidance",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Guidance: Import Control System 2: service availability and issues",
+      "link": "https://www.gov.uk/government/publications/import-control-system-2-service-availability-and-issues",
+      "summary": "Check the availability and any issues affecting the  Import Control System 2 (ICS2) service.",
+      "date": "2026-06-19T16:08:15+00:00",
+      "pub_date": "19 Jun 2026",
+      "date_confirmed": true,
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 63,
+      "score_breakdown": {
+        "recency": 32,
+        "recency_label": "2 days ago",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 6,
+        "impact_label": "guidance",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "PAYE rules for labour supply chains that include umbrella companies from 6 April 2026",
+      "link": "https://www.gov.uk/guidance/paye-rules-for-labour-supply-chains-that-include-umbrella-companies-from-6-april-2026",
+      "summary": "What you need to know about the new rules if you're in a labour supply chain which includes an umbrella company, or any third person supplying labour.",
+      "date": "2026-06-19T14:03:14+00:00",
+      "pub_date": "19 Jun 2026",
+      "date_confirmed": true,
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 61,
+      "score_breakdown": {
+        "recency": 32,
+        "recency_label": "2 days ago",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 4,
+        "impact_label": "rule",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Form: Initial registration as a reporting fund (CISC1)",
+      "link": "https://www.gov.uk/government/publications/collective-investment-schemes-initial-registration-as-a-reporting-fund-cisc1",
+      "summary": "Use form CISC1 to complete the initial application process to enter the reporting funds regime.",
+      "date": "2026-06-19T14:26:20+00:00",
+      "pub_date": "19 Jun 2026",
+      "date_confirmed": true,
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 60,
+      "score_breakdown": {
+        "recency": 32,
+        "recency_label": "2 days ago",
+        "aml": 3,
+        "aml_keywords": [
+          "str"
+        ],
+        "uk_bonus": 15,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    }
+  ],
+  "top5_uk_aml": [
+    {
+      "title": "Beyond the headlines: the unseen fight against financial crime",
+      "link": "https://www.fca.org.uk/news/speeches/beyond-headlines-unseen-fight-against-financial-crime",
+      "summary": "Speech by Therese Chambers, joint executive director of enforcement and market oversight, delivered at the International Bar Association (IBA) Anti-Corruption Conference.\n\nI’ve been practising law for over 3 decades now.Starting out, I thought every case would be like the ones on US television: dramatic, with a big reveal and resounding outcome, all packed into a single 30-minute episode. But real",
+      "date": "1970-01-01T00:00:00+00:00",
+      "pub_date": "Date unknown",
+      "date_confirmed": false,
+      "source": "FCA",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Financial Crime",
+        "Conduct"
+      ],
+      "score": 39,
+      "score_breakdown": {
+        "recency": 0,
+        "recency_label": "date unknown",
+        "aml": 4,
+        "aml_keywords": [
+          "financial crime"
+        ],
+        "uk_bonus": 15,
+        "impact": 10,
+        "impact_label": "enforcement",
+        "trust": 10
+      },
+      "is_aml": true,
+      "is_uk": true
+    }
+  ],
+  "items": [
+    {
+      "title": "Official Statistics: HMRC statistics: pre-release access list",
+      "link": "https://www.gov.uk/government/statistics/hmrc-statistics-pre-release-access-list",
+      "summary": "HM Revenue and Customs' record of those who have pre-release access to Official Statistics.",
+      "date": "2026-06-19T17:30:03+00:00",
+      "pub_date": "19 Jun 2026",
+      "date_confirmed": true,
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 57,
+      "score_breakdown": {
+        "recency": 32,
+        "recency_label": "2 days ago",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Guidance: Import Control System 2: service availability and issues",
+      "link": "https://www.gov.uk/government/publications/import-control-system-2-service-availability-and-issues",
+      "summary": "Check the availability and any issues affecting the  Import Control System 2 (ICS2) service.",
+      "date": "2026-06-19T16:08:15+00:00",
+      "pub_date": "19 Jun 2026",
+      "date_confirmed": true,
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 63,
+      "score_breakdown": {
+        "recency": 32,
+        "recency_label": "2 days ago",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 6,
+        "impact_label": "guidance",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Form: Initial registration as a reporting fund (CISC1)",
+      "link": "https://www.gov.uk/government/publications/collective-investment-schemes-initial-registration-as-a-reporting-fund-cisc1",
+      "summary": "Use form CISC1 to complete the initial application process to enter the reporting funds regime.",
+      "date": "2026-06-19T14:26:20+00:00",
+      "pub_date": "19 Jun 2026",
+      "date_confirmed": true,
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 60,
+      "score_breakdown": {
+        "recency": 32,
+        "recency_label": "2 days ago",
+        "aml": 3,
+        "aml_keywords": [
+          "str"
+        ],
+        "uk_bonus": 15,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "PAYE rules for labour supply chains that include umbrella companies from 6 April 2026",
+      "link": "https://www.gov.uk/guidance/paye-rules-for-labour-supply-chains-that-include-umbrella-companies-from-6-april-2026",
+      "summary": "What you need to know about the new rules if you're in a labour supply chain which includes an umbrella company, or any third person supplying labour.",
+      "date": "2026-06-19T14:03:14+00:00",
+      "pub_date": "19 Jun 2026",
+      "date_confirmed": true,
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 61,
+      "score_breakdown": {
+        "recency": 32,
+        "recency_label": "2 days ago",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 4,
+        "impact_label": "rule",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Notice: Notices made under the Taxation (Cross-border Trade) Act 2018",
+      "link": "https://www.gov.uk/government/publications/notices-to-be-made-under-the-taxation-cross-border-trade-act-2018",
+      "summary": "Notices made which have the force of law under the Taxation (Cross-border Trade) Act 2018.",
+      "date": "2026-06-19T13:50:14+00:00",
+      "pub_date": "19 Jun 2026",
+      "date_confirmed": true,
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 57,
+      "score_breakdown": {
+        "recency": 32,
+        "recency_label": "2 days ago",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Tax Credits Manual",
+      "link": "https://www.gov.uk/hmrc-internal-manuals/tax-credits-manual",
+      "summary": "How HM Revenue and Customs handles Child Tax Credit and Working Tax Credit cases",
+      "date": "2026-06-19T13:08:48+00:00",
+      "pub_date": "19 Jun 2026",
+      "date_confirmed": true,
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 57,
+      "score_breakdown": {
+        "recency": 32,
+        "recency_label": "2 days ago",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Choose the right software for Pillar 2 Top-up Taxes",
+      "link": "https://www.gov.uk/guidance/choose-the-right-software-for-pillar-2-top-up-taxes",
+      "summary": "Find out what commercial software is available to report Domestic Top-up Tax and Multinational Top-up Tax.",
+      "date": "2026-06-19T12:23:20+00:00",
+      "pub_date": "19 Jun 2026",
+      "date_confirmed": true,
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 57,
+      "score_breakdown": {
+        "recency": 32,
+        "recency_label": "2 days ago",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Accredited official statistics: Private pension statistics",
+      "link": "https://www.gov.uk/government/statistics/announcements/private-pension-statistics--2",
+      "summary": "HMRC statistics on personal pensions, the estimated cost of pension tax relief, the annual allowance, and taxable flexible payments from pensions.",
+      "date": "2026-06-19T12:19:10+00:00",
+      "pub_date": "19 Jun 2026",
+      "date_confirmed": true,
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 57,
+      "score_breakdown": {
+        "recency": 32,
+        "recency_label": "2 days ago",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Guidance: Child Trust Fund providers guidance",
+      "link": "https://www.gov.uk/government/publications/child-trust-fund-guidance-notes-for-providers",
+      "summary": "Guidance for Child Trust Fund (CTF) providers on how to operate a Child Trust Fund scheme.",
+      "date": "2026-06-19T12:17:42+00:00",
+      "pub_date": "19 Jun 2026",
+      "date_confirmed": true,
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 66,
+      "score_breakdown": {
+        "recency": 32,
+        "recency_label": "2 days ago",
+        "aml": 3,
+        "aml_keywords": [
+          "ctf"
+        ],
+        "uk_bonus": 15,
+        "impact": 6,
+        "impact_label": "guidance",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "VAT Registration",
+      "link": "https://www.gov.uk/hmrc-internal-manuals/vat-registration-manual",
+      "summary": "Guidance about how to determine whether someone must, or may voluntarily, register for VAT; the entity to be registered; and changes to the details held on the VAT Register.",
+      "date": "2026-06-19T12:04:02+00:00",
+      "pub_date": "19 Jun 2026",
+      "date_confirmed": true,
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 66,
+      "score_breakdown": {
+        "recency": 32,
         "recency_label": "2 days ago",
         "aml": 3,
         "aml_keywords": [
@@ -1035,6 +508,8 @@
       "link": "https://www.eba.europa.eu/node/19758",
       "summary": "EBA E-mail alert 18 June, 2026\n\n  \n    Date\n          18/06/2026\n\n      \n\nAnonymous (not verified)\n\nThu, 06/18/2026 - 17:00\n\n\n            \n\n      \n  \n    News &amp; Press\n          ​The EBA publishes its annual assessment of banks’ internal approaches for capital requirements calculation\n          EU/EEA banks remain resilient amid rising geopolitical, market and technological risks",
       "date": "2026-06-18T15:00:03+00:00",
+      "pub_date": "18 Jun 2026",
+      "date_confirmed": true,
       "source": "EBA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -1044,9 +519,9 @@
         "Prudential",
         "Banking"
       ],
-      "score": 26,
+      "score": 38,
       "score_breakdown": {
-        "recency": 16,
+        "recency": 28,
         "recency_label": "3 days ago",
         "aml": 0,
         "aml_keywords": [],
@@ -1063,6 +538,8 @@
       "link": "https://ofac.treasury.gov/recent-actions/20260618",
       "summary": "",
       "date": "2026-06-18T00:00:00+00:00",
+      "pub_date": "18 Jun 2026",
+      "date_confirmed": true,
       "source": "OFAC",
       "country": "US",
       "flag": "🇺🇸",
@@ -1070,10 +547,10 @@
       "tags": [
         "Sanctions"
       ],
-      "score": 18,
+      "score": 34,
       "score_breakdown": {
-        "recency": 8,
-        "recency_label": "this week",
+        "recency": 24,
+        "recency_label": "4 days ago",
         "aml": 0,
         "aml_keywords": [],
         "uk_bonus": 0,
@@ -1089,6 +566,8 @@
       "link": "https://ofac.treasury.gov/recent-actions/20260618_33",
       "summary": "",
       "date": "2026-06-18T00:00:00+00:00",
+      "pub_date": "18 Jun 2026",
+      "date_confirmed": true,
       "source": "OFAC",
       "country": "US",
       "flag": "🇺🇸",
@@ -1096,10 +575,10 @@
       "tags": [
         "Sanctions"
       ],
-      "score": 18,
+      "score": 34,
       "score_breakdown": {
-        "recency": 8,
-        "recency_label": "this week",
+        "recency": 24,
+        "recency_label": "4 days ago",
         "aml": 0,
         "aml_keywords": [],
         "uk_bonus": 0,
@@ -1115,6 +594,8 @@
       "link": "https://www.eba.europa.eu/node/19752",
       "summary": "EBA E-mail alert 17 June, 2026\n\n  \n    Date\n          17/06/2026\n\n      \n\nAnonymous (not verified)\n\nWed, 06/17/2026 - 17:00\n\n\n            \n\n      \n  \n    Procurement\n          Crypto assets markets data II",
       "date": "2026-06-17T15:00:03+00:00",
+      "pub_date": "17 Jun 2026",
+      "date_confirmed": true,
       "source": "EBA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -1124,10 +605,10 @@
         "Prudential",
         "Banking"
       ],
-      "score": 18,
+      "score": 34,
       "score_breakdown": {
-        "recency": 8,
-        "recency_label": "this week",
+        "recency": 24,
+        "recency_label": "4 days ago",
         "aml": 0,
         "aml_keywords": [],
         "uk_bonus": 0,
@@ -1143,6 +624,8 @@
       "link": "https://www.eba.europa.eu/node/19749",
       "summary": "EBA E-mail alert 16 June, 2026\n\n  \n    Date\n          16/06/2026\n\n      \n\nAnonymous (not verified)\n\nTue, 06/16/2026 - 17:00\n\n\n            \n\n      \n  \n    News &amp; Press\n          The EBA proposes simplifications to the EU bank capital framework in a holistic manner to strengthen its efficiency \n          The EBA publishes its 2025 Annual Report outlining key achievements",
       "date": "2026-06-16T15:00:02+00:00",
+      "pub_date": "16 Jun 2026",
+      "date_confirmed": true,
       "source": "EBA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -1152,10 +635,10 @@
         "Prudential",
         "Banking"
       ],
-      "score": 26,
+      "score": 38,
       "score_breakdown": {
-        "recency": 8,
-        "recency_label": "this week",
+        "recency": 20,
+        "recency_label": "5 days ago",
         "aml": 3,
         "aml_keywords": [
           "str"
@@ -1173,6 +656,8 @@
       "link": "https://www.eba.europa.eu/node/19744",
       "summary": "EBA E-mail alert 12 June, 2026\n\n  \n    Date\n          12/06/2026\n\n      \n\nAnonymous (not verified)\n\nFri, 06/12/2026 - 17:00\n\n\n            \n\n      \n  \n    Final Q&amp;As\n          2025_7602 Obstacle assessment of a mandatory client segment selection screen in a redirection journey\n          2025_7606 Clarification of the scope of the term \"authentication procedures\" in the context of the RTS and th",
       "date": "2026-06-12T15:00:02+00:00",
+      "pub_date": "12 Jun 2026",
+      "date_confirmed": true,
       "source": "EBA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -1185,7 +670,7 @@
       "score": 14,
       "score_breakdown": {
         "recency": 4,
-        "recency_label": "last 2 weeks",
+        "recency_label": "9 days ago",
         "aml": 0,
         "aml_keywords": [],
         "uk_bonus": 0,
@@ -1201,6 +686,8 @@
       "link": "https://www.eba.europa.eu/node/19741",
       "summary": "EBA E-mail alert 11 June, 2026\n\n  \n    Date\n          11/06/2026\n\n      \n\nAnonymous (not verified)\n\nThu, 06/11/2026 - 17:45\n\n\n            \n\n      \n  \n    News &amp; Press\n          ​The EBA launches early consultation on simplified EU-wide stress test, with climate risk integration",
       "date": "2026-06-11T15:45:02+00:00",
+      "pub_date": "11 Jun 2026",
+      "date_confirmed": true,
       "source": "EBA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -1210,10 +697,10 @@
         "Prudential",
         "Banking"
       ],
-      "score": 23,
+      "score": 19,
       "score_breakdown": {
-        "recency": 4,
-        "recency_label": "last 2 weeks",
+        "recency": 0,
+        "recency_label": "10 days ago",
         "aml": 6,
         "aml_keywords": [
           "str",
@@ -1232,6 +719,8 @@
       "link": "https://ofac.treasury.gov/recent-actions/20260611",
       "summary": "",
       "date": "2026-06-11T00:00:00+00:00",
+      "pub_date": "11 Jun 2026",
+      "date_confirmed": true,
       "source": "OFAC",
       "country": "US",
       "flag": "🇺🇸",
@@ -1239,10 +728,10 @@
       "tags": [
         "Sanctions"
       ],
-      "score": 14,
+      "score": 10,
       "score_breakdown": {
-        "recency": 4,
-        "recency_label": "last 2 weeks",
+        "recency": 0,
+        "recency_label": "11 days ago",
         "aml": 0,
         "aml_keywords": [],
         "uk_bonus": 0,
@@ -1258,6 +747,8 @@
       "link": "https://ofac.treasury.gov/recent-actions/20260610",
       "summary": "",
       "date": "2026-06-10T00:00:00+00:00",
+      "pub_date": "10 Jun 2026",
+      "date_confirmed": true,
       "source": "OFAC",
       "country": "US",
       "flag": "🇺🇸",
@@ -1265,10 +756,10 @@
       "tags": [
         "Sanctions"
       ],
-      "score": 14,
+      "score": 10,
       "score_breakdown": {
-        "recency": 4,
-        "recency_label": "last 2 weeks",
+        "recency": 0,
+        "recency_label": "12 days ago",
         "aml": 0,
         "aml_keywords": [],
         "uk_bonus": 0,
@@ -1284,6 +775,8 @@
       "link": "https://www.eba.europa.eu/node/19729",
       "summary": "EBA E-mail alert 8 June, 2026\n\n  \n    Date\n          08/06/2026\n\n      \n\nAnonymous (not verified)\n\nMon, 06/08/2026 - 17:00\n\n\n            \n\n      \n  \n    News &amp; Press\n          ​The EBA launches Discussion Paper on Pillar 3 Data Hub for small banks  \n      \n\n  \n    Consultations\n          Discussion on Pillar 3 Data Hub process to SNCIs",
       "date": "2026-06-08T15:00:03+00:00",
+      "pub_date": "8 Jun 2026",
+      "date_confirmed": true,
       "source": "EBA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -1293,10 +786,10 @@
         "Prudential",
         "Banking"
       ],
-      "score": 17,
+      "score": 13,
       "score_breakdown": {
-        "recency": 4,
-        "recency_label": "last 2 weeks",
+        "recency": 0,
+        "recency_label": "13 days ago",
         "aml": 0,
         "aml_keywords": [],
         "uk_bonus": 0,
@@ -1312,6 +805,8 @@
       "link": "https://www.eba.europa.eu/node/19723",
       "summary": "EBA E-mail alert 5 June, 2026\n\n  \n    Date\n          05/06/2026\n\n      \n\nAnonymous (not verified)\n\nFri, 06/05/2026 - 17:00\n\n\n            \n\n      \n  \n    Final Q&amp;As\n          2025_7588 Access to national credit databases for all EU creditors for both cross-border and domestic mortgage loan transactions\n          2026_7807 Clarification on validation v3078m under FINREP reporting\n          2026_",
       "date": "2026-06-05T15:00:03+00:00",
+      "pub_date": "5 Jun 2026",
+      "date_confirmed": true,
       "source": "EBA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -1321,10 +816,10 @@
         "Prudential",
         "Banking"
       ],
-      "score": 10,
+      "score": 12,
       "score_breakdown": {
-        "recency": 0,
-        "recency_label": "older",
+        "recency": 2,
+        "recency_label": "16 days ago",
         "aml": 0,
         "aml_keywords": [],
         "uk_bonus": 0,
@@ -1340,6 +835,8 @@
       "link": "https://ofac.treasury.gov/recent-actions/20260605",
       "summary": "",
       "date": "2026-06-05T00:00:00+00:00",
+      "pub_date": "5 Jun 2026",
+      "date_confirmed": true,
       "source": "OFAC",
       "country": "US",
       "flag": "🇺🇸",
@@ -1347,10 +844,10 @@
       "tags": [
         "Sanctions"
       ],
-      "score": 10,
+      "score": 12,
       "score_breakdown": {
-        "recency": 0,
-        "recency_label": "older",
+        "recency": 2,
+        "recency_label": "17 days ago",
         "aml": 0,
         "aml_keywords": [],
         "uk_bonus": 0,
@@ -1366,6 +863,8 @@
       "link": "https://ofac.treasury.gov/recent-actions/20260604",
       "summary": "",
       "date": "2026-06-04T00:00:00+00:00",
+      "pub_date": "4 Jun 2026",
+      "date_confirmed": true,
       "source": "OFAC",
       "country": "US",
       "flag": "🇺🇸",
@@ -1373,10 +872,10 @@
       "tags": [
         "Sanctions"
       ],
-      "score": 10,
+      "score": 12,
       "score_breakdown": {
-        "recency": 0,
-        "recency_label": "older",
+        "recency": 2,
+        "recency_label": "18 days ago",
         "aml": 0,
         "aml_keywords": [],
         "uk_bonus": 0,
@@ -1392,6 +891,8 @@
       "link": "https://www.eba.europa.eu/node/19720",
       "summary": "EBA E-mail alert 3 June, 2026\n\n  \n    Date\n          03/06/2026\n\n      \n\nAnonymous (not verified)\n\nWed, 06/03/2026 - 17:00\n\n\n            \n\n      \n  \n    News &amp; Press\n          ESAs publish the first report on DORA major ICT-related incidents",
       "date": "2026-06-03T15:00:02+00:00",
+      "pub_date": "3 Jun 2026",
+      "date_confirmed": true,
       "source": "EBA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -1401,10 +902,10 @@
         "Prudential",
         "Banking"
       ],
-      "score": 10,
+      "score": 12,
       "score_breakdown": {
-        "recency": 0,
-        "recency_label": "older",
+        "recency": 2,
+        "recency_label": "18 days ago",
         "aml": 0,
         "aml_keywords": [],
         "uk_bonus": 0,
@@ -1420,6 +921,8 @@
       "link": "https://www.eba.europa.eu/node/19715",
       "summary": "EBA E-mail alert 2 June, 2026\n\n  \n    Date\n          02/06/2026\n\n      \n\nAnonymous (not verified)\n\nTue, 06/02/2026 - 17:00\n\n\n            \n\n      \n  \n    News &amp; Press\n          ​The EBA updates list of other systemically important institutions \n          ​The EBA and the New York State Department of Financial Services sign a Memorandum of Understanding to foster cooperation in the supervision o",
       "date": "2026-06-02T15:00:03+00:00",
+      "pub_date": "2 Jun 2026",
+      "date_confirmed": true,
       "source": "EBA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -1429,10 +932,10 @@
         "Prudential",
         "Banking"
       ],
-      "score": 10,
+      "score": 12,
       "score_breakdown": {
-        "recency": 0,
-        "recency_label": "older",
+        "recency": 2,
+        "recency_label": "19 days ago",
         "aml": 0,
         "aml_keywords": [],
         "uk_bonus": 0,
@@ -1448,6 +951,8 @@
       "link": "https://ofac.treasury.gov/recent-actions/20260602",
       "summary": "",
       "date": "2026-06-02T00:00:00+00:00",
+      "pub_date": "2 Jun 2026",
+      "date_confirmed": true,
       "source": "OFAC",
       "country": "US",
       "flag": "🇺🇸",
@@ -1455,10 +960,10 @@
       "tags": [
         "Sanctions"
       ],
-      "score": 10,
+      "score": 12,
       "score_breakdown": {
-        "recency": 0,
-        "recency_label": "older",
+        "recency": 2,
+        "recency_label": "20 days ago",
         "aml": 0,
         "aml_keywords": [],
         "uk_bonus": 0,
@@ -1474,6 +979,8 @@
       "link": "https://ofac.treasury.gov/recent-actions/20260601",
       "summary": "",
       "date": "2026-06-01T00:00:00+00:00",
+      "pub_date": "1 Jun 2026",
+      "date_confirmed": true,
       "source": "OFAC",
       "country": "US",
       "flag": "🇺🇸",
@@ -1481,10 +988,10 @@
       "tags": [
         "Sanctions"
       ],
-      "score": 10,
+      "score": 12,
       "score_breakdown": {
-        "recency": 0,
-        "recency_label": "older",
+        "recency": 2,
+        "recency_label": "21 days ago",
         "aml": 0,
         "aml_keywords": [],
         "uk_bonus": 0,
@@ -1500,6 +1007,8 @@
       "link": "https://ofac.treasury.gov/recent-actions/20260601_33",
       "summary": "",
       "date": "2026-06-01T00:00:00+00:00",
+      "pub_date": "1 Jun 2026",
+      "date_confirmed": true,
       "source": "OFAC",
       "country": "US",
       "flag": "🇺🇸",
@@ -1507,10 +1016,10 @@
       "tags": [
         "Sanctions"
       ],
-      "score": 10,
+      "score": 12,
       "score_breakdown": {
-        "recency": 0,
-        "recency_label": "older",
+        "recency": 2,
+        "recency_label": "21 days ago",
         "aml": 0,
         "aml_keywords": [],
         "uk_bonus": 0,
@@ -1526,6 +1035,8 @@
       "link": "https://ofac.treasury.gov/recent-actions/20260529",
       "summary": "",
       "date": "2026-05-29T00:00:00+00:00",
+      "pub_date": "29 May 2026",
+      "date_confirmed": true,
       "source": "OFAC",
       "country": "US",
       "flag": "🇺🇸",
@@ -1533,10 +1044,10 @@
       "tags": [
         "Sanctions"
       ],
-      "score": 10,
+      "score": 12,
       "score_breakdown": {
-        "recency": 0,
-        "recency_label": "older",
+        "recency": 2,
+        "recency_label": "24 days ago",
         "aml": 0,
         "aml_keywords": [],
         "uk_bonus": 0,
@@ -1552,6 +1063,8 @@
       "link": "https://www.eba.europa.eu/publications-and-media/events/call-papers-13th-annual-research-workshop-boundaries-banking-regulation",
       "summary": "Call for papers - 13th Annual Research Workshop - Boundaries of Banking Regulation\n\nJana Jaklic\n\nFri, 06/28/2024 - 10:22",
       "date": "2024-06-28T08:22:54+00:00",
+      "pub_date": "28 Jun 2024",
+      "date_confirmed": true,
       "source": "EBA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -1564,12 +1077,614 @@
       "score": 15,
       "score_breakdown": {
         "recency": 0,
-        "recency_label": "older",
+        "recency_label": "723 days ago",
         "aml": 0,
         "aml_keywords": [],
         "uk_bonus": 0,
         "impact": 5,
         "impact_label": "regulation",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": false
+    },
+    {
+      "title": "FCA closes investigation into Drax Group PLC",
+      "link": "https://www.fca.org.uk/news/statements/fca-closes-investigation-drax-group-plc",
+      "summary": "Drax Group PLC (Drax) has announced the FCA has closed its investigation into the company.We undertook an extensive investigation following concerns raised regarding disclosures to the market about the sustainability of Drax’s Canadian biomass. We did not find evidence that justified any further action.Thousands of pages of complex material were reviewed as part of the investigation, and individua",
+      "date": "1970-01-01T00:00:00+00:00",
+      "pub_date": "Date unknown",
+      "date_confirmed": false,
+      "source": "FCA",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Financial Crime",
+        "Conduct"
+      ],
+      "score": 28,
+      "score_breakdown": {
+        "recency": 0,
+        "recency_label": "date unknown",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 3,
+        "impact_label": "review",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Beyond the headlines: the unseen fight against financial crime",
+      "link": "https://www.fca.org.uk/news/speeches/beyond-headlines-unseen-fight-against-financial-crime",
+      "summary": "Speech by Therese Chambers, joint executive director of enforcement and market oversight, delivered at the International Bar Association (IBA) Anti-Corruption Conference.\n\nI’ve been practising law for over 3 decades now.Starting out, I thought every case would be like the ones on US television: dramatic, with a big reveal and resounding outcome, all packed into a single 30-minute episode. But real",
+      "date": "1970-01-01T00:00:00+00:00",
+      "pub_date": "Date unknown",
+      "date_confirmed": false,
+      "source": "FCA",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Financial Crime",
+        "Conduct"
+      ],
+      "score": 39,
+      "score_breakdown": {
+        "recency": 0,
+        "recency_label": "date unknown",
+        "aml": 4,
+        "aml_keywords": [
+          "financial crime"
+        ],
+        "uk_bonus": 15,
+        "impact": 10,
+        "impact_label": "enforcement",
+        "trust": 10
+      },
+      "is_aml": true,
+      "is_uk": true
+    },
+    {
+      "title": "Later life lending: building the fourth retirement pillar",
+      "link": "https://www.fca.org.uk/news/speeches/later-life-lending-building-fourth-retirement-pillar",
+      "summary": "Speech by Emad Aladhal, director of retail banking at the Later Life Lending Summit.\n\nIntroductionIn the years ahead, housing wealth will become an increasing part of how many people provide for their retirement. But it continues to be seen as an option of last resort, if thought about at all.Knowing I had this speech, as an experiment at a recent BBQ I had a conversation with my friends about ret",
+      "date": "1970-01-01T00:00:00+00:00",
+      "pub_date": "Date unknown",
+      "date_confirmed": false,
+      "source": "FCA",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Financial Crime",
+        "Conduct"
+      ],
+      "score": 25,
+      "score_breakdown": {
+        "recency": 0,
+        "recency_label": "date unknown",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Court orders appointment of special administrators for Euro Exchange Securities UK Limited",
+      "link": "https://www.fca.org.uk/news/press-releases/court-orders-appointment-special-administrators-euro-exchange-securities-uk-limited",
+      "summary": "The High Court today confirmed the appointment of special administrators for Euro Exchange Securities UK Limited (EES).\n\nEES did not seek to overturn the court’s initial decision, which saw the firm cease trading with immediate effect last week.In light of the FCA's actions, EES agreed it is not in the company’s interests to seek to return to normal trading and will work with the appointed special",
+      "date": "1970-01-01T00:00:00+00:00",
+      "pub_date": "Date unknown",
+      "date_confirmed": false,
+      "source": "FCA",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Financial Crime",
+        "Conduct"
+      ],
+      "score": 28,
+      "score_breakdown": {
+        "recency": 0,
+        "recency_label": "date unknown",
+        "aml": 3,
+        "aml_keywords": [
+          "str"
+        ],
+        "uk_bonus": 15,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Amplifi Capital (U.K.) Limited enters administration",
+      "link": "https://www.fca.org.uk/news/news-stories/amplifi-capital-uk-limited-enters-administration",
+      "summary": "On 9 June 2026, Amplifi Capital (U.K.) Limited (Amplifi) entered administration. Robert Spence and Gareth Slater of Interpath Advisory were appointed joint administrators.\n\nAmplifi is authorised by the FCA. Amplifi trades under the names Reevo Money and My Community Finance. Reevo Money provided personal loans to consumers. My Community Finance acted as a credit broker, introducing customers to cr",
+      "date": "1970-01-01T00:00:00+00:00",
+      "pub_date": "Date unknown",
+      "date_confirmed": false,
+      "source": "FCA",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Financial Crime",
+        "Conduct"
+      ],
+      "score": 28,
+      "score_breakdown": {
+        "recency": 0,
+        "recency_label": "date unknown",
+        "aml": 3,
+        "aml_keywords": [
+          "str"
+        ],
+        "uk_bonus": 15,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "FCA decides to fine Carlos Ricardo Fuenmayor £99,600 for disclosure failures",
+      "link": "https://www.fca.org.uk/news/press-releases/fca-decides-fine-carlos-ricardo-fuenmayor-disclosure-failures",
+      "summary": "",
+      "date": "1970-01-01T00:00:00+00:00",
+      "pub_date": "Date unknown",
+      "date_confirmed": false,
+      "source": "FCA",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Financial Crime",
+        "Conduct"
+      ],
+      "score": 35,
+      "score_breakdown": {
+        "recency": 0,
+        "recency_label": "date unknown",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 10,
+        "impact_label": "fine",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Opening the door to mortgages: rules focused on better outcomes for people",
+      "link": "https://www.fca.org.uk/news/blogs/opening-door-mortgages-rules-focused-better-outcomes-people",
+      "summary": "Buying a home is different now to even a decade ago.People are living longer, the way they work has changed and, for many, how much they earn can vary month-to-month. People will also carry mortgage debt for longer and use it more flexibly across their lives.That’s why we’re proposing changes to help more people to access a mortgage – including first-time buyers, older borrowers and the self-emplo",
+      "date": "1970-01-01T00:00:00+00:00",
+      "pub_date": "Date unknown",
+      "date_confirmed": false,
+      "source": "FCA",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Financial Crime",
+        "Conduct"
+      ],
+      "score": 29,
+      "score_breakdown": {
+        "recency": 0,
+        "recency_label": "date unknown",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 4,
+        "impact_label": "rule",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "FCA proposes changes to help more people access mortgages",
+      "link": "https://www.fca.org.uk/news/press-releases/fca-proposals-help-more-access-mortgages",
+      "summary": "First-time buyers, older borrowers and the self-employed could find it easier to get a mortgage, as the FCA sets out next steps to help reform the market.\n\nIts proposed mortgage rule changes would give lenders more flexibility to consider individual circumstances and develop products that better meet people's needs – while maintaining strong consumer protections.They include:Reducing barriers for ",
+      "date": "1970-01-01T00:00:00+00:00",
+      "pub_date": "Date unknown",
+      "date_confirmed": false,
+      "source": "FCA",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Financial Crime",
+        "Conduct"
+      ],
+      "score": 32,
+      "score_breakdown": {
+        "recency": 0,
+        "recency_label": "date unknown",
+        "aml": 3,
+        "aml_keywords": [
+          "str"
+        ],
+        "uk_bonus": 15,
+        "impact": 4,
+        "impact_label": "rule",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "FCA takes action against Neil Woodford and W4.0 for operating without authorisation",
+      "link": "https://www.fca.org.uk/news/statements/fca-takes-action-against-neil-woodford-and-w40-operating-without-authorisation",
+      "summary": "The FCAhasstartedcivil proceedings against Mr Neil Woodford andW4.0.The FCAallegesthat Mr Woodford and W4.0 are providing regulated investment advice and making financial promotions through the subscription-based platform, www.w4pz.com, without authorisation.In the FCA’sview, the activitybreachessections 19 and 21 of the Financial Services and Markets Act 2000 (FSMA).The FCA is seekingan injunctio",
+      "date": "1970-01-01T00:00:00+00:00",
+      "pub_date": "Date unknown",
+      "date_confirmed": false,
+      "source": "FCA",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Financial Crime",
+        "Conduct"
+      ],
+      "score": 34,
+      "score_breakdown": {
+        "recency": 0,
+        "recency_label": "date unknown",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 9,
+        "impact_label": "action against",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "FCA update on reforms to the UK Money Market Fund Regulation",
+      "link": "https://www.fca.org.uk/news/statements/reforms-uk-money-market-fund-regulation",
+      "summary": "We set out next steps on issuing new rules and guidance on Money Market Funds (MMFs), following Government plans to replace the current rules.\n\nOn 15 May, the Government set out its expectation that it will lay legislation that will replace the UK Money Market Funds Regulation. Read the Government statement.Money Market Funds (MMFs) play an important role in the financial system. MMFs are widely u",
+      "date": "1970-01-01T00:00:00+00:00",
+      "pub_date": "Date unknown",
+      "date_confirmed": false,
+      "source": "FCA",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Financial Crime",
+        "Conduct"
+      ],
+      "score": 31,
+      "score_breakdown": {
+        "recency": 0,
+        "recency_label": "date unknown",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 6,
+        "impact_label": "guidance",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "ESMA contributes to global CCP fire drill exercise",
+      "link": "https://www.esma.europa.eu/press-news/esma-news/esma-contributes-global-ccp-fire-drill-exercise",
+      "summary": "ESMA contributes to global CCP fire drill exercise\n  \n19 June 2026\n\n\n      \n              CCP\n          \n  \n            In November 2025, 38 central counterparties (‘CCPs’) from across the world, together with clearing members, conducted a coordinated fire drill exercise simulating the failure of a hypothetical common participant. Known as the CCP Global International Default Simulation (CIDS), th",
+      "date": "1970-01-01T00:00:00+00:00",
+      "pub_date": "Date unknown",
+      "date_confirmed": false,
+      "source": "ESMA",
+      "country": "EU",
+      "flag": "🇪🇺",
+      "category": "Regulator",
+      "tags": [
+        "Market Integrity",
+        "Capital Markets"
+      ],
+      "score": 10,
+      "score_breakdown": {
+        "recency": 0,
+        "recency_label": "date unknown",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 0,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": false
+    },
+    {
+      "title": "ESMA  2025 Annual Report: focus on stronger supervision, regulatory simplification, and innovation",
+      "link": "https://www.esma.europa.eu/press-news/esma-news/esma-2025-annual-report-focus-stronger-supervision-regulatory-simplification",
+      "summary": "ESMA  2025 Annual Report: focus on stronger supervision, regulatory simplification, and innovation\n  \n17 June 2026\n\n\n      \n              About ESMA\n              Board of Supervisors\n              Management Board\n              Press Releases\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has today published its",
+      "date": "1970-01-01T00:00:00+00:00",
+      "pub_date": "Date unknown",
+      "date_confirmed": false,
+      "source": "ESMA",
+      "country": "EU",
+      "flag": "🇪🇺",
+      "category": "Regulator",
+      "tags": [
+        "Market Integrity",
+        "Capital Markets"
+      ],
+      "score": 13,
+      "score_breakdown": {
+        "recency": 0,
+        "recency_label": "date unknown",
+        "aml": 3,
+        "aml_keywords": [
+          "str"
+        ],
+        "uk_bonus": 0,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": false
+    },
+    {
+      "title": "​Euribor panel to include KBC Bank​",
+      "link": "https://www.esma.europa.eu/press-news/esma-news/euribor-panel-include-kbc-bank",
+      "summary": "​Euribor panel to include KBC Bank​ \n  \n11 June 2026\n\n\n      \n              Benchmarks\n              Press Releases\n          \n  \n            \nOn 27 May 2026, the European Money Markets Institute (EMMI), the administrator of Euribor, announced the inclusion of KBC Bank in the Euribor panel.&nbsp;\n\n\nESMA and the Belgian Financial Services and Markets Authority (FSMA) welcome the inclusion of KBC Ba",
+      "date": "1970-01-01T00:00:00+00:00",
+      "pub_date": "Date unknown",
+      "date_confirmed": false,
+      "source": "ESMA",
+      "country": "EU",
+      "flag": "🇪🇺",
+      "category": "Regulator",
+      "tags": [
+        "Market Integrity",
+        "Capital Markets"
+      ],
+      "score": 13,
+      "score_breakdown": {
+        "recency": 0,
+        "recency_label": "date unknown",
+        "aml": 3,
+        "aml_keywords": [
+          "str"
+        ],
+        "uk_bonus": 0,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": false
+    },
+    {
+      "title": "ESAs publish the first report on DORA major ICT-related incidents",
+      "link": "https://www.esma.europa.eu/press-news/esma-news/esas-publish-first-report-dora-major-ict-related-incidents",
+      "summary": "ESAs publish the first report on DORA major ICT-related incidents\n  \n03 June 2026\n\n\n      \n              Digital Finance and Innovation\n              Joint Committee\n          \n  \n            The European Supervisory Authorities (EBA, EIOPA and ESMA) today published their first annual overview of major ICT-related incidents in the EU financial sector based on a reporting mechanism established by t",
+      "date": "1970-01-01T00:00:00+00:00",
+      "pub_date": "Date unknown",
+      "date_confirmed": false,
+      "source": "ESMA",
+      "country": "EU",
+      "flag": "🇪🇺",
+      "category": "Regulator",
+      "tags": [
+        "Market Integrity",
+        "Capital Markets"
+      ],
+      "score": 10,
+      "score_breakdown": {
+        "recency": 0,
+        "recency_label": "date unknown",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 0,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": false
+    },
+    {
+      "title": "The GMTF presents its findings on EU gas and gas derivative markets",
+      "link": "https://www.esma.europa.eu/press-news/esma-news/gmtf-presents-its-findings-eu-gas-and-gas-derivative-markets",
+      "summary": "The GMTF presents its findings on EU gas and gas derivative markets\n  \n02 June 2026\n\n\n      \n              Trading\n          \n  \n            The Gas Market Task Force (GMTF), has published today a&nbsp;report on the functioning of EU gas and gas derivatives markets, summarising the analytical work it has conducted in 2025.\n\n      \n            The report also suggests further work in several areas ",
+      "date": "1970-01-01T00:00:00+00:00",
+      "pub_date": "Date unknown",
+      "date_confirmed": false,
+      "source": "ESMA",
+      "country": "EU",
+      "flag": "🇪🇺",
+      "category": "Regulator",
+      "tags": [
+        "Market Integrity",
+        "Capital Markets"
+      ],
+      "score": 10,
+      "score_breakdown": {
+        "recency": 0,
+        "recency_label": "date unknown",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 0,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": false
+    },
+    {
+      "title": "ESMA publishes latest edition of its newsletter",
+      "link": "https://www.esma.europa.eu/press-news/esma-news/esma-publishes-latest-edition-its-newsletter-43",
+      "summary": "ESMA publishes latest edition of its newsletter\n  \n01 June 2026\n\n\n      \n              ESMA newsletter\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published today the latest edition of its Spotlight on Markets newsletter, covering ESMA’s key activities and publications from April and May 2026.\n\n      \n    ",
+      "date": "1970-01-01T00:00:00+00:00",
+      "pub_date": "Date unknown",
+      "date_confirmed": false,
+      "source": "ESMA",
+      "country": "EU",
+      "flag": "🇪🇺",
+      "category": "Regulator",
+      "tags": [
+        "Market Integrity",
+        "Capital Markets"
+      ],
+      "score": 10,
+      "score_breakdown": {
+        "recency": 0,
+        "recency_label": "date unknown",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 0,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": false
+    },
+    {
+      "title": "ESMA’s annual data report shows increased quality, wider use and digital progress",
+      "link": "https://www.esma.europa.eu/press-news/esma-news/esmas-annual-data-report-shows-increased-quality-wider-use-and-digital",
+      "summary": "ESMA’s annual data report shows increased quality, wider use and digital progress\n  \n29 May 2026\n\n\n      \n              Market data\n              Simplification and Burden Reduction\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, published today its annual report on the quality and use of regulatory data. It shows",
+      "date": "1970-01-01T00:00:00+00:00",
+      "pub_date": "Date unknown",
+      "date_confirmed": false,
+      "source": "ESMA",
+      "country": "EU",
+      "flag": "🇪🇺",
+      "category": "Regulator",
+      "tags": [
+        "Market Integrity",
+        "Capital Markets"
+      ],
+      "score": 10,
+      "score_breakdown": {
+        "recency": 0,
+        "recency_label": "date unknown",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 0,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": false
+    },
+    {
+      "title": "New Q&As available",
+      "link": "https://www.esma.europa.eu/press-news/esma-news/new-qas-available-may-2026",
+      "summary": "New Q&amp;As available\n  \n28 May 2026\n\n\n      \n              Digital Finance and Innovation\n              Market Abuse\n              Sustainable finance\n          \n  \n            \nThe European Securities and Markets Authority (ESMA), the EU's securities markets regulator, has published the following question and answer:\n\n\n      \n            EU ESG Ratings Regulation (ESGRR)\n\nDefined ranking system",
+      "date": "1970-01-01T00:00:00+00:00",
+      "pub_date": "Date unknown",
+      "date_confirmed": false,
+      "source": "ESMA",
+      "country": "EU",
+      "flag": "🇪🇺",
+      "category": "Regulator",
+      "tags": [
+        "Market Integrity",
+        "Capital Markets"
+      ],
+      "score": 20,
+      "score_breakdown": {
+        "recency": 0,
+        "recency_label": "date unknown",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 0,
+        "impact": 10,
+        "impact_label": "fine",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": false
+    },
+    {
+      "title": "ESMA consults on revised guidelines to support smoother allocations and confirmations under T+1",
+      "link": "https://www.esma.europa.eu/press-news/esma-news/esma-consults-revised-guidelines-support-smoother-allocations-and",
+      "summary": "ESMA consults on revised guidelines to support smoother allocations and confirmations under T+1\n  \n26 May 2026\n\n\n      \n              Post Trading\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has launched a consultation on the updated guidelines on standardised procedures and messaging protocols. This review is",
+      "date": "1970-01-01T00:00:00+00:00",
+      "pub_date": "Date unknown",
+      "date_confirmed": false,
+      "source": "ESMA",
+      "country": "EU",
+      "flag": "🇪🇺",
+      "category": "Regulator",
+      "tags": [
+        "Market Integrity",
+        "Capital Markets"
+      ],
+      "score": 16,
+      "score_breakdown": {
+        "recency": 0,
+        "recency_label": "date unknown",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 0,
+        "impact": 6,
+        "impact_label": "guideline",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": false
+    },
+    {
+      "title": "ESMA publishes shortlist of candidates for position of Chair",
+      "link": "https://www.esma.europa.eu/press-news/esma-news/esma-publishes-shortlist-candidates-position-chair-0",
+      "summary": "ESMA publishes shortlist of candidates for position of Chair\n  \n20 May 2026\n\n\n      \n              About ESMA\n              Board of Supervisors\n              Press Releases\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published the shortlist of candidates for the position of Chair, which it has sent to the",
+      "date": "1970-01-01T00:00:00+00:00",
+      "pub_date": "Date unknown",
+      "date_confirmed": false,
+      "source": "ESMA",
+      "country": "EU",
+      "flag": "🇪🇺",
+      "category": "Regulator",
+      "tags": [
+        "Market Integrity",
+        "Capital Markets"
+      ],
+      "score": 10,
+      "score_breakdown": {
+        "recency": 0,
+        "recency_label": "date unknown",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 0,
+        "impact": 0,
+        "impact_label": "informational",
         "trust": 10
       },
       "is_aml": false,
@@ -1583,6 +1698,6 @@
     "impact_max": 10,
     "trust_max": 10,
     "total_max": 100,
-    "description": "Each item scored 0-100. Recency (0-40): today=40, yesterday=32, 2d=24, 3d=16, 7d=8, 14d=4. AML keywords (0-25): matched terms from 30-word AML lexicon, capped at 25. UK regulator bonus (0-15): +15 for FCA/HMRC/NCA/SFO/PSR/ICO/TPR. Impact tier (0-10): enforcement/fine=10, guidance=6, consultation=3. Source trust (0-10): official regulator RSS=10, scrape=7, news=4."
+    "description": "Each item scored 0-100. Recency (0-40): today=40, yesterday=32, then linear decay of 4pts/day (e.g. 6 days ago = 16pts, 10 days ago = 0pts). Items with no parseable date score 0 on recency and show 'date unknown'. AML keywords (0-25): matched terms from 30-word AML lexicon, capped at 25. UK regulator bonus (0-15): +15 for FCA/HMRC/NCA/SFO/PSR/ICO/TPR. Impact tier (0-10): enforcement/fine=10, guidance=6, consultation=3. Source trust (0-10): official regulator RSS=10, scrape=7, news=4."
   }
 }
