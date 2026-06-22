@@ -16,10 +16,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5          # Node 24 compatible
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6     # Node 24 compatible
         with:
           python-version: '3.11'
 
@@ -35,22 +35,42 @@ jobs:
 
       - name: Warn if unknown dates detected
         run: |
-          UNKNOWN=$(python3 - <<'EOF'
+          python3 - <<'PYEOF'
           import json, sys
+
           try:
               with open("data/regulatory-updates.json") as f:
                   data = json.load(f)
-              count = data.get("unknown_dates", 0)
-              total = data.get("total", 0)
-              print(count)
-              if count > 0:
-                  pct = round(count / total * 100) if total else 0
-                  print(f"::warning::⚠ {count} of {total} items ({pct}%) have no confirmed publication date — scraper date parsing may need attention", file=sys.stderr)
+
+              total         = data.get("total", 0)
+              unknown_count = data.get("unknown_dates", 0)
+              items         = data.get("items", [])
+
+              # Break down unknown dates by source so we know which scraper to fix
+              unknown_by_source = {}
+              for item in items:
+                  if not item.get("date_confirmed"):
+                      src = item.get("source", "unknown")
+                      unknown_by_source[src] = unknown_by_source.get(src, 0) + 1
+
+              if unknown_count > 0:
+                  pct = round(unknown_count / total * 100) if total else 0
+                  breakdown = ", ".join(
+                      f"{src}: {n}" for src, n in sorted(
+                          unknown_by_source.items(), key=lambda x: -x[1]
+                      )
+                  )
+                  print(
+                      f"::warning::⚠ {unknown_count} of {total} items ({pct}%) have no confirmed "
+                      f"publication date. Breakdown by source → {breakdown}",
+                      file=sys.stderr
+                  )
+              else:
+                  print(f"✅  All {total} items have confirmed publication dates.")
+
           except Exception as e:
               print(f"::warning::Could not read unknown_dates from JSON: {e}", file=sys.stderr)
-              print(0)
-          EOF
-          )
+          PYEOF
 
       - name: Commit and push if changed
         run: |
