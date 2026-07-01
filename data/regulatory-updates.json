@@ -1,154 +1,144 @@
 {
-  "last_updated": "2026-07-01 02:14 UTC",
-  "total": 49,
-  "aml_count": 3,
-  "uk_aml_count": 2,
+  "last_updated": "2026-07-01 07:01 UTC",
+  "total": 57,
+  "aml_count": 2,
+  "uk_aml_count": 1,
   "top5_overall": [
     {
-      "title": "Statutory guidance: Reference Document for The Customs (Northern Ireland) (EU Exit) Regulations 2020",
-      "link": "https://www.gov.uk/government/publications/reference-document-for-the-customs-northern-ireland-eu-exit-regulations-2020",
-      "summary": "The Reference Document for The Customs (Northern Ireland) (EU Exit) Regulations 2020 sets out the necessary steps businesses who import goods into Northern Ireland will need to take.",
-      "date": "2026-06-30T23:15:04+00:00",
-      "source": "HMRC",
+      "title": "Courier sentenced to more than 10 years in prison for firearms delivery",
+      "link": "https://www.nationalcrimeagency.gov.uk/news/courier-sentenced-to-more-than-10-years-in-prison-for-firearms-delivery",
+      "summary": "",
+      "date": "2026-07-01T07:01:14.668890+00:00",
+      "source": "NCA",
       "country": "UK",
       "flag": "🇬🇧",
       "category": "Regulator",
       "tags": [
         "AML",
-        "Tax",
-        "Financial Crime"
+        "Financial Crime",
+        "SAR"
       ],
       "score": 75,
       "score_breakdown": {
         "recency": 40,
         "recency_label": "today",
-        "aml": 4,
-        "aml_keywords": [
-          "sar"
-        ],
+        "aml": 0,
+        "aml_keywords": [],
         "uk_bonus": 15,
-        "impact": 6,
-        "impact_label": "guidance",
-        "trust": 10
-      },
-      "is_aml": true,
-      "is_uk": true
-    },
-    {
-      "title": "Guidance: CDS Declaration Completion Instructions for Exports",
-      "link": "https://www.gov.uk/government/publications/uk-trade-tariff-cds-volume-3-export-declaration-completion-guide",
-      "summary": "This guide provides detailed completion instructions for data elements when making a written export declaration to the Customs Declaration Service (CDS).",
-      "date": "2026-06-30T23:15:04+00:00",
-      "source": "HMRC",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Tax",
-        "Financial Crime"
-      ],
-      "score": 74,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 3,
-        "aml_keywords": [
-          "str"
-        ],
-        "uk_bonus": 15,
-        "impact": 6,
-        "impact_label": "guidance",
+        "impact": 10,
+        "impact_label": "sentenced",
         "trust": 10
       },
       "is_aml": false,
       "is_uk": true
     },
     {
-      "title": "Guidance: Appendix 1: DE 1/10: Requested and Previous Procedure Codes of the Customs Declaration Service (CDS)",
-      "link": "https://www.gov.uk/government/publications/appendix-1-de-110-requested-and-previous-procedure-codes-of-the-customs-declaration-service-cds",
-      "summary": "Find out the completion rules and instructions for each 4-digit Requested and Previous Procedure Code that can be used in Data Element (DE) 1/10 for Imports.",
-      "date": "2026-06-30T23:15:04+00:00",
-      "source": "HMRC",
+      "title": "Five Eyes law enforcement leaders united in call to better protect children and vulnerable people from serious online crime",
+      "link": "https://www.nationalcrimeagency.gov.uk/news/five-eyes-law-enforcement-leaders-united-in-call-to-better-protect-children-and-vulnerable-people-from-serious-online-crime",
+      "summary": "",
+      "date": "2026-07-01T07:01:14.668718+00:00",
+      "source": "NCA",
       "country": "UK",
       "flag": "🇬🇧",
       "category": "Regulator",
       "tags": [
         "AML",
-        "Tax",
-        "Financial Crime"
+        "Financial Crime",
+        "SAR"
       ],
-      "score": 74,
+      "score": 75,
       "score_breakdown": {
         "recency": 40,
         "recency_label": "today",
-        "aml": 3,
-        "aml_keywords": [
-          "str"
-        ],
+        "aml": 0,
+        "aml_keywords": [],
         "uk_bonus": 15,
-        "impact": 6,
-        "impact_label": "guidance",
+        "impact": 10,
+        "impact_label": "enforcement",
         "trust": 10
       },
       "is_aml": false,
       "is_uk": true
     },
     {
-      "title": "Guidance: CDS Declaration Completion Instructions for Imports",
-      "link": "https://www.gov.uk/government/publications/cds-uk-trade-tariff-volume-3-import-declaration-completion-guide",
-      "summary": "This guide provides detailed completion instructions for data elements when making an import declaration to the Customs Declaration Service (CDS).",
-      "date": "2026-06-30T23:15:04+00:00",
-      "source": "HMRC",
+      "title": "Operation Stovewood: Brothers sentenced to 40 years in prison after survivors share impact of sexual abuse",
+      "link": "https://www.nationalcrimeagency.gov.uk/news/operation-stovewood-brothers-sentenced-to-40-years-in-prison-after-survivors-share-impact-of-sexual-abuse",
+      "summary": "",
+      "date": "2026-07-01T07:01:14.668606+00:00",
+      "source": "NCA",
       "country": "UK",
       "flag": "🇬🇧",
       "category": "Regulator",
       "tags": [
         "AML",
-        "Tax",
-        "Financial Crime"
+        "Financial Crime",
+        "SAR"
       ],
-      "score": 74,
+      "score": 75,
       "score_breakdown": {
         "recency": 40,
         "recency_label": "today",
-        "aml": 3,
-        "aml_keywords": [
-          "str"
-        ],
+        "aml": 0,
+        "aml_keywords": [],
         "uk_bonus": 15,
-        "impact": 6,
-        "impact_label": "guidance",
+        "impact": 10,
+        "impact_label": "sentenced",
         "trust": 10
       },
       "is_aml": false,
       "is_uk": true
     },
     {
-      "title": "Guidance: CDS Customs Clearance Request Completion Instructions for Inventory Exports",
-      "link": "https://www.gov.uk/government/publications/uk-trade-tariff-cds-volume-3-c21-customs-clearance-request-completion-guide-inventory-exports",
-      "summary": "This Data Element Completion Guide relates to Customs Declaration Service (CDS) Customs Clearance Requests ((CCR) inventory releases previously referred to as C21s) for export purposes only.",
-      "date": "2026-06-30T23:15:04+00:00",
-      "source": "HMRC",
+      "title": "Cyber criminals who hacked into Transport for London's computer network are convicted",
+      "link": "https://www.nationalcrimeagency.gov.uk/news/cyber-criminals-who-hacked-into-transport-for-londons-computer-network-are-convicted",
+      "summary": "",
+      "date": "2026-07-01T07:01:14.668504+00:00",
+      "source": "NCA",
       "country": "UK",
       "flag": "🇬🇧",
       "category": "Regulator",
       "tags": [
         "AML",
-        "Tax",
-        "Financial Crime"
+        "Financial Crime",
+        "SAR"
       ],
-      "score": 74,
+      "score": 75,
       "score_breakdown": {
         "recency": 40,
         "recency_label": "today",
-        "aml": 3,
-        "aml_keywords": [
-          "str"
-        ],
+        "aml": 0,
+        "aml_keywords": [],
         "uk_bonus": 15,
-        "impact": 6,
-        "impact_label": "guidance",
+        "impact": 10,
+        "impact_label": "convicted",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Couple sentenced following cannabis and cash raid",
+      "link": "https://www.nationalcrimeagency.gov.uk/news/couple-sentenced-following-cannabis-and-cash-raid",
+      "summary": "",
+      "date": "2026-07-01T07:01:14.668334+00:00",
+      "source": "NCA",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Financial Crime",
+        "SAR"
+      ],
+      "score": 75,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 10,
+        "impact_label": "sentenced",
         "trust": 10
       },
       "is_aml": false,
@@ -157,40 +147,10 @@
   ],
   "top5_uk_aml": [
     {
-      "title": "Statutory guidance: Reference Document for The Customs (Northern Ireland) (EU Exit) Regulations 2020",
-      "link": "https://www.gov.uk/government/publications/reference-document-for-the-customs-northern-ireland-eu-exit-regulations-2020",
-      "summary": "The Reference Document for The Customs (Northern Ireland) (EU Exit) Regulations 2020 sets out the necessary steps businesses who import goods into Northern Ireland will need to take.",
-      "date": "2026-06-30T23:15:04+00:00",
-      "source": "HMRC",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Tax",
-        "Financial Crime"
-      ],
-      "score": 75,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 4,
-        "aml_keywords": [
-          "sar"
-        ],
-        "uk_bonus": 15,
-        "impact": 6,
-        "impact_label": "guidance",
-        "trust": 10
-      },
-      "is_aml": true,
-      "is_uk": true
-    },
-    {
       "title": "CACEIS UK censured and to pay £31.7m to WealthTek clients for weak financial crime controls",
       "link": "https://www.fca.org.uk/news/press-releases/caceis-uk-censured-pay-31-million-wealthtek-clients-weak-financial-crime-controls",
       "summary": "CACEIS UK, an asset servicing bank, has been censured by the FCA and will make a £31.7m voluntary payment to WealthTek clients for failing to act on information that left clients exposed to the risk of financial crime.\n\nThe FCA has now secured over £57m in total for WealthTek clients in just over a year, with action taken against CACEIS UK, Sapia Partners and Barclays Bank UK.CACEIS UK became Weal",
-      "date": "2026-07-01T02:14:35.030674+00:00",
+      "date": "2026-07-01T07:01:09.436814+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -219,10 +179,290 @@
   ],
   "items": [
     {
+      "title": "NCA and Department for Education launch campaign to protect against Invoice Fraud in education sector",
+      "link": "https://www.nationalcrimeagency.gov.uk/news/nca-and-department-for-education-launch-campaign-to-protect-against-invoice-fraud-in-education-sector",
+      "summary": "",
+      "date": "2026-07-01T07:01:14.669043+00:00",
+      "source": "NCA",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Financial Crime",
+        "SAR"
+      ],
+      "score": 65,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Drugs trafficker jailed for cocaine airport plots",
+      "link": "https://www.nationalcrimeagency.gov.uk/news/drugs-trafficker-jailed-for-cocaine-airport-plots",
+      "summary": "",
+      "date": "2026-07-01T07:01:14.668967+00:00",
+      "source": "NCA",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Financial Crime",
+        "SAR"
+      ],
+      "score": 65,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Courier sentenced to more than 10 years in prison for firearms delivery",
+      "link": "https://www.nationalcrimeagency.gov.uk/news/courier-sentenced-to-more-than-10-years-in-prison-for-firearms-delivery",
+      "summary": "",
+      "date": "2026-07-01T07:01:14.668890+00:00",
+      "source": "NCA",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Financial Crime",
+        "SAR"
+      ],
+      "score": 75,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 10,
+        "impact_label": "sentenced",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Fugitive tracked down in Belgium is 100th Operation Captura arrest",
+      "link": "https://www.nationalcrimeagency.gov.uk/news/fugitive-tracked-down-in-belgium-is-100th-operation-captura-arrest",
+      "summary": "",
+      "date": "2026-07-01T07:01:14.668804+00:00",
+      "source": "NCA",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Financial Crime",
+        "SAR"
+      ],
+      "score": 65,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Five Eyes law enforcement leaders united in call to better protect children and vulnerable people from serious online crime",
+      "link": "https://www.nationalcrimeagency.gov.uk/news/five-eyes-law-enforcement-leaders-united-in-call-to-better-protect-children-and-vulnerable-people-from-serious-online-crime",
+      "summary": "",
+      "date": "2026-07-01T07:01:14.668718+00:00",
+      "source": "NCA",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Financial Crime",
+        "SAR"
+      ],
+      "score": 75,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 10,
+        "impact_label": "enforcement",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Operation Stovewood: Brothers sentenced to 40 years in prison after survivors share impact of sexual abuse",
+      "link": "https://www.nationalcrimeagency.gov.uk/news/operation-stovewood-brothers-sentenced-to-40-years-in-prison-after-survivors-share-impact-of-sexual-abuse",
+      "summary": "",
+      "date": "2026-07-01T07:01:14.668606+00:00",
+      "source": "NCA",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Financial Crime",
+        "SAR"
+      ],
+      "score": 75,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 10,
+        "impact_label": "sentenced",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Cyber criminals who hacked into Transport for London's computer network are convicted",
+      "link": "https://www.nationalcrimeagency.gov.uk/news/cyber-criminals-who-hacked-into-transport-for-londons-computer-network-are-convicted",
+      "summary": "",
+      "date": "2026-07-01T07:01:14.668504+00:00",
+      "source": "NCA",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Financial Crime",
+        "SAR"
+      ],
+      "score": 75,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 10,
+        "impact_label": "convicted",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Operation Venetic: two jailed for involvement in drugs supply to organised crime groups",
+      "link": "https://www.nationalcrimeagency.gov.uk/news/operation-venetic-two-jailed-for-involvement-in-drugs-supply-to-organised-crime-groups",
+      "summary": "",
+      "date": "2026-07-01T07:01:14.668421+00:00",
+      "source": "NCA",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Financial Crime",
+        "SAR"
+      ],
+      "score": 65,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Couple sentenced following cannabis and cash raid",
+      "link": "https://www.nationalcrimeagency.gov.uk/news/couple-sentenced-following-cannabis-and-cash-raid",
+      "summary": "",
+      "date": "2026-07-01T07:01:14.668334+00:00",
+      "source": "NCA",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Financial Crime",
+        "SAR"
+      ],
+      "score": 75,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 10,
+        "impact_label": "sentenced",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Suspected people smuggler charged with organising small boat crossings",
+      "link": "https://www.nationalcrimeagency.gov.uk/news/suspected-people-smuggler-charged-with-organising-small-boat-crossings",
+      "summary": "",
+      "date": "2026-07-01T07:01:14.668002+00:00",
+      "source": "NCA",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Financial Crime",
+        "SAR"
+      ],
+      "score": 65,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
       "title": "ESMA consults on revised guidelines to support smoother allocations and confirmations under T+1",
       "link": "https://www.esma.europa.eu/press-news/esma-news/esma-consults-revised-guidelines-support-smoother-allocations-and",
       "summary": "ESMA consults on revised guidelines to support smoother allocations and confirmations under T+1\n  \n26 May 2026\n\n\n      \n              Post Trading\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has launched a consultation on the updated guidelines on standardised procedures and messaging protocols. This review is",
-      "date": "2026-07-01T02:14:37.707611+00:00",
+      "date": "2026-07-01T07:01:11.313161+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -249,7 +489,7 @@
       "title": "New Q&As available",
       "link": "https://www.esma.europa.eu/press-news/esma-news/new-qas-available-may-2026",
       "summary": "New Q&amp;As available\n  \n28 May 2026\n\n\n      \n              Digital Finance and Innovation\n              Market Abuse\n              Sustainable finance\n          \n  \n            \nThe European Securities and Markets Authority (ESMA), the EU's securities markets regulator, has published the following question and answer:\n\n\n      \n            EU ESG Ratings Regulation (ESGRR)\n\nDefined ranking system",
-      "date": "2026-07-01T02:14:37.707558+00:00",
+      "date": "2026-07-01T07:01:11.313112+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -276,7 +516,7 @@
       "title": "ESMA’s annual data report shows increased quality, wider use and digital progress",
       "link": "https://www.esma.europa.eu/press-news/esma-news/esmas-annual-data-report-shows-increased-quality-wider-use-and-digital",
       "summary": "ESMA’s annual data report shows increased quality, wider use and digital progress\n  \n29 May 2026\n\n\n      \n              Market data\n              Simplification and Burden Reduction\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, published today its annual report on the quality and use of regulatory data. It shows",
-      "date": "2026-07-01T02:14:37.707470+00:00",
+      "date": "2026-07-01T07:01:11.313048+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -303,7 +543,7 @@
       "title": "ESMA publishes latest edition of its newsletter",
       "link": "https://www.esma.europa.eu/press-news/esma-news/esma-publishes-latest-edition-its-newsletter-43",
       "summary": "ESMA publishes latest edition of its newsletter\n  \n01 June 2026\n\n\n      \n              ESMA newsletter\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published today the latest edition of its Spotlight on Markets newsletter, covering ESMA’s key activities and publications from April and May 2026.\n\n      \n    ",
-      "date": "2026-07-01T02:14:37.707407+00:00",
+      "date": "2026-07-01T07:01:11.312985+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -330,7 +570,7 @@
       "title": "The GMTF presents its findings on EU gas and gas derivative markets",
       "link": "https://www.esma.europa.eu/press-news/esma-news/gmtf-presents-its-findings-eu-gas-and-gas-derivative-markets",
       "summary": "The GMTF presents its findings on EU gas and gas derivative markets\n  \n02 June 2026\n\n\n      \n              Trading\n          \n  \n            The Gas Market Task Force (GMTF), has published today a&nbsp;report on the functioning of EU gas and gas derivatives markets, summarising the analytical work it has conducted in 2025.\n\n      \n            The report also suggests further work in several areas ",
-      "date": "2026-07-01T02:14:37.707361+00:00",
+      "date": "2026-07-01T07:01:11.312938+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -357,7 +597,7 @@
       "title": "ESAs publish the first report on DORA major ICT-related incidents",
       "link": "https://www.esma.europa.eu/press-news/esma-news/esas-publish-first-report-dora-major-ict-related-incidents",
       "summary": "ESAs publish the first report on DORA major ICT-related incidents\n  \n03 June 2026\n\n\n      \n              Digital Finance and Innovation\n              Joint Committee\n          \n  \n            The European Supervisory Authorities (EBA, EIOPA and ESMA) today published their first annual overview of major ICT-related incidents in the EU financial sector based on a reporting mechanism established by t",
-      "date": "2026-07-01T02:14:37.707298+00:00",
+      "date": "2026-07-01T07:01:11.312874+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -384,7 +624,7 @@
       "title": "​Euribor panel to include KBC Bank​",
       "link": "https://www.esma.europa.eu/press-news/esma-news/euribor-panel-include-kbc-bank",
       "summary": "​Euribor panel to include KBC Bank​ \n  \n11 June 2026\n\n\n      \n              Benchmarks\n              Press Releases\n          \n  \n            \nOn 27 May 2026, the European Money Markets Institute (EMMI), the administrator of Euribor, announced the inclusion of KBC Bank in the Euribor panel.&nbsp;\n\n\nESMA and the Belgian Financial Services and Markets Authority (FSMA) welcome the inclusion of KBC Ba",
-      "date": "2026-07-01T02:14:37.707238+00:00",
+      "date": "2026-07-01T07:01:11.312814+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -413,7 +653,7 @@
       "title": "ESMA  2025 Annual Report: focus on stronger supervision, regulatory simplification, and innovation",
       "link": "https://www.esma.europa.eu/press-news/esma-news/esma-2025-annual-report-focus-stronger-supervision-regulatory-simplification",
       "summary": "ESMA  2025 Annual Report: focus on stronger supervision, regulatory simplification, and innovation\n  \n17 June 2026\n\n\n      \n              About ESMA\n              Board of Supervisors\n              Management Board\n              Press Releases\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has today published its",
-      "date": "2026-07-01T02:14:37.707154+00:00",
+      "date": "2026-07-01T07:01:11.312730+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -442,7 +682,7 @@
       "title": "ESMA contributes to global CCP fire drill exercise",
       "link": "https://www.esma.europa.eu/press-news/esma-news/esma-contributes-global-ccp-fire-drill-exercise",
       "summary": "ESMA contributes to global CCP fire drill exercise\n  \n19 June 2026\n\n\n      \n              CCP\n          \n  \n            In November 2025, 38 central counterparties (‘CCPs’) from across the world, together with clearing members, conducted a coordinated fire drill exercise simulating the failure of a hypothetical common participant. Known as the CCP Global International Default Simulation (CIDS), th",
-      "date": "2026-07-01T02:14:37.707085+00:00",
+      "date": "2026-07-01T07:01:11.312661+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -469,7 +709,7 @@
       "title": "ESMA publishes the register of external reviewers under the EuGB Regulation",
       "link": "https://www.esma.europa.eu/press-news/esma-news/esma-publishes-register-external-reviewers-under-eugb-regulation",
       "summary": "ESMA publishes the register of external reviewers under the EuGB Regulation \n  \n22 June 2026\n\n\n      \n              Supervision\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has today published the register of firms authorised to act as external reviewers of European Green Bonds.&nbsp;&nbsp;\n\n      \n            ",
-      "date": "2026-07-01T02:14:37.706990+00:00",
+      "date": "2026-07-01T07:01:11.312570+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -496,7 +736,7 @@
       "title": "Rethinking regulation for the age of AI",
       "link": "https://www.fca.org.uk/news/speeches/rethinking-regulation-age-ai",
       "summary": "Speech by Nikhil Rathi, FCA chief executive at techUK's Agents of Change: Generative and Agentic AI in Financial Services 2026.\n\nOn joining the FCA over five years ago, I said we would become as much a data and tech regulator as financial services regulator.Being invited to speak here today reflects that.We’re building the future together, and nowhere is that clearer than on AI.Studies suggest mor",
-      "date": "2026-07-01T02:14:35.030910+00:00",
+      "date": "2026-07-01T07:01:09.437048+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -524,7 +764,7 @@
       "title": "Commodity traders offer £1m to crisis fund after FCA competition probe",
       "link": "https://www.fca.org.uk/news/press-releases/commodity-traders-offer-one-million-pounds-crisis-fund-fca-competition-probe",
       "summary": "The FCA is concerned 11 traders may have shared sensitive information or coordinated trades, potentially restricting competition.\n\nFollowing an investigation, the FCA is concerned 11 traders may have hindered competition in commodity futures markets and infringed competition law by exchanging potentially sensitive information about their trading and/or coordinating their trading strategies with ea",
-      "date": "2026-07-01T02:14:35.030849+00:00",
+      "date": "2026-07-01T07:01:09.436988+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -554,7 +794,7 @@
       "title": "Why stronger Buy Now Pay Later protections are the right step for consumers",
       "link": "https://www.fca.org.uk/news/blogs/why-stronger-buy-now-pay-later-protections-are-right-step-consumers",
       "summary": "BNPL can help people to manage their cash flow. It can allow them to spread the cost of purchases and smooth their finances. But, as with any borrowing, BNPL also carries risks. Let me be clear about this: BNPL has an important role to play. We don’t want to reduce or remove access to credit, but to ensure it is offered in a way that works for consumers. That's why we are introducing protections f",
-      "date": "2026-07-01T02:14:35.030790+00:00",
+      "date": "2026-07-01T07:01:09.436930+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -584,7 +824,7 @@
       "title": "Shaping the future of the credit market – the road ahead",
       "link": "https://www.fca.org.uk/news/speeches/shaping-future-credit-market-road-ahead",
       "summary": "Speech by Alison Walters, director of consumer finance at the Credit Week: Powering the Future of Finance event.\n\nWe all recognise that consumer credit plays a vital role in the real economy and in people’s everyday lives, supporting households, enabling opportunity, and helping people manage financial pressures. But the world around us is changing, the credit market is changing and so are consume",
-      "date": "2026-07-01T02:14:35.030732+00:00",
+      "date": "2026-07-01T07:01:09.436871+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -612,7 +852,7 @@
       "title": "CACEIS UK censured and to pay £31.7m to WealthTek clients for weak financial crime controls",
       "link": "https://www.fca.org.uk/news/press-releases/caceis-uk-censured-pay-31-million-wealthtek-clients-weak-financial-crime-controls",
       "summary": "CACEIS UK, an asset servicing bank, has been censured by the FCA and will make a £31.7m voluntary payment to WealthTek clients for failing to act on information that left clients exposed to the risk of financial crime.\n\nThe FCA has now secured over £57m in total for WealthTek clients in just over a year, with action taken against CACEIS UK, Sapia Partners and Barclays Bank UK.CACEIS UK became Weal",
-      "date": "2026-07-01T02:14:35.030674+00:00",
+      "date": "2026-07-01T07:01:09.436814+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -642,7 +882,7 @@
       "title": "FCA consults on targeted changes to listing rules for closed-ended investment funds",
       "link": "https://www.fca.org.uk/news/press-releases/fca-consults-targeted-changes-listing-rules-closed-ended-investment-funds",
       "summary": "The FCA has published a consultation paper on proposed changes to its UK Listing Rules for closed‑ended investment funds, focused on the management of conflicts of interest.\n\nClosed‑ended investment funds have a distinct structure, operating as both listed companies and investment vehicles. Shareholders appoint a board, which in turn appoints and oversees the investment manager responsible for del",
-      "date": "2026-07-01T02:14:35.030613+00:00",
+      "date": "2026-07-01T07:01:09.436753+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -672,7 +912,7 @@
       "title": "Non-UK business removed from Consumer Duty scope to reduce burdens on wholesale businesses",
       "link": "https://www.fca.org.uk/news/press-releases/non-uk-business-removed-consumer-duty-scope-reduce-burdens-wholesale-businesses",
       "summary": "Wholesale financial businesses involved in retail markets will find it easier to comply with the Consumer Duty, following proposals from the FCA.\n\nThe changes are part of the FCA's plans to give wholesale firms the confidence to apply the Duty proportionately. Under the proposals, firms will benefit from:Removing business for genuinely non-UK customers from the Duty’s scope where there is no clear",
-      "date": "2026-07-01T02:14:35.030548+00:00",
+      "date": "2026-07-01T07:01:09.436691+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -700,7 +940,7 @@
       "title": "Refining the Consumer Duty to give greater confidence to wholesale firms",
       "link": "https://www.fca.org.uk/news/blogs/refining-consumer-duty-give-greater-confidence-wholesale-firms",
       "summary": "When the FCA introduced the Consumer Duty, we set out to do something simple but transformative: ensure financial services work better for consumers. It was, by design, ambitious. And it is working. For example, most investment platforms have improved how they treat interest on clients’ cash and public confidence in banks has grown since the Duty was introduced. Wherever possible, it is also helpi",
-      "date": "2026-07-01T02:14:35.030448+00:00",
+      "date": "2026-07-01T07:01:09.436616+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -728,7 +968,7 @@
       "title": "FCA and the Bank of England set out approach to joint regulation of systemic stablecoin issuers",
       "link": "https://www.fca.org.uk/news/statements/fca-and-bank-england-set-out-approach-joint-regulation-systemic-stablecoin-issuers",
       "summary": "The Bank of England and the FCA have published a joint approach setting out how they and where relevant other authorities will work together to regulate systemic stablecoin issuers in the UK.It explains how responsibilities will be split between the authorities, and how UK stablecoin issuers may move from FCA supervision to joint regulation once recognised as systemic by HM Treasury.The approach a",
-      "date": "2026-07-01T02:14:35.030385+00:00",
+      "date": "2026-07-01T07:01:09.436527+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -756,7 +996,7 @@
       "title": "FCA sets landmark crypto rules to cement the UK’s place as a global hub",
       "link": "https://www.fca.org.uk/news/press-releases/fca-sets-landmark-crypto-rules-cement-uks-place-global-hub",
       "summary": "Firms supporting people to buy, trade and hold crypto will need to meet clear standards under landmark rules set out by the FCA.\n\nAll firms must meet financial resilience requirements including capital and stress testing. The FCA is also introducing new market integrity rules covering areas such as insider trading and market manipulation.The new framework also sets out specific rules for stablecoi",
-      "date": "2026-07-01T02:14:35.030239+00:00",
+      "date": "2026-07-01T07:01:09.436386+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -777,6 +1017,174 @@
         "uk_bonus": 15,
         "impact": 5,
         "impact_label": "framework",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Acquisition, improvement and alteration of assets",
+      "link": "https://www.gov.uk/guidance/capital-v-revenue-expenditure-toolkit/acquisition-improvement-and-alteration-of-assets",
+      "summary": "Provides checks to make and what risks and mitigations to consider, including explanations and examples for acquisition, improvement and alteration of assets.",
+      "date": "2026-07-01T06:36:00+00:00",
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 65,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Capital versus Revenue expenditure toolkit",
+      "link": "https://www.gov.uk/guidance/capital-v-revenue-expenditure-toolkit",
+      "summary": "Provides information on risks, mitigations and checks to make, to help and support Capital v Revenue expenditure.",
+      "date": "2026-07-01T06:36:00+00:00",
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 65,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Corporate intangible assets",
+      "link": "https://www.gov.uk/guidance/capital-v-revenue-expenditure-toolkit/corporate-intangible-assets",
+      "summary": "Provides checks to make and what risks and mitigations to consider, including explanations and examples for corporate intangible assets.",
+      "date": "2026-07-01T06:36:00+00:00",
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 65,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Legal and professional fees",
+      "link": "https://www.gov.uk/guidance/capital-v-revenue-expenditure-toolkit/legal-and-professional-fees",
+      "summary": "Provides checks to make and what risks and mitigations to consider, including explanations and examples for legal and professional fees.",
+      "date": "2026-07-01T06:36:00+00:00",
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 65,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Financial costs",
+      "link": "https://www.gov.uk/guidance/capital-v-revenue-expenditure-toolkit/financial-costs",
+      "summary": "Provides checks to make and what risks and mitigations to consider, including explanations and examples for financial costs.",
+      "date": "2026-07-01T06:36:00+00:00",
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 65,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Business Income Manual",
+      "link": "https://www.gov.uk/hmrc-internal-manuals/business-income-manual",
+      "summary": "Supplementary guidance on how to check tax calculations or work out the trading profits of a business for Self Assessment tax return.",
+      "date": "2026-07-01T00:00:00+00:00",
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 71,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 6,
+        "impact_label": "guidance",
         "trust": 10
       },
       "is_aml": false,
@@ -837,240 +1245,6 @@
         "uk_bonus": 15,
         "impact": 6,
         "impact_label": "guidance",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Guidance: CDS Declaration Completion Instructions for Imports",
-      "link": "https://www.gov.uk/government/publications/cds-uk-trade-tariff-volume-3-import-declaration-completion-guide",
-      "summary": "This guide provides detailed completion instructions for data elements when making an import declaration to the Customs Declaration Service (CDS).",
-      "date": "2026-06-30T23:15:04+00:00",
-      "source": "HMRC",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Tax",
-        "Financial Crime"
-      ],
-      "score": 74,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 3,
-        "aml_keywords": [
-          "str"
-        ],
-        "uk_bonus": 15,
-        "impact": 6,
-        "impact_label": "guidance",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Statutory guidance: Reference Document for The Customs (Northern Ireland) (EU Exit) Regulations 2020",
-      "link": "https://www.gov.uk/government/publications/reference-document-for-the-customs-northern-ireland-eu-exit-regulations-2020",
-      "summary": "The Reference Document for The Customs (Northern Ireland) (EU Exit) Regulations 2020 sets out the necessary steps businesses who import goods into Northern Ireland will need to take.",
-      "date": "2026-06-30T23:15:04+00:00",
-      "source": "HMRC",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Tax",
-        "Financial Crime"
-      ],
-      "score": 75,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 4,
-        "aml_keywords": [
-          "sar"
-        ],
-        "uk_bonus": 15,
-        "impact": 6,
-        "impact_label": "guidance",
-        "trust": 10
-      },
-      "is_aml": true,
-      "is_uk": true
-    },
-    {
-      "title": "Guidance: CDS Customs Clearance Request Completion Instructions for Inventory Exports",
-      "link": "https://www.gov.uk/government/publications/uk-trade-tariff-cds-volume-3-c21-customs-clearance-request-completion-guide-inventory-exports",
-      "summary": "This Data Element Completion Guide relates to Customs Declaration Service (CDS) Customs Clearance Requests ((CCR) inventory releases previously referred to as C21s) for export purposes only.",
-      "date": "2026-06-30T23:15:04+00:00",
-      "source": "HMRC",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Tax",
-        "Financial Crime"
-      ],
-      "score": 74,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 3,
-        "aml_keywords": [
-          "str"
-        ],
-        "uk_bonus": 15,
-        "impact": 6,
-        "impact_label": "guidance",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Guidance: Appendix 2: DE 1/11: Additional Procedure Codes of the Customs Declaration Service (CDS)",
-      "link": "https://www.gov.uk/government/publications/appendix-2-de-111-additional-procedure-codes-of-the-customs-declaration-service-cds",
-      "summary": "Find out the completion rules instructions for each 3-digit Union and National Additional Procedure Code that can be used in Data Element (DE) 1/11 for Imports.",
-      "date": "2026-06-30T23:15:04+00:00",
-      "source": "HMRC",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Tax",
-        "Financial Crime"
-      ],
-      "score": 74,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 3,
-        "aml_keywords": [
-          "str"
-        ],
-        "uk_bonus": 15,
-        "impact": 6,
-        "impact_label": "guidance",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Guidance: CDS BIRDS Declarations and Customs Clearance Request completion instructions",
-      "link": "https://www.gov.uk/government/publications/cds-birds-declarations-and-customs-clearance-request-completion-instructions",
-      "summary": "These Data Element Completion instructions relate to Customs Declaration Service (CDS) Customs Clearance Requests ((CCR) inventory releases previously referred to as C21s) for import purposes only.",
-      "date": "2026-06-30T23:15:04+00:00",
-      "source": "HMRC",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Tax",
-        "Financial Crime"
-      ],
-      "score": 74,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 3,
-        "aml_keywords": [
-          "str"
-        ],
-        "uk_bonus": 15,
-        "impact": 6,
-        "impact_label": "guidance",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Customs simplified procedures Aggregation Rules for CDS",
-      "link": "https://www.gov.uk/guidance/customs-simplified-procedures-aggregation-rules-for-cds",
-      "summary": "Find out about the customs simplified procedure aggregation rules for the Customs Declaration Service (CDS).",
-      "date": "2026-06-30T23:15:04+00:00",
-      "source": "HMRC",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Tax",
-        "Financial Crime"
-      ],
-      "score": 69,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 4,
-        "impact_label": "rule",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Notice: Notice IPT1: Insurance Premium Tax",
-      "link": "https://www.gov.uk/government/publications/notice-ipt-1-insurance-premium-tax",
-      "summary": "This notice gives guidance on Insurance Premium Tax (IPT), what it is, who it applies to and how to pay it.",
-      "date": "2026-06-30T23:05:03+00:00",
-      "source": "HMRC",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Tax",
-        "Financial Crime"
-      ],
-      "score": 71,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 6,
-        "impact_label": "guidance",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "How to move parcels from Great Britain to Northern Ireland for express operators",
-      "link": "https://www.gov.uk/guidance/how-to-move-parcels-from-great-britain-to-northern-ireland-for-express-operators",
-      "summary": "Find out how to send parcels from Great Britain to Northern Ireland if you're a courier or an express operator.",
-      "date": "2026-06-30T23:01:00+00:00",
-      "source": "HMRC",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Tax",
-        "Financial Crime"
-      ],
-      "score": 65,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 0,
-        "impact_label": "informational",
         "trust": 10
       },
       "is_aml": false,
