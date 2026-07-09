@@ -1,126 +1,14 @@
 {
-  "last_updated": "2026-07-08 23:59 UTC",
-  "total": 60,
+  "last_updated": "2026-07-09 03:22 UTC",
+  "total": 50,
   "aml_count": 1,
   "uk_aml_count": 1,
   "top5_overall": [
     {
-      "title": "Couple sentenced following cannabis and cash raid",
-      "link": "https://www.nationalcrimeagency.gov.uk/news/couple-sentenced-following-cannabis-and-cash-raid",
-      "summary": "",
-      "date": "2026-07-08T23:59:54.518787+00:00",
-      "source": "NCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "SAR"
-      ],
-      "score": 75,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 10,
-        "impact_label": "sentenced",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Sexual offending, domestic abuse and online abuse networks uncovered as law enforcement and prosecutors launch coordinated national response",
-      "link": "https://www.nationalcrimeagency.gov.uk/news/sexual-offending-domestic-abuse-and-online-abuse-networks-uncovered-as-law-enforcement-and-prosecutors-launch-coordinated-national-response",
-      "summary": "",
-      "date": "2026-07-08T23:59:54.518479+00:00",
-      "source": "NCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "SAR"
-      ],
-      "score": 75,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 10,
-        "impact_label": "enforcement",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Man who encouraged child abuse facilitators to make children ‘cry’ sentenced",
-      "link": "https://www.nationalcrimeagency.gov.uk/news/man-who-encouraged-child-abuse-facilitators-to-make-children-cry-sentenced",
-      "summary": "",
-      "date": "2026-07-08T23:59:54.518123+00:00",
-      "source": "NCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "SAR"
-      ],
-      "score": 75,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 10,
-        "impact_label": "sentenced",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Huge new fines for Brit cannabis smugglers in Thailand or up to two years in prison",
-      "link": "https://www.nationalcrimeagency.gov.uk/news/huge-new-fines-for-brit-cannabis-smugglers-in-thailand-or-up-to-two-years-in-prison",
-      "summary": "",
-      "date": "2026-07-08T23:59:54.517756+00:00",
-      "source": "NCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "SAR"
-      ],
-      "score": 75,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 10,
-        "impact_label": "fine",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
       "title": "Showing our workings: solving for growth, risk and trust",
       "link": "https://www.fca.org.uk/news/speeches/showing-our-workings-solving-growth-risk-and-trust",
       "summary": "Speech by Sarah Pritchard, deputy chief executive, at a Breakfast Briefing at The Whitehall Industry Group.\n\nAs everyone who has wrestled with a problem knows, getting to the right answer is about more than just understanding the question.It’s about having a firm grasp on your constants.We’re working with 2. And they are, admittedly, significant. The first is our vision: deepening trust, rebalanci",
-      "date": "2026-07-08T23:59:50.576431+00:00",
+      "date": "2026-07-09T03:22:09.322074+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -146,6 +34,120 @@
       },
       "is_aml": true,
       "is_uk": true
+    },
+    {
+      "title": "Payments Vision Delivery Committee update on future retail payments infrastructure",
+      "link": "https://www.fca.org.uk/news/statements/payments-vision-delivery-committee-update-future-retail-payments-infrastructure",
+      "summary": "The Retail Payments Infrastructure Board (RPIB), led by the Bank of England, recently published a consultation on the future retail payments infrastructure.To support the consultation, the Payment Vision Delivery Committee (PVDC) which comprises representatives of HM Treasury, the FCA, Bank of England and the PSR, has published further context to support stakeholders' reading of the consultation. ",
+      "date": "2026-07-09T03:22:09.322631+00:00",
+      "source": "FCA",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Financial Crime",
+        "Conduct"
+      ],
+      "score": 71,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 3,
+        "aml_keywords": [
+          "str"
+        ],
+        "uk_bonus": 15,
+        "impact": 3,
+        "impact_label": "consultation",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Guidance: Joint and several liability — taxation of coronavirus support payments — CJAS/FS1",
+      "link": "https://www.gov.uk/government/publications/joint-and-several-liability-taxation-of-coronavirus-support-payments-cjasfs1",
+      "summary": "This factsheet gives information about whether you may be jointly and severally liable for the Income Tax liability of a company that has received coronavirus (COVID-19) support payments from one of the HMRC administered schemes.",
+      "date": "2026-07-08T22:59:09+00:00",
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 71,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 6,
+        "impact_label": "guidance",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Guidance: Pension Schemes: service availability and issues",
+      "link": "https://www.gov.uk/government/publications/pension-schemes-service-availability-and-issues",
+      "summary": "Check the availability and any issues affecting the online services for pension schemes.",
+      "date": "2026-07-08T14:41:45+00:00",
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 71,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 6,
+        "impact_label": "guidance",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Guidance: Child Benefit: service availability and issues",
+      "link": "https://www.gov.uk/government/publications/child-benefit-service-availability-and-issues",
+      "summary": "Check the availability and any issues affecting the Child Benefit online service.",
+      "date": "2026-07-08T13:48:39+00:00",
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 71,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 6,
+        "impact_label": "guidance",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
     }
   ],
   "top5_uk_aml": [
@@ -153,7 +155,7 @@
       "title": "Showing our workings: solving for growth, risk and trust",
       "link": "https://www.fca.org.uk/news/speeches/showing-our-workings-solving-growth-risk-and-trust",
       "summary": "Speech by Sarah Pritchard, deputy chief executive, at a Breakfast Briefing at The Whitehall Industry Group.\n\nAs everyone who has wrestled with a problem knows, getting to the right answer is about more than just understanding the question.It’s about having a firm grasp on your constants.We’re working with 2. And they are, admittedly, significant. The first is our vision: deepening trust, rebalanci",
-      "date": "2026-07-08T23:59:50.576431+00:00",
+      "date": "2026-07-09T03:22:09.322074+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -183,290 +185,10 @@
   ],
   "items": [
     {
-      "title": "Operation Venetic: two jailed for involvement in drugs supply to organised crime groups",
-      "link": "https://www.nationalcrimeagency.gov.uk/news/operation-venetic-two-jailed-for-involvement-in-drugs-supply-to-organised-crime-groups",
-      "summary": "",
-      "date": "2026-07-08T23:59:54.518872+00:00",
-      "source": "NCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "SAR"
-      ],
-      "score": 65,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Couple sentenced following cannabis and cash raid",
-      "link": "https://www.nationalcrimeagency.gov.uk/news/couple-sentenced-following-cannabis-and-cash-raid",
-      "summary": "",
-      "date": "2026-07-08T23:59:54.518787+00:00",
-      "source": "NCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "SAR"
-      ],
-      "score": 75,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 10,
-        "impact_label": "sentenced",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Suspected people smuggler charged with organising small boat crossings",
-      "link": "https://www.nationalcrimeagency.gov.uk/news/suspected-people-smuggler-charged-with-organising-small-boat-crossings",
-      "summary": "",
-      "date": "2026-07-08T23:59:54.518646+00:00",
-      "source": "NCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "SAR"
-      ],
-      "score": 65,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Boats bound for Channel people smugglers seized at Bulgarian border",
-      "link": "https://www.nationalcrimeagency.gov.uk/news/boats-bound-for-channel-people-smugglers-seized-at-bulgarian-border",
-      "summary": "",
-      "date": "2026-07-08T23:59:54.518564+00:00",
-      "source": "NCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "SAR"
-      ],
-      "score": 65,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Sexual offending, domestic abuse and online abuse networks uncovered as law enforcement and prosecutors launch coordinated national response",
-      "link": "https://www.nationalcrimeagency.gov.uk/news/sexual-offending-domestic-abuse-and-online-abuse-networks-uncovered-as-law-enforcement-and-prosecutors-launch-coordinated-national-response",
-      "summary": "",
-      "date": "2026-07-08T23:59:54.518479+00:00",
-      "source": "NCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "SAR"
-      ],
-      "score": 75,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 10,
-        "impact_label": "enforcement",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "UPDATE: Fourth man appears in court over Essex boat incident",
-      "link": "https://www.nationalcrimeagency.gov.uk/news/three-charged-with-people-smuggling-offences-after-essex-arrests",
-      "summary": "",
-      "date": "2026-07-08T23:59:54.518388+00:00",
-      "source": "NCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "SAR"
-      ],
-      "score": 65,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "New guidance for parents and carers as AI-manipulated images of children become a growing concern",
-      "link": "https://www.nationalcrimeagency.gov.uk/news/new-guidance-for-parents-and-carers-as-ai-manipulated-images-of-children-become-a-growing-concern",
-      "summary": "",
-      "date": "2026-07-08T23:59:54.518307+00:00",
-      "source": "NCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "SAR"
-      ],
-      "score": 71,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 6,
-        "impact_label": "guidance",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Suspected people smuggling network member arrested by NCA in Kent",
-      "link": "https://www.nationalcrimeagency.gov.uk/news/suspected-people-smuggling-network-member-arrested-by-nca-in-kent",
-      "summary": "",
-      "date": "2026-07-08T23:59:54.518222+00:00",
-      "source": "NCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "SAR"
-      ],
-      "score": 65,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Man who encouraged child abuse facilitators to make children ‘cry’ sentenced",
-      "link": "https://www.nationalcrimeagency.gov.uk/news/man-who-encouraged-child-abuse-facilitators-to-make-children-cry-sentenced",
-      "summary": "",
-      "date": "2026-07-08T23:59:54.518123+00:00",
-      "source": "NCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "SAR"
-      ],
-      "score": 75,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 10,
-        "impact_label": "sentenced",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Huge new fines for Brit cannabis smugglers in Thailand or up to two years in prison",
-      "link": "https://www.nationalcrimeagency.gov.uk/news/huge-new-fines-for-brit-cannabis-smugglers-in-thailand-or-up-to-two-years-in-prison",
-      "summary": "",
-      "date": "2026-07-08T23:59:54.517756+00:00",
-      "source": "NCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "SAR"
-      ],
-      "score": 75,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 10,
-        "impact_label": "fine",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
       "title": "ESMA recognises the Clearing Corporation of India Limited as a Tier 1 third-country CCP",
       "link": "https://www.esma.europa.eu/press-news/esma-news/esma-recognises-clearing-corporation-india-limited-tier-1-third-country-ccp",
       "summary": "ESMA recognises the Clearing Corporation of India Limited as a Tier 1 third-country CCP \n  \n01 July 2026\n\n\n      \n              CCP\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s securities markets regulator, has recognised The Clearing Corporation of India Limited (CCIL) as a Tier 1 third-country central counterparty (CCP) under the European Market Infras",
-      "date": "2026-07-08T23:59:52.915287+00:00",
+      "date": "2026-07-09T03:22:11.891599+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -493,7 +215,7 @@
       "title": "Moody’s Germany fined EUR 2,145,000 for misreporting to ESMA",
       "link": "https://www.esma.europa.eu/press-news/esma-news/moodys-germany-fined-eur-2145000-misreporting-esma",
       "summary": "Moody’s Germany fined EUR 2,145,000 for misreporting to ESMA \n  \n02 July 2026\n\n\n      \n              Press Releases\n              Securities Financing Transactions\n              Supervision\n              Trade Repositories\n          \n  \n            \n\nThe European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has fined Moody’s Deutschland GmbH (Moody’",
-      "date": "2026-07-08T23:59:52.915219+00:00",
+      "date": "2026-07-09T03:22:11.891527+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -520,7 +242,7 @@
       "title": "ESMA identifies up to €1 billion in potential annual savings from simplifying EU transaction reporting",
       "link": "https://www.esma.europa.eu/press-news/esma-news/esma-identifies-eu1-billion-potential-annual-savings-simplifying-eu",
       "summary": "ESMA identifies up to €1 billion in potential annual savings from simplifying EU transaction reporting \n  \n02 July 2026\n\n\n      \n              Market data\n              Press Releases\n              Simplification and Burden Reduction\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published its final report on",
-      "date": "2026-07-08T23:59:52.915125+00:00",
+      "date": "2026-07-09T03:22:11.891428+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -547,7 +269,7 @@
       "title": "ESMA reminds firms of existing rules and obligations under binary option measures amid growing popularity of prediction markets globally",
       "link": "https://www.esma.europa.eu/press-news/esma-news/esma-reminds-firms-existing-rules-and-obligations-under-binary-option-measures",
       "summary": "ESMA reminds firms of existing rules and obligations under binary option measures amid growing popularity of prediction markets globally \n  \n03 July 2026\n\n\n      \n              Investor protection\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has issued a statement reminding firms of their obligation to assess w",
-      "date": "2026-07-08T23:59:52.915061+00:00",
+      "date": "2026-07-09T03:22:11.891341+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -574,7 +296,7 @@
       "title": "ESMA launches Common Supervisory Action with NCAs on the risk management function",
       "link": "https://www.esma.europa.eu/press-news/esma-news/esma-launches-common-supervisory-action-ncas-risk-management-function",
       "summary": "ESMA launches Common Supervisory Action with NCAs on the risk management function\n  \n03 July 2026\n\n\n      \n              Risk monitoring\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, is launching a Common Supervisory Action (CSA) on risk management function of UCITS management companies and Alternative Investmen",
-      "date": "2026-07-08T23:59:52.915005+00:00",
+      "date": "2026-07-09T03:22:11.891286+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -601,7 +323,7 @@
       "title": "ESMA publishes preliminary findings on the Active Account Requirement and the first Annual Report of the Joint Monitoring Mechanism",
       "link": "https://www.esma.europa.eu/press-news/esma-news/esma-publishes-preliminary-findings-active-account-requirement-and-first",
       "summary": "ESMA publishes preliminary findings on the Active Account Requirement and the first Annual Report of the Joint Monitoring Mechanism\n  \n06 July 2026\n\n\n      \n              CCP\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has today published the Interim Report of the Effectiveness of the Active Account Requiremen",
-      "date": "2026-07-08T23:59:52.914921+00:00",
+      "date": "2026-07-09T03:22:11.891204+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -628,7 +350,7 @@
       "title": "ESMA selects Etrading Software (Netherlands) B.V. as Consolidated Tape Provider for OTC derivatives",
       "link": "https://www.esma.europa.eu/press-news/esma-news/esma-selects-etrading-software-netherlands-bv-consolidated-tape-provider-otc",
       "summary": "ESMA selects Etrading Software (Netherlands) B.V. as Consolidated Tape Provider for OTC derivatives\n  \n06 July 2026\n\n\n      \n              Trading\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has selected Etrading Software (Netherlands) B.V. as the Consolidated Tape Provider (CTP) for over-the-counter (OTC) der",
-      "date": "2026-07-08T23:59:52.914863+00:00",
+      "date": "2026-07-09T03:22:11.891147+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -655,7 +377,7 @@
       "title": "The ESAs support ESRB warning on systemic cyber risks from frontier AI models",
       "link": "https://www.esma.europa.eu/press-news/esma-news/esas-support-esrb-warning-systemic-cyber-risks-frontier-ai-models",
       "summary": "The ESAs support ESRB warning on systemic cyber risks from frontier AI models\n  \n07 July 2026\n\n\n      \n              Digital Finance and Innovation\n              Joint Committee\n              Press Releases\n          \n  \n            The European Supervisory Authorities (EBA, EIOPA and ESMA – the ESAs) welcome and support&nbsp;today’s warning from European Systemic Risk Board (ESRB) on the systemic",
-      "date": "2026-07-08T23:59:52.914798+00:00",
+      "date": "2026-07-09T03:22:11.891083+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -682,7 +404,7 @@
       "title": "ESMA launches Common Supervisory Action on CASPs’ digital operational resilience for custody",
       "link": "https://www.esma.europa.eu/press-news/esma-news/esma-launches-common-supervisory-action-casps-digital-operational-resilience",
       "summary": "ESMA launches Common Supervisory Action on CASPs’ digital operational resilience for custody\n  \n08 July 2026\n\n\n      \n              Digital Finance and Innovation\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU regulator and supervisor, is launching a Common Supervisory Action (CSA) focusing on the digital operational resilience of Crypto-Asset Service Provid",
-      "date": "2026-07-08T23:59:52.914734+00:00",
+      "date": "2026-07-09T03:22:11.891024+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -709,7 +431,7 @@
       "title": "ESMA publishes technical standards on CCP admission criteria elements",
       "link": "https://www.esma.europa.eu/press-news/esma-news/esma-publishes-technical-standards-ccp-admission-criteria-elements",
       "summary": "ESMA publishes technical standards on CCP admission criteria elements\n  \n08 July 2026\n\n\n      \n              CCP\n              Guidelines and Technical standards\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published its Final Report on the Regulatory Technical Standards (RTS) concerning the central counter",
-      "date": "2026-07-08T23:59:52.914617+00:00",
+      "date": "2026-07-09T03:22:11.890937+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -736,7 +458,7 @@
       "title": "Financial regulator to simplify investment disclosure regime",
       "link": "https://www.fca.org.uk/news/press-releases/financial-regulator-simplify-investment-disclosure-regime",
       "summary": "The FCA is proposing to simplify how platforms, advisers and wealth managers communicate the costs of investing while reminding firms to communicate with consumers about investing in plain English.\n\nThe move will bring all investment cost disclosures into line with previous investment product disclosure reforms and create a more consistent framework for firms to give customers clearer, more useful",
-      "date": "2026-07-08T23:59:50.576937+00:00",
+      "date": "2026-07-09T03:22:09.322680+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -764,7 +486,7 @@
       "title": "Payments Vision Delivery Committee update on future retail payments infrastructure",
       "link": "https://www.fca.org.uk/news/statements/payments-vision-delivery-committee-update-future-retail-payments-infrastructure",
       "summary": "The Retail Payments Infrastructure Board (RPIB), led by the Bank of England, recently published a consultation on the future retail payments infrastructure.To support the consultation, the Payment Vision Delivery Committee (PVDC) which comprises representatives of HM Treasury, the FCA, Bank of England and the PSR, has published further context to support stakeholders' reading of the consultation. ",
-      "date": "2026-07-08T23:59:50.576887+00:00",
+      "date": "2026-07-09T03:22:09.322631+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -794,7 +516,7 @@
       "title": "Motor finance scheme partially suspended",
       "link": "https://www.fca.org.uk/news/statements/motor-finance-scheme-partially-suspended",
       "summary": "The Upper Tribunal has made an order suspending parts of the scheme. We set out what the partial suspension means for firms and consumers.\n\nThe Upper Tribunal has confirmed it will hear the legal challenges to our motor finance scheme on 14 to 18 December 2026 or 16 to 26 February 2027. The final dates depend on whether any of those involved in the case apply for further expert opinion or disclosu",
-      "date": "2026-07-08T23:59:50.576836+00:00",
+      "date": "2026-07-09T03:22:09.322581+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -822,7 +544,7 @@
       "title": "Pension firms must do more for customers in older pensions and fund savings",
       "link": "https://www.fca.org.uk/news/press-releases/pension-firms-must-do-more-customers-older-pensions-fund-savings",
       "summary": "The FCA has found that peopleholding legacy pension products,now closed to newsavers, could be receiving poorer value than those in newer ones.\n\nThe regulatoridentifiedsome good practices,butcomplexcharging structures,older product design andweakness infirms'datameantsome pension savers are not getting as much value as they could.What good looks likeSomeunit-linked non-workplace pension providers ",
-      "date": "2026-07-08T23:59:50.576772+00:00",
+      "date": "2026-07-09T03:22:09.322519+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -852,7 +574,7 @@
       "title": "FCA publishes landmark review into impact of AI on retail financial services",
       "link": "https://www.fca.org.uk/news/press-releases/fca-publishes-landmark-review-impact-ai-retail-financial-services",
       "summary": "The review sets out how AI could reshape retail financial services for consumers, firms, markets and regulators by 2030 and beyond.\n\nLed by FCA executive director Sheldon Mills and commissioned by the Board, The Mills Review is the first work of its kind initiated by a regulator globally.Drawing on views from across the financial services landscape, the report identifies 4 major AI‑driven shifts l",
-      "date": "2026-07-08T23:59:50.576682+00:00",
+      "date": "2026-07-09T03:22:09.322454+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -880,7 +602,7 @@
       "title": "Eldens Finance Limited enters administration",
       "link": "https://www.fca.org.uk/news/news-stories/eldens-finance-limited-enters-administration",
       "summary": "On Monday 6 July 2026, Eldens Finance Limited (Eldens) was placed into administration. Antony Batty and Hugh Jesseman of Antony Batty &amp; Company Ltd were appointed as Joint Administrators.\n\nEldens provided pawnbroking loans, primarily secured against high-value and luxury assets.The Joint Administrators are responsible for winding down the firm in an orderly way in the interests of its creditor",
-      "date": "2026-07-08T23:59:50.576632+00:00",
+      "date": "2026-07-09T03:22:09.322359+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -910,7 +632,7 @@
       "title": "Banks told to improve access to basic accounts",
       "link": "https://www.fca.org.uk/news/press-releases/banks-told-improve-access-basic-accounts",
       "summary": "People struggling should find it easier to access basic bank accounts, after nine banks committed to improving widespread poor practice identified by the FCA.\n\nNine of the biggest UK banks and building societies are legally mandated to offer basic bank accounts. They exist to serve people who may not otherwise be able to access standard current accounts - providing access to essential services wit",
-      "date": "2026-07-08T23:59:50.576573+00:00",
+      "date": "2026-07-09T03:22:09.322296+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -940,7 +662,7 @@
       "title": "FCA appoints new members to the Secondary Markets Advisory Committee",
       "link": "https://www.fca.org.uk/news/press-releases/fca-appoints-new-members-secondary-markets-advisory-committee",
       "summary": "The FCA has appointed members to its advisory committee on secondary markets for the period July 2026 to July 2028. The committee will increase from 25 to 27 members.\n\nThe Secondary Markets Advisory Committee supports the FCA’s work in wholesale secondary markets in equities, fixed income, foreign exchange, and commodities markets across securities, futures, swaps, and options markets. The committ",
-      "date": "2026-07-08T23:59:50.576501+00:00",
+      "date": "2026-07-09T03:22:09.322183+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -968,7 +690,7 @@
       "title": "Showing our workings: solving for growth, risk and trust",
       "link": "https://www.fca.org.uk/news/speeches/showing-our-workings-solving-growth-risk-and-trust",
       "summary": "Speech by Sarah Pritchard, deputy chief executive, at a Breakfast Briefing at The Whitehall Industry Group.\n\nAs everyone who has wrestled with a problem knows, getting to the right answer is about more than just understanding the question.It’s about having a firm grasp on your constants.We’re working with 2. And they are, admittedly, significant. The first is our vision: deepening trust, rebalanci",
-      "date": "2026-07-08T23:59:50.576431+00:00",
+      "date": "2026-07-09T03:22:09.322074+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -999,7 +721,7 @@
       "title": "FCA charges individual with insider dealing",
       "link": "https://www.fca.org.uk/news/press-releases/fca-charges-individual-insider-dealing",
       "summary": "Richard Bloomfield has been charged by the FCA with 5 counts of insider dealing.\n\nThe FCA alleges that in his role as a solicitor at a law firm, Mr Bloomfield worked on an acquisition of Seraphine Group PLC and used inside information obtained through his role to deal in securities of Seraphine Group PLC on 5 occasions between 28 March 2022 and 10 January 2023.Mr Bloomfield appeared before Westmin",
-      "date": "2026-07-08T23:59:50.576275+00:00",
+      "date": "2026-07-09T03:22:09.321895+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -1345,10 +1067,10 @@
       "tags": [
         "Sanctions"
       ],
-      "score": 50,
+      "score": 42,
       "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
+        "recency": 32,
+        "recency_label": "yesterday",
         "aml": 0,
         "aml_keywords": [],
         "uk_bonus": 0,
@@ -1399,10 +1121,10 @@
       "tags": [
         "Sanctions"
       ],
-      "score": 42,
+      "score": 34,
       "score_breakdown": {
-        "recency": 32,
-        "recency_label": "yesterday",
+        "recency": 24,
+        "recency_label": "2 days ago",
         "aml": 0,
         "aml_keywords": [],
         "uk_bonus": 0,
@@ -1537,10 +1259,10 @@
       "tags": [
         "Sanctions"
       ],
-      "score": 18,
+      "score": 14,
       "score_breakdown": {
-        "recency": 8,
-        "recency_label": "this week",
+        "recency": 4,
+        "recency_label": "last 2 weeks",
         "aml": 0,
         "aml_keywords": [],
         "uk_bonus": 0,
@@ -1563,10 +1285,10 @@
       "tags": [
         "Sanctions"
       ],
-      "score": 18,
+      "score": 14,
       "score_breakdown": {
-        "recency": 8,
-        "recency_label": "this week",
+        "recency": 4,
+        "recency_label": "last 2 weeks",
         "aml": 0,
         "aml_keywords": [],
         "uk_bonus": 0,
