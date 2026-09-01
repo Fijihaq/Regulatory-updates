@@ -1,128 +1,14 @@
 {
-  "last_updated": "2026-09-01 05:48 UTC",
-  "total": 60,
-  "aml_count": 1,
-  "uk_aml_count": 1,
+  "last_updated": "2026-09-01 10:38 UTC",
+  "total": 50,
+  "aml_count": 0,
+  "uk_aml_count": 0,
   "top5_overall": [
-    {
-      "title": "Millions forfeited by company linked to suspected money laundering and sanctions evasion",
-      "link": "https://www.nationalcrimeagency.gov.uk/news/millions-forfeited-by-company-linked-to-suspected-money-laundering-and-sanctions-evasion",
-      "summary": "",
-      "date": "2026-09-01T05:48:19.905054+00:00",
-      "source": "NCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "SAR"
-      ],
-      "score": 79,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 5,
-        "aml_keywords": [
-          "money laundering"
-        ],
-        "uk_bonus": 15,
-        "impact": 9,
-        "impact_label": "sanction",
-        "trust": 10
-      },
-      "is_aml": true,
-      "is_uk": true
-    },
-    {
-      "title": "Com group member sentenced for campaign of abuse against 117 victims worldwide",
-      "link": "https://www.nationalcrimeagency.gov.uk/news/com-group-member-sentenced-for-campaign-of-abuse-against-117-victims-worldwide",
-      "summary": "",
-      "date": "2026-09-01T05:48:19.905477+00:00",
-      "source": "NCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "SAR"
-      ],
-      "score": 75,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 10,
-        "impact_label": "sentenced",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Couriers convicted over £13.8 million cannabis importation attempt",
-      "link": "https://www.nationalcrimeagency.gov.uk/news/couriers-convicted-over-13-8-million-cannabis-importation-attempt",
-      "summary": "",
-      "date": "2026-09-01T05:48:19.905145+00:00",
-      "source": "NCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "SAR"
-      ],
-      "score": 75,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 10,
-        "impact_label": "convicted",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Operation Venetic: Crime group member sentenced for North East England cocaine plots",
-      "link": "https://www.nationalcrimeagency.gov.uk/news/operation-venetic-crime-group-member-sentenced-for-north-east-england-cocaine-plots",
-      "summary": "",
-      "date": "2026-09-01T05:48:19.904703+00:00",
-      "source": "NCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "SAR"
-      ],
-      "score": 75,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 10,
-        "impact_label": "sentenced",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
     {
       "title": "CEO banned for false and misleading statements made in attempt to buy bank and football club",
       "link": "https://www.fca.org.uk/news/press-releases/ceo-banned-false-misleading-statements-attempt-buy-bank-football-club",
       "summary": "Paul Taylor, former CEO of Blue Horizon Asset Management (BHAM) has been fined £489,000 and banned from working in financial services by the FCA.\n\nThe former managing director of the firm, Esmeralda Toni, has also been fined £121,200 for serious misconduct and banned by the FCA.During his time at BHAM, Mr Taylor made misleading statements and falsified information during 2 separate attempted acqui",
-      "date": "2026-09-01T05:48:13.610323+00:00",
+      "date": "2026-09-01T10:38:32.109960+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -145,328 +31,127 @@
       },
       "is_aml": false,
       "is_uk": true
-    }
-  ],
-  "top5_uk_aml": [
+    },
     {
-      "title": "Millions forfeited by company linked to suspected money laundering and sanctions evasion",
-      "link": "https://www.nationalcrimeagency.gov.uk/news/millions-forfeited-by-company-linked-to-suspected-money-laundering-and-sanctions-evasion",
-      "summary": "",
-      "date": "2026-09-01T05:48:19.905054+00:00",
-      "source": "NCA",
+      "title": "FCA fines and bans former SVS Securities CEO",
+      "link": "https://www.fca.org.uk/news/press-releases/fca-fines-bans-former-svs-securities-ceo",
+      "summary": "The FCA has banned Demetrios Hadjigeorgiou from working in senior management positions in financial services and fined him £56,400.\n\nMr Hadjigeorgiou was the former director and chief executive officer (CEO) of SVS Securities Plc (SVS), a discretionary fund manager.The FCA found that Mr Hadjigeorgiou failed to properly manage SVS and protect its customers’ interests.While he was CEO, the firm inve",
+      "date": "2026-09-01T10:38:32.109802+00:00",
+      "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
       "category": "Regulator",
       "tags": [
         "AML",
         "Financial Crime",
-        "SAR"
+        "Conduct"
       ],
-      "score": 79,
+      "score": 75,
       "score_breakdown": {
         "recency": 40,
         "recency_label": "today",
-        "aml": 5,
-        "aml_keywords": [
-          "money laundering"
-        ],
+        "aml": 0,
+        "aml_keywords": [],
         "uk_bonus": 15,
-        "impact": 9,
-        "impact_label": "sanction",
+        "impact": 10,
+        "impact_label": "fine",
         "trust": 10
       },
-      "is_aml": true,
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "FCA bans trio behind £35.5m scheme designed to bypass visa rules",
+      "link": "https://www.fca.org.uk/news/press-releases/fca-bans-trio-bypass-visa-rules",
+      "summary": "The FCA has decided to ban 3 former senior figures at Dolfin Financial (UK) Limited (Dolfin) after finding they ran a scheme that helped clients bypass UK visa rules.\n\nFormer chief executive Denisz Nagy has been fined £324,800 and former finance director Sanjay Maraj £122,000 for their roles in the scheme. Both have been banned from working in financial services. The FCA has also decided to ban Do",
+      "date": "2026-09-01T10:38:32.109568+00:00",
+      "source": "FCA",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Financial Crime",
+        "Conduct"
+      ],
+      "score": 75,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 10,
+        "impact_label": "fine",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "FCA bans senior manager for lack of honesty and integrity",
+      "link": "https://www.fca.org.uk/news/press-releases/fca-bans-senior-manager-lack-honesty-integrity",
+      "summary": "The FCA has banned Howard Roland Duckett from working in financial services due to a serious lack of honesty and integrity.\n\nMr Duckett was a senior manager at Beauforce Corporation Limited, a debt management firm. The High Court has disqualified Mr Duckett from acting as a company director for 10 years. It found that he had failed to maintain adequate records while director of an unrelated compan",
+      "date": "2026-09-01T10:38:32.109859+00:00",
+      "source": "FCA",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Financial Crime",
+        "Conduct"
+      ],
+      "score": 74,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 9,
+        "impact_label": "banned",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Unregulated loan notes and mini-bonds: don't risk your savings on promises of high returns",
+      "link": "https://www.fca.org.uk/news/statements/unregulated-loan-notes-mini-bonds-dont-risk-savings-promises-high-returns",
+      "summary": "These high-risk investments should not usually be advertised widely to the public.\n\nWe banned the marketing of speculative mini-bonds and loan notes to ordinary retail investors from 1 January 2021.We did this because these are complicated investments, not suitable for most people. The ban means these high-risk investments should not usually be advertised widely to the public.But some unregulated ",
+      "date": "2026-09-01T10:38:32.109752+00:00",
+      "source": "FCA",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Financial Crime",
+        "Conduct"
+      ],
+      "score": 74,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 9,
+        "impact_label": "banned",
+        "trust": 10
+      },
+      "is_aml": false,
       "is_uk": true
     }
   ],
+  "top5_uk_aml": [],
   "items": [
-    {
-      "title": "850 years in jail for criminals and £70m-worth of drugs seized by specialist Merseyside team",
-      "link": "https://www.nationalcrimeagency.gov.uk/news/850-years-in-jail-for-criminals-and-70m-worth-of-drugs-seized-by-specialist-merseyside-team",
-      "summary": "",
-      "date": "2026-09-01T05:48:19.905705+00:00",
-      "source": "NCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "SAR"
-      ],
-      "score": 65,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "It starts with a free holiday and ends in a Thai jail cell - NCA launches campaign warning against cannabis smuggling",
-      "link": "https://www.nationalcrimeagency.gov.uk/news/it-starts-with-a-free-holiday-and-ends-in-a-thai-jail-cell-nca-launches-campaign-warning-against-cannabis-smuggling",
-      "summary": "",
-      "date": "2026-09-01T05:48:19.905630+00:00",
-      "source": "NCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "SAR"
-      ],
-      "score": 65,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Woman guilty of £512,000 Thai cannabis plot",
-      "link": "https://www.nationalcrimeagency.gov.uk/news/woman-guilty-of-512-000-thai-cannabis-plot",
-      "summary": "",
-      "date": "2026-09-01T05:48:19.905558+00:00",
-      "source": "NCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "SAR"
-      ],
-      "score": 65,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Com group member sentenced for campaign of abuse against 117 victims worldwide",
-      "link": "https://www.nationalcrimeagency.gov.uk/news/com-group-member-sentenced-for-campaign-of-abuse-against-117-victims-worldwide",
-      "summary": "",
-      "date": "2026-09-01T05:48:19.905477+00:00",
-      "source": "NCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "SAR"
-      ],
-      "score": 75,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 10,
-        "impact_label": "sentenced",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Gun obsessive jailed for printing 3D firearm",
-      "link": "https://www.nationalcrimeagency.gov.uk/news/gun-obsessive-jailed-for-printing-3d-firearm",
-      "summary": "",
-      "date": "2026-09-01T05:48:19.905389+00:00",
-      "source": "NCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "SAR"
-      ],
-      "score": 65,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Cocaine worth £232m seized in National Crime Agency investigation",
-      "link": "https://www.nationalcrimeagency.gov.uk/news/cocaine-worth-232m-seized-in-national-crime-agency-investigation",
-      "summary": "",
-      "date": "2026-09-01T05:48:19.905312+00:00",
-      "source": "NCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "SAR"
-      ],
-      "score": 65,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Van driver claimed he was delivering a hot tub in cannabis smuggling run",
-      "link": "https://www.nationalcrimeagency.gov.uk/news/van-driver-claimed-he-was-delivering-a-hot-tub-in-cannabis-smuggling-run",
-      "summary": "",
-      "date": "2026-09-01T05:48:19.905233+00:00",
-      "source": "NCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "SAR"
-      ],
-      "score": 65,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Couriers convicted over £13.8 million cannabis importation attempt",
-      "link": "https://www.nationalcrimeagency.gov.uk/news/couriers-convicted-over-13-8-million-cannabis-importation-attempt",
-      "summary": "",
-      "date": "2026-09-01T05:48:19.905145+00:00",
-      "source": "NCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "SAR"
-      ],
-      "score": 75,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 10,
-        "impact_label": "convicted",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Millions forfeited by company linked to suspected money laundering and sanctions evasion",
-      "link": "https://www.nationalcrimeagency.gov.uk/news/millions-forfeited-by-company-linked-to-suspected-money-laundering-and-sanctions-evasion",
-      "summary": "",
-      "date": "2026-09-01T05:48:19.905054+00:00",
-      "source": "NCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "SAR"
-      ],
-      "score": 79,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 5,
-        "aml_keywords": [
-          "money laundering"
-        ],
-        "uk_bonus": 15,
-        "impact": 9,
-        "impact_label": "sanction",
-        "trust": 10
-      },
-      "is_aml": true,
-      "is_uk": true
-    },
-    {
-      "title": "Operation Venetic: Crime group member sentenced for North East England cocaine plots",
-      "link": "https://www.nationalcrimeagency.gov.uk/news/operation-venetic-crime-group-member-sentenced-for-north-east-england-cocaine-plots",
-      "summary": "",
-      "date": "2026-09-01T05:48:19.904703+00:00",
-      "source": "NCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "SAR"
-      ],
-      "score": 75,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 10,
-        "impact_label": "sentenced",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
     {
       "title": "ESMA launches data collection under the first phase of ESAP",
       "link": "https://www.esma.europa.eu/press-news/esma-news/esma-launches-data-collection-under-first-phase-esap",
       "summary": "ESMA launches data collection under the first phase of ESAP\n  \n10 July 2026\n\n\n      \n              Market data\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU regulator and supervisor, has launched the collection of information from Officially Appointed Mechanisms (OAMs) and National Competent Authorities (NCAs) - “collection bodies” - for the first phase of ",
-      "date": "2026-09-01T05:48:17.051822+00:00",
+      "date": "2026-09-01T10:38:37.744308+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -493,7 +178,7 @@
       "title": "Joint Board of Appeal dismisses appeal against the EBA",
       "link": "https://www.esma.europa.eu/press-news/esma-news/joint-board-appeal-dismisses-appeal-against-eba",
       "summary": "Joint Board of Appeal dismisses appeal against the EBA\n  \n16 July 2026\n\n\n      \n              Board of Appeal\n          \n  \n            The Joint Board of Appeal of the European Supervisory Authorities (EBA, EIOPA and ESMA – the ESAs) has issued a decision stating that an appeal brought by an individual against the European Banking Authority (EBA) is inadmissible.\n\n      \n            The appeal co",
-      "date": "2026-09-01T05:48:17.051759+00:00",
+      "date": "2026-09-01T10:38:37.744247+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -520,7 +205,7 @@
       "title": "ESMA publishes report on cross-border investment services supervision",
       "link": "https://www.esma.europa.eu/press-news/esma-news/esma-publishes-report-cross-border-investment-services-supervision",
       "summary": "ESMA publishes report on cross-border investment services supervision\n  \n20 July 2026\n\n\n      \n              Supervisory convergence\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, today published its follow-up report to the Peer Review on the supervision of cross-border activities of investment firms. The report ",
-      "date": "2026-09-01T05:48:17.051687+00:00",
+      "date": "2026-09-01T10:38:37.744178+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -547,7 +232,7 @@
       "title": "ESMA calls on firms to finalise preparations ahead of T+1 settlement deadlines",
       "link": "https://www.esma.europa.eu/press-news/esma-news/esma-calls-firms-finalise-preparations-ahead-t1-settlement-deadlines",
       "summary": "ESMA calls on firms to finalise preparations ahead of T+1 settlement deadlines\n  \n20 July 2026\n\n\n      \n              Post Trading\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU regulator and supervisor, has published a statement highlighting key deadlines and action points to be ready for the transition to a T+1 settlement cycle in EU financial markets.\n\n  ",
-      "date": "2026-09-01T05:48:17.051633+00:00",
+      "date": "2026-09-01T10:38:37.744121+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -574,7 +259,7 @@
       "title": "ESMA authorises EuroCTP as the Consolidated Tape Provider for shares and exchange-traded funds",
       "link": "https://www.esma.europa.eu/press-news/esma-news/esma-authorises-euroctp-consolidated-tape-provider-shares-and-exchange-traded",
       "summary": "ESMA authorises EuroCTP as the Consolidated Tape Provider for shares and exchange-traded funds\n  \n27 July 2026\n\n\n      \n              Market data\n              Press Releases\n              Trading\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has authorised EuroCTP B.V. (EuroCTP) to operate as the Consolidated T",
-      "date": "2026-09-01T05:48:17.051568+00:00",
+      "date": "2026-09-01T10:38:37.744027+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -601,7 +286,7 @@
       "title": "ESMA publishes latest edition of its newsletter",
       "link": "https://www.esma.europa.eu/press-news/esma-news/esma-publishes-latest-edition-its-newsletter-44",
       "summary": "ESMA publishes latest edition of its newsletter\n  \n31 July 2026\n\n\n      \n              ESMA newsletter\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published today the latest edition of its Spotlight on Markets newsletter, covering key activities and publications from June and July 2026.\n\n      \n           ",
-      "date": "2026-09-01T05:48:17.051502+00:00",
+      "date": "2026-09-01T10:38:37.743964+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -628,7 +313,7 @@
       "title": "EBA, EIOPA and ESMA call for enhanced governance and consistent supervision to mitigate ICT risks from frontier AI models in the EU financial sector",
       "link": "https://www.esma.europa.eu/press-news/esma-news/eba-eiopa-and-esma-call-enhanced-governance-and-consistent-supervision",
       "summary": "EBA, EIOPA and ESMA call for enhanced governance and consistent supervision to mitigate ICT risks from frontier AI models in the EU financial sector\n  \n31 July 2026\n\n\n      \n              Digital Finance and Innovation\n              Joint Committee\n          \n  \n            The European Supervisory Authorities (EBA, EIOPA and ESMA – the ESAs) today published a statement calling for a cross-sectora",
-      "date": "2026-09-01T05:48:17.051434+00:00",
+      "date": "2026-09-01T10:38:37.743901+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -655,7 +340,7 @@
       "title": "EBA, EIOPA and ESMA propose amendments to bilateral margin requirements",
       "link": "https://www.esma.europa.eu/press-news/esma-news/eba-eiopa-and-esma-propose-amendments-bilateral-margin-requirements",
       "summary": "EBA, EIOPA and ESMA propose amendments to bilateral margin requirements\n  \n03 August 2026\n\n\n      \n              Joint Committee\n              Trading\n          \n  \n            The European Supervisory Authorities (EBA, EIOPA and ESMA – the ESAs) today published a final report on draft Regulatory Technical Standards (RTS), proposing to simplify the bilateral margin requirements of the European Com",
-      "date": "2026-09-01T05:48:17.051369+00:00",
+      "date": "2026-09-01T10:38:37.743838+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -682,7 +367,7 @@
       "title": "ESMA confirms go-live for weekly commodity derivatives position reporting",
       "link": "https://www.esma.europa.eu/press-news/esma-news/esma-confirms-go-live-weekly-commodity-derivatives-position-reporting",
       "summary": "ESMA confirms go-live for weekly commodity derivatives position reporting\n  \n14 August 2026\n\n\n      \n              Trading\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, announces that the new weekly commodity derivatives position reporting framework will go live on 3 September 2026.\n\n      \n            From this",
-      "date": "2026-09-01T05:48:17.051292+00:00",
+      "date": "2026-09-01T10:38:37.743765+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -709,7 +394,7 @@
       "title": "ESMA consults on reporting framework for clearing activity at recognised third-country CCPs",
       "link": "https://www.esma.europa.eu/press-news/esma-news/esma-consults-reporting-framework-clearing-activity-recognised-third-country",
       "summary": "ESMA consults on reporting framework for clearing activity at recognised third-country CCPs\n  \n18 August 2026\n\n\n      \n              CCP\n              Simplification and Burden Reduction\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU's financial markets regulator and supervisor, has launched a consultation on a proposed annual reporting framework under EMIR ",
-      "date": "2026-09-01T05:48:17.051205+00:00",
+      "date": "2026-09-01T10:38:37.743675+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -733,38 +418,10 @@
       "is_uk": false
     },
     {
-      "title": "T+1 Settlement: are firms ready for 2027?",
-      "link": "https://www.fca.org.uk/news/blogs/t1-settlement-are-firms-ready-2027",
-      "summary": "Why T+1 matters and what we’ve been doing so farThe UK’s move to a T+1 securities settlement cycle on 11 October 2027 is a fundamental shift in how securities transactions are settled.To prepare, market participants will have to rapidly speed up their post-trade processes, including automating their operations as appropriate.We’ve found that some are more ready than others – and some have a lot to",
-      "date": "2026-09-01T05:48:13.610381+00:00",
-      "source": "FCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "Conduct"
-      ],
-      "score": 65,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
       "title": "CEO banned for false and misleading statements made in attempt to buy bank and football club",
       "link": "https://www.fca.org.uk/news/press-releases/ceo-banned-false-misleading-statements-attempt-buy-bank-football-club",
       "summary": "Paul Taylor, former CEO of Blue Horizon Asset Management (BHAM) has been fined £489,000 and banned from working in financial services by the FCA.\n\nThe former managing director of the firm, Esmeralda Toni, has also been fined £121,200 for serious misconduct and banned by the FCA.During his time at BHAM, Mr Taylor made misleading statements and falsified information during 2 separate attempted acqui",
-      "date": "2026-09-01T05:48:13.610323+00:00",
+      "date": "2026-09-01T10:38:32.109960+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -792,7 +449,7 @@
       "title": "FCA expands global presence with new attachés in India and UAE",
       "link": "https://www.fca.org.uk/news/press-releases/fca-expands-global-presence-new-attaches-india-uae",
       "summary": "The FCA has announced Sabina Saini and Darine Obeid as the financial services attachés for India and the UAE.\n\nSabina will be based at the British Deputy High Commission in Mumbai and Darine will be based at the British Embassy in Abu Dhabi.These appointments expand the FCA's global presence, joining a global network that includes the FCA's existing attachés in Washington DC, Brussels and Singapor",
-      "date": "2026-09-01T05:48:13.610268+00:00",
+      "date": "2026-09-01T10:38:32.109909+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -820,7 +477,7 @@
       "title": "FCA bans senior manager for lack of honesty and integrity",
       "link": "https://www.fca.org.uk/news/press-releases/fca-bans-senior-manager-lack-honesty-integrity",
       "summary": "The FCA has banned Howard Roland Duckett from working in financial services due to a serious lack of honesty and integrity.\n\nMr Duckett was a senior manager at Beauforce Corporation Limited, a debt management firm. The High Court has disqualified Mr Duckett from acting as a company director for 10 years. It found that he had failed to maintain adequate records while director of an unrelated compan",
-      "date": "2026-09-01T05:48:13.610216+00:00",
+      "date": "2026-09-01T10:38:32.109859+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -848,7 +505,7 @@
       "title": "FCA fines and bans former SVS Securities CEO",
       "link": "https://www.fca.org.uk/news/press-releases/fca-fines-bans-former-svs-securities-ceo",
       "summary": "The FCA has banned Demetrios Hadjigeorgiou from working in senior management positions in financial services and fined him £56,400.\n\nMr Hadjigeorgiou was the former director and chief executive officer (CEO) of SVS Securities Plc (SVS), a discretionary fund manager.The FCA found that Mr Hadjigeorgiou failed to properly manage SVS and protect its customers’ interests.While he was CEO, the firm inve",
-      "date": "2026-09-01T05:48:13.610160+00:00",
+      "date": "2026-09-01T10:38:32.109802+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -876,7 +533,7 @@
       "title": "Unregulated loan notes and mini-bonds: don't risk your savings on promises of high returns",
       "link": "https://www.fca.org.uk/news/statements/unregulated-loan-notes-mini-bonds-dont-risk-savings-promises-high-returns",
       "summary": "These high-risk investments should not usually be advertised widely to the public.\n\nWe banned the marketing of speculative mini-bonds and loan notes to ordinary retail investors from 1 January 2021.We did this because these are complicated investments, not suitable for most people. The ban means these high-risk investments should not usually be advertised widely to the public.But some unregulated ",
-      "date": "2026-09-01T05:48:13.610107+00:00",
+      "date": "2026-09-01T10:38:32.109752+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -904,7 +561,7 @@
       "title": "Consumers warned to beware of risky mini-bonds and loan notes",
       "link": "https://www.fca.org.uk/news/press-releases/consumers-warned-beware-risky-mini-bonds-and-loan-notes",
       "summary": "The FCA is warning consumers about the risks of investing in loan notes and mini-bonds issued by unregulated companies, after continuing to see people lose money in these high-risk investments.\n\nThe recent failure of Woodville Consultants Ltd, a litigation funder that raised capital from retail investors through unregulated loan notes, shows the potential risk to investors.A loan note or mini-bond",
-      "date": "2026-09-01T05:48:13.610050+00:00",
+      "date": "2026-09-01T10:38:32.109696+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -932,7 +589,7 @@
       "title": "EGR Wealth Limited enters administration",
       "link": "https://www.fca.org.uk/news/news-stories/egr-wealth-limited-enters-administration",
       "summary": "On 24 August 2026, EGR Wealth Limited (EGR Wealth) entered administration. Robert Goodhew and Geoff Bouchier of Kroll Advisory Limited were appointed joint administrators.\n\nThe joint administrators are responsible for managing the affairs of the firm during the administration process. They are officers of the court and need to comply with all insolvency law.EGR Wealth is authorised by the FCA. It ",
-      "date": "2026-09-01T05:48:13.609983+00:00",
+      "date": "2026-09-01T10:38:32.109636+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -962,7 +619,7 @@
       "title": "FCA bans trio behind £35.5m scheme designed to bypass visa rules",
       "link": "https://www.fca.org.uk/news/press-releases/fca-bans-trio-bypass-visa-rules",
       "summary": "The FCA has decided to ban 3 former senior figures at Dolfin Financial (UK) Limited (Dolfin) after finding they ran a scheme that helped clients bypass UK visa rules.\n\nFormer chief executive Denisz Nagy has been fined £324,800 and former finance director Sanjay Maraj £122,000 for their roles in the scheme. Both have been banned from working in financial services. The FCA has also decided to ban Do",
-      "date": "2026-09-01T05:48:13.609912+00:00",
+      "date": "2026-09-01T10:38:32.109568+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -990,7 +647,7 @@
       "title": "Young investors trust AI more than TV or celebrities",
       "link": "https://www.fca.org.uk/news/press-releases/young-investors-trust-ai-more-tv-or-celebrities",
       "summary": "Four in 5 less experienced investors have used AI for help with investing – and around two-thirds report doing so occasionally or regularly.\n\nNew research focused on 18- to 40-year-olds who own or are considering investments showed that 56% trust AI tools, more than TV and radio (47%), press (46%) or social media influencers (29%).And people are getting more comfortable, with two-thirds expecting ",
-      "date": "2026-09-01T05:48:13.609748+00:00",
+      "date": "2026-09-01T10:38:32.109501+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -1015,18 +672,18 @@
       "is_uk": true
     },
     {
-      "title": "Rates and thresholds for employers 2026 to 2027",
-      "link": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027",
-      "summary": "Use these rates and thresholds when you operate your payroll or provide expenses and benefits to your employees.",
-      "date": "2026-08-31T23:15:03+00:00",
-      "source": "HMRC",
+      "title": "FCA urges young adults to check for unclaimed Child Trust Funds",
+      "link": "https://www.fca.org.uk/news/press-releases/fca-urges-young-adults-check-unclaimed-child-trust-funds",
+      "summary": "Thousands of young adults could be sitting on a forgotten pot of savings as they head back to college and university.\n\nAs students return to college and university this month, the FCA is urging young adults and parents to check whether they have a forgotten Child Trust Fund waiting to be claimed – potentially worth thousands of pounds.Figures from HMRC show that 760,000 matured Child Trust Funds, ",
+      "date": "2026-09-01T10:38:32.109357+00:00",
+      "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
       "category": "Regulator",
       "tags": [
         "AML",
-        "Tax",
-        "Financial Crime"
+        "Financial Crime",
+        "Conduct"
       ],
       "score": 65,
       "score_breakdown": {
@@ -1043,10 +700,10 @@
       "is_uk": true
     },
     {
-      "title": "Guidance: Transit newsletters — HMRC updates",
-      "link": "https://www.gov.uk/government/publications/community-common-transit-and-tir-newsletters",
-      "summary": "Check for the latest updates about moving goods using transit and the New Computerised Transit System (NCTS).",
-      "date": "2026-08-31T23:01:05+00:00",
+      "title": "Stamp Duty Land Tax Manual",
+      "link": "https://www.gov.uk/hmrc-internal-manuals/stamp-duty-land-tax-manual",
+      "summary": "Guidance on Stamp\nDuty Land Tax (SDLT) which applies to land transactions in the UK from 1 December\n2003. Since 1 April 2018 SDLT has applied to land transactions in England and\nNorthern Ireland only. \n\nGuidance for transactions in Scotland since 1 April 2015 can be found at theScottish\nGovernment website. \n\nGuidance for transactions in Wales since 1April 2018 can be found at theWelsh\nRevenue Auth",
+      "date": "2026-09-01T10:11:39+00:00",
       "source": "HMRC",
       "country": "UK",
       "flag": "🇬🇧",
@@ -1071,10 +728,10 @@
       "is_uk": true
     },
     {
-      "title": "Sign up for the Trader Support Service",
-      "link": "https://www.gov.uk/guidance/trader-support-service",
-      "summary": "If you move goods in or out of Northern Ireland the Trader Support Service will guide you through any changes due to the implementation of the Windsor Framework.",
-      "date": "2026-08-28T14:48:51+00:00",
+      "title": "Claim a waiver for duty on goods that you bring to Northern Ireland from Great Britain or countries outside the UK and EU",
+      "link": "https://www.gov.uk/guidance/claim-a-waiver-for-duty-on-goods-that-you-bring-to-northern-ireland-from-great-britain",
+      "summary": "Find out how to claim a customs duty waiver if you are bringing goods into Northern Ireland from Great Britain or countries outside the UK and EU which might otherwise be charged ‘at risk’ tariffs.",
+      "date": "2026-09-01T09:00:03+00:00",
       "source": "HMRC",
       "country": "UK",
       "flag": "🇬🇧",
@@ -1084,38 +741,10 @@
         "Tax",
         "Financial Crime"
       ],
-      "score": 46,
+      "score": 65,
       "score_breakdown": {
-        "recency": 16,
-        "recency_label": "3 days ago",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 5,
-        "impact_label": "framework",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Check which packaging is subject to Plastic Packaging Tax",
-      "link": "https://www.gov.uk/guidance/work-out-which-packaging-is-subject-to-plastic-packaging-tax",
-      "summary": "Check what classifies as plastic, recycled plastic and packaging components, and if the packaging you manufacture or import is subject to the tax.",
-      "date": "2026-08-28T13:48:03+00:00",
-      "source": "HMRC",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Tax",
-        "Financial Crime"
-      ],
-      "score": 41,
-      "score_breakdown": {
-        "recency": 16,
-        "recency_label": "3 days ago",
+        "recency": 40,
+        "recency_label": "today",
         "aml": 0,
         "aml_keywords": [],
         "uk_bonus": 15,
@@ -1127,10 +756,10 @@
       "is_uk": true
     },
     {
-      "title": "Preparing to use a mass balance approach for Plastic Packaging Tax",
-      "link": "https://www.gov.uk/guidance/preparing-to-use-a-mass-balance-approach-for-plastic-packaging-tax",
-      "summary": "Find out how your business can get ready to use a mass balance approach to account for chemically recycled plastic for the Plastic Packaging Tax.",
-      "date": "2026-08-28T13:47:27+00:00",
+      "title": "Report payments and view your allowance for non-customs state aid and Customs Duty waiver claims",
+      "link": "https://www.gov.uk/guidance/report-payments-and-view-your-allowance-for-non-customs-state-aid-and-customs-duty-waiver-claims",
+      "summary": "Use the online service to report non-customs state aid payments you’ve received to HMRC and view your state aid allowance if you’ve claimed Customs Duty waivers.",
+      "date": "2026-09-01T09:00:03+00:00",
       "source": "HMRC",
       "country": "UK",
       "flag": "🇬🇧",
@@ -1140,10 +769,10 @@
         "Tax",
         "Financial Crime"
       ],
-      "score": 41,
+      "score": 65,
       "score_breakdown": {
-        "recency": 16,
-        "recency_label": "3 days ago",
+        "recency": 40,
+        "recency_label": "today",
         "aml": 0,
         "aml_keywords": [],
         "uk_bonus": 15,
@@ -1155,10 +784,10 @@
       "is_uk": true
     },
     {
-      "title": "Guidance: Minimum certification requirements for a mass balance approach for Plastic Packaging Tax",
-      "link": "https://www.gov.uk/government/publications/minimum-certification-requirements-for-a-mass-balance-approach-for-plastic-packaging-tax",
-      "summary": "Find out about the minimum certification requirements when using a mass balance approach for chemically recycled plastic from 1 April 2027.",
-      "date": "2026-08-28T13:45:03+00:00",
+      "title": "Promotional material: Vaping Products Duty and Vaping Duty Stamps Scheme — communications resources",
+      "link": "https://www.gov.uk/government/publications/vaping-products-duty-and-vaping-duty-stamps-scheme-communications-resources",
+      "summary": "These resources are designed to enable you to cascade accurate, timely information about the upcoming Vaping Products Duty and Vaping Duty Stamps Scheme to your members.",
+      "date": "2026-09-01T08:30:02+00:00",
       "source": "HMRC",
       "country": "UK",
       "flag": "🇬🇧",
@@ -1168,10 +797,150 @@
         "Tax",
         "Financial Crime"
       ],
-      "score": 47,
+      "score": 65,
       "score_breakdown": {
-        "recency": 16,
-        "recency_label": "3 days ago",
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Transparency data: HMRC: spending over £25,000, July 2026",
+      "link": "https://www.gov.uk/government/publications/hmrc-spending-over-25000-july-2026",
+      "summary": "Reports on departmental spending over £25,000.",
+      "date": "2026-09-01T08:30:02+00:00",
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 65,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "How to claim a repayment of import duty and VAT if you've overpaid",
+      "link": "https://www.gov.uk/guidance/how-to-claim-a-repayment-of-import-duty-and-vat-if-youve-overpaid",
+      "summary": "Check time limits and how to claim for your circumstances as an importer, agent or express operator. Use the Customs Declaration Service or form C285 as an individual.",
+      "date": "2026-09-01T08:19:24+00:00",
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 65,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Claim back an import security deposit or guarantee",
+      "link": "https://www.gov.uk/guidance/claim-back-an-import-security-deposit-or-guarantee",
+      "summary": "Use this service for Temporary Admission, inward processing or authorised use with an authorisation by declaration, or if proof of origin was not available at the time of import.",
+      "date": "2026-09-01T08:17:36+00:00",
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 65,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Check the recognised overseas pension schemes notification list",
+      "link": "https://www.gov.uk/guidance/check-the-recognised-overseas-pension-schemes-notification-list",
+      "summary": "Find schemes that have told HMRC they meet the conditions to be a recognised overseas pension scheme (ROPS).",
+      "date": "2026-09-01T08:00:03+00:00",
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 65,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Guidance: List of Individual Savings Account (ISA) managers approved by HMRC",
+      "link": "https://www.gov.uk/government/publications/list-of-individual-savings-account-isa-managers-approved-by-hmrc",
+      "summary": "Find ISA managers approved by HMRC from October 2014.",
+      "date": "2026-09-01T08:00:03+00:00",
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 71,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
         "aml": 0,
         "aml_keywords": [],
         "uk_bonus": 15,
@@ -1183,10 +952,10 @@
       "is_uk": true
     },
     {
-      "title": "Check if an email you've received from HMRC is genuine",
-      "link": "https://www.gov.uk/guidance/check-if-an-email-youve-received-from-hmrc-is-genuine",
-      "summary": "Check a list of recent emails from HMRC to help you decide if the email you've received is a scam.",
-      "date": "2026-08-28T13:21:52+00:00",
+      "title": "Admin Law Manual",
+      "link": "https://www.gov.uk/hmrc-internal-manuals/admin-law-manual",
+      "summary": "Guidance on admin law covering incorrect advice to customers, collection and management, extra statutory concessions and statements of practice.",
+      "date": "2026-09-01T00:00:00+00:00",
       "source": "HMRC",
       "country": "UK",
       "flag": "🇬🇧",
@@ -1196,99 +965,15 @@
         "Tax",
         "Financial Crime"
       ],
-      "score": 41,
+      "score": 71,
       "score_breakdown": {
-        "recency": 16,
-        "recency_label": "3 days ago",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Guidance: Making Tax Digital for Income Tax: service availability and issues",
-      "link": "https://www.gov.uk/government/publications/use-software-to-send-income-tax-updates-service-availability-and-issues",
-      "summary": "Check the availability and any issues affecting the Making Tax Digital for Income Tax service.",
-      "date": "2026-08-28T10:50:31+00:00",
-      "source": "HMRC",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Tax",
-        "Financial Crime"
-      ],
-      "score": 47,
-      "score_breakdown": {
-        "recency": 16,
-        "recency_label": "3 days ago",
+        "recency": 40,
+        "recency_label": "today",
         "aml": 0,
         "aml_keywords": [],
         "uk_bonus": 15,
         "impact": 6,
         "impact_label": "guidance",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Guidance: Self Assessment: service availability and issues",
-      "link": "https://www.gov.uk/government/publications/self-assessment-service-availability-and-issues",
-      "summary": "Check the availability and any issues affecting the Self Assessment online service.",
-      "date": "2026-08-28T10:07:59+00:00",
-      "source": "HMRC",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Tax",
-        "Financial Crime"
-      ],
-      "score": 47,
-      "score_breakdown": {
-        "recency": 16,
-        "recency_label": "3 days ago",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 6,
-        "impact_label": "guidance",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Correspondence: Edition 6: Making Tax Digital for Income Tax — software developer newsletter",
-      "link": "https://www.gov.uk/government/publications/edition-6-making-tax-digital-for-income-tax-software-developer-newsletter",
-      "summary": "HMRC's newsletter for software developers for Making Tax Digital for Income Tax.",
-      "date": "2026-08-28T09:44:09+00:00",
-      "source": "HMRC",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Tax",
-        "Financial Crime"
-      ],
-      "score": 41,
-      "score_breakdown": {
-        "recency": 16,
-        "recency_label": "3 days ago",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 0,
-        "impact_label": "informational",
         "trust": 10
       },
       "is_aml": false,
