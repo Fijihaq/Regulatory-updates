@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-10-15 15:23 UTC",
+  "last_updated": "2026-10-15 19:31 UTC",
   "total": 59,
-  "aml_count": 3,
-  "uk_aml_count": 3,
+  "aml_count": 2,
+  "uk_aml_count": 2,
   "top5_overall": [
     {
       "title": "NCA hosts international law enforcement and tech industry crackdown on fraud and scams",
       "link": "https://www.nationalcrimeagency.gov.uk/news/nca-hosts-international-law-enforcement-and-tech-industry-crackdown-on-fraud-and-scams",
       "summary": "",
-      "date": "2026-10-15T15:23:03.074182+00:00",
+      "date": "2026-10-15T19:31:18.501046+00:00",
       "source": "NCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -35,41 +35,10 @@
       "is_uk": true
     },
     {
-      "title": "FCA announces new Board appointments",
-      "link": "https://www.fca.org.uk/news/news-stories/fca-announces-new-board-appointments-lea-paterson-matthew-tobin-sarah-pritchard",
-      "summary": "Three new appointments have been made to our Board, bringing additional experience in public policy, financial services, regulation and corporate leadership as we continue to deliver our strategy.\n\nLea Paterson CBE and Matthew Tobin have been appointed by the Treasury as non-executive directors, while deputy chief executive Sarah Pritchard has joined the Board as an executive member.Lea Paterson C",
-      "date": "2026-10-15T15:22:56.475223+00:00",
-      "source": "FCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "Conduct"
-      ],
-      "score": 77,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 7,
-        "aml_keywords": [
-          "sar",
-          "str"
-        ],
-        "uk_bonus": 15,
-        "impact": 5,
-        "impact_label": "policy",
-        "trust": 10
-      },
-      "is_aml": true,
-      "is_uk": true
-    },
-    {
-      "title": "Gang ringleader arrested by the NCA convicted over Channel boat deaths",
-      "link": "https://www.nationalcrimeagency.gov.uk/news/gang-ringleader-arrested-by-the-nca-convicted-over-channel-boat-deaths",
+      "title": "Organised crime group sentenced for cocaine stash after PCTF investigation",
+      "link": "https://www.nationalcrimeagency.gov.uk/news/organised-crime-group-sentenced-for-cocaine-stash-after-pctf-investigation",
       "summary": "",
-      "date": "2026-10-15T15:23:03.074535+00:00",
+      "date": "2026-10-15T19:31:18.500737+00:00",
       "source": "NCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -79,15 +48,17 @@
         "Financial Crime",
         "SAR"
       ],
-      "score": 75,
+      "score": 78,
       "score_breakdown": {
         "recency": 40,
         "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
+        "aml": 3,
+        "aml_keywords": [
+          "ctf"
+        ],
         "uk_bonus": 15,
         "impact": 10,
-        "impact_label": "convicted",
+        "impact_label": "sentenced",
         "trust": 10
       },
       "is_aml": false,
@@ -97,7 +68,7 @@
       "title": "Crime group members who smuggled large amounts of cash to the UAE are sentenced",
       "link": "https://www.nationalcrimeagency.gov.uk/news/crime-group-members-who-smuggled-large-amounts-of-cash-to-the-uae-are-sentenced",
       "summary": "",
-      "date": "2026-10-15T15:23:03.074416+00:00",
+      "date": "2026-10-15T19:31:18.501256+00:00",
       "source": "NCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -125,7 +96,7 @@
       "title": "Operation Venetic: Drugs and firearms suppliers convicted",
       "link": "https://www.nationalcrimeagency.gov.uk/news/operation-venetic-drugs-and-firearms-suppliers-convicted",
       "summary": "",
-      "date": "2026-10-15T15:23:03.074297+00:00",
+      "date": "2026-10-15T19:31:18.501142+00:00",
       "source": "NCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -148,14 +119,12 @@
       },
       "is_aml": false,
       "is_uk": true
-    }
-  ],
-  "top5_uk_aml": [
+    },
     {
-      "title": "FCA announces new Board appointments",
-      "link": "https://www.fca.org.uk/news/news-stories/fca-announces-new-board-appointments-lea-paterson-matthew-tobin-sarah-pritchard",
-      "summary": "Three new appointments have been made to our Board, bringing additional experience in public policy, financial services, regulation and corporate leadership as we continue to deliver our strategy.\n\nLea Paterson CBE and Matthew Tobin have been appointed by the Treasury as non-executive directors, while deputy chief executive Sarah Pritchard has joined the Board as an executive member.Lea Paterson C",
-      "date": "2026-10-15T15:22:56.475223+00:00",
+      "title": "ePayments Systems Limited enters special administration",
+      "link": "https://www.fca.org.uk/news/news-stories/epayments-systems-limited-enters-special-administration",
+      "summary": "On 15 October 2026, ePayments Systems Limited (EPS) entered special administration. Mark Boast and Allister Manson of Opus Restructuring LLP (Opus) have been appointed as joint special administrators.\n\nEPS is authorised by the FCA to issue e-money under the Electronic Money Regulations 2011 (EMRs).See details on the Financial Services Register.Who to contactThe special administrators are responsib",
+      "date": "2026-10-15T19:31:12.149425+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -165,28 +134,29 @@
         "Financial Crime",
         "Conduct"
       ],
-      "score": 77,
+      "score": 73,
       "score_breakdown": {
         "recency": 40,
         "recency_label": "today",
-        "aml": 7,
+        "aml": 3,
         "aml_keywords": [
-          "sar",
           "str"
         ],
         "uk_bonus": 15,
         "impact": 5,
-        "impact_label": "policy",
+        "impact_label": "regulation",
         "trust": 10
       },
-      "is_aml": true,
+      "is_aml": false,
       "is_uk": true
-    },
+    }
+  ],
+  "top5_uk_aml": [
     {
       "title": "People smuggling boss hit with SCPO and told to hand over £290k proceeds of crime or face more time in jail",
       "link": "https://www.nationalcrimeagency.gov.uk/news/people-smuggling-boss-hit-with-scpo-and-told-to-hand-over-290k-proceeds-of-crime-or-face-more-time-in-jail",
       "summary": "",
-      "date": "2026-10-15T15:23:03.074496+00:00",
+      "date": "2026-10-15T19:31:18.501326+00:00",
       "source": "NCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -216,7 +186,7 @@
       "title": "Three arrests in major FCA operation against criminal insider dealing ring",
       "link": "https://www.fca.org.uk/news/press-releases/three-arrests-major-fca-operation-against-criminal-insider-dealing-ring",
       "summary": "The FCA has conducted a major operation to disrupt a suspected organised criminal group for engaging in insider dealing and money laundering.\n\nOn 13 October, 3 individuals were arrested following a joint operation by the FCA and the National Crime Agency (NCA). More than 100 FCA and NCA staff took part in searches at 5 residential premises in London and Manchester.More than 30 mobile phones, lapto",
-      "date": "2026-10-15T15:22:56.474806+00:00",
+      "date": "2026-10-15T19:31:12.149477+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -245,38 +215,10 @@
   ],
   "items": [
     {
-      "title": "Gang ringleader arrested by the NCA convicted over Channel boat deaths",
-      "link": "https://www.nationalcrimeagency.gov.uk/news/gang-ringleader-arrested-by-the-nca-convicted-over-channel-boat-deaths",
-      "summary": "",
-      "date": "2026-10-15T15:23:03.074535+00:00",
-      "source": "NCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "SAR"
-      ],
-      "score": 75,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 10,
-        "impact_label": "convicted",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
       "title": "People smuggling boss hit with SCPO and told to hand over £290k proceeds of crime or face more time in jail",
       "link": "https://www.nationalcrimeagency.gov.uk/news/people-smuggling-boss-hit-with-scpo-and-told-to-hand-over-290k-proceeds-of-crime-or-face-more-time-in-jail",
       "summary": "",
-      "date": "2026-10-15T15:23:03.074496+00:00",
+      "date": "2026-10-15T19:31:18.501326+00:00",
       "source": "NCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -306,7 +248,7 @@
       "title": "Liverpool crime group guilty of Australia and New Zealand drug smuggling attempts",
       "link": "https://www.nationalcrimeagency.gov.uk/news/liverpool-crime-group-guilty-of-australia-and-new-zealand-drug-smuggling-attempts",
       "summary": "",
-      "date": "2026-10-15T15:23:03.074459+00:00",
+      "date": "2026-10-15T19:31:18.501291+00:00",
       "source": "NCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -336,7 +278,7 @@
       "title": "Crime group members who smuggled large amounts of cash to the UAE are sentenced",
       "link": "https://www.nationalcrimeagency.gov.uk/news/crime-group-members-who-smuggled-large-amounts-of-cash-to-the-uae-are-sentenced",
       "summary": "",
-      "date": "2026-10-15T15:23:03.074416+00:00",
+      "date": "2026-10-15T19:31:18.501256+00:00",
       "source": "NCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -364,7 +306,7 @@
       "title": "Boats destined for people smugglers seized at East Midlands Airport",
       "link": "https://www.nationalcrimeagency.gov.uk/news/boats-destined-for-people-smugglers-seized-at-east-midlands-airport",
       "summary": "",
-      "date": "2026-10-15T15:23:03.074377+00:00",
+      "date": "2026-10-15T19:31:18.501215+00:00",
       "source": "NCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -392,7 +334,7 @@
       "title": "New website launched for victims and survivors of child sexual abuse and exploitation",
       "link": "https://www.nationalcrimeagency.gov.uk/news/new-website-launched-for-victims-and-survivors-of-child-sexual-abuse-and-exploitation",
       "summary": "",
-      "date": "2026-10-15T15:23:03.074337+00:00",
+      "date": "2026-10-15T19:31:18.501179+00:00",
       "source": "NCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -420,7 +362,7 @@
       "title": "Operation Venetic: Drugs and firearms suppliers convicted",
       "link": "https://www.nationalcrimeagency.gov.uk/news/operation-venetic-drugs-and-firearms-suppliers-convicted",
       "summary": "",
-      "date": "2026-10-15T15:23:03.074297+00:00",
+      "date": "2026-10-15T19:31:18.501142+00:00",
       "source": "NCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -448,7 +390,7 @@
       "title": "Balkan Bridge 2 – NCA officers joined by international partners in major crackdown targeting cross-border smuggling of people and commodities",
       "link": "https://www.nationalcrimeagency.gov.uk/news/balkan-bridge-2-nca-officers-joined-by-international-partners-in-major-crackdown-targeting-cross-border-smuggling-of-people-and-commodities",
       "summary": "",
-      "date": "2026-10-15T15:23:03.074237+00:00",
+      "date": "2026-10-15T19:31:18.501093+00:00",
       "source": "NCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -476,7 +418,7 @@
       "title": "NCA hosts international law enforcement and tech industry crackdown on fraud and scams",
       "link": "https://www.nationalcrimeagency.gov.uk/news/nca-hosts-international-law-enforcement-and-tech-industry-crackdown-on-fraud-and-scams",
       "summary": "",
-      "date": "2026-10-15T15:23:03.074182+00:00",
+      "date": "2026-10-15T19:31:18.501046+00:00",
       "source": "NCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -506,7 +448,7 @@
       "title": "25 months in jail for woman who smuggled Thai cannabis",
       "link": "https://www.nationalcrimeagency.gov.uk/news/25-months-in-jail-for-woman-who-smuggled-thai-cannabis",
       "summary": "",
-      "date": "2026-10-15T15:23:03.073963+00:00",
+      "date": "2026-10-15T19:31:18.500995+00:00",
       "source": "NCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -531,10 +473,40 @@
       "is_uk": true
     },
     {
+      "title": "Organised crime group sentenced for cocaine stash after PCTF investigation",
+      "link": "https://www.nationalcrimeagency.gov.uk/news/organised-crime-group-sentenced-for-cocaine-stash-after-pctf-investigation",
+      "summary": "",
+      "date": "2026-10-15T19:31:18.500737+00:00",
+      "source": "NCA",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Financial Crime",
+        "SAR"
+      ],
+      "score": 78,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 3,
+        "aml_keywords": [
+          "ctf"
+        ],
+        "uk_bonus": 15,
+        "impact": 10,
+        "impact_label": "sentenced",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
       "title": "ESMA sets out supervisory expectations on services related to unauthorised stablecoins",
       "link": "https://www.esma.europa.eu/press-news/esma-news/esma-sets-out-supervisory-expectations-services-related-unauthorised",
       "summary": "ESMA sets out supervisory expectations on services related to unauthorised stablecoins\n  \n08 October 2026\n\n\n      \n              Digital Finance and Innovation\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU regulator and supervisor, has published an opinion clarifying supervisory expectations of crypto-asset services involving asset-referenced tokens (ARTs) ",
-      "date": "2026-10-15T15:22:58.884697+00:00",
+      "date": "2026-10-15T19:31:14.485624+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -561,7 +533,7 @@
       "title": "ESMA seeks evidence on the use of tokenised collateral in central clearing",
       "link": "https://www.esma.europa.eu/press-news/esma-news/esma-seeks-evidence-use-tokenised-collateral-central-clearing",
       "summary": "ESMA seeks evidence on the use of tokenised collateral in central clearing\n  \n09 October 2026\n\n\n      \n              CCP\n              Press Releases\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has today launched a&nbsp;Call for Evidence on the potential use of tokenised collateral by central counterparties (C",
-      "date": "2026-10-15T15:22:58.884648+00:00",
+      "date": "2026-10-15T19:31:14.485577+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -588,7 +560,7 @@
       "title": "Carlo Comporti appointed Chair of the European Securities and Markets Authority",
       "link": "https://www.esma.europa.eu/press-news/esma-news/carlo-comporti-appointed-chair-european-securities-and-markets-authority",
       "summary": "Carlo Comporti appointed Chair of the European Securities and Markets Authority\n  \n09 October 2026\n\n\n      \n              About ESMA\n              Board of Supervisors\n              Management Board\n              Press Releases\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, is pleased to announce that Carlo Compo",
-      "date": "2026-10-15T15:22:58.884603+00:00",
+      "date": "2026-10-15T19:31:14.485534+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -615,7 +587,7 @@
       "title": "ESMA appoints Carlos San Basilio as the new member of its Management Board",
       "link": "https://www.esma.europa.eu/press-news/esma-news/esma-appoints-carlos-san-basilio-new-member-its-management-board",
       "summary": "ESMA appoints Carlos San Basilio as the new member of its Management Board\n  \n09 October 2026\n\n\n      \n              About ESMA\n              Management Board\n          \n  \n            The European Securities and Markets Authority (ESMA), the European Union’s financial markets regulator and supervisor, has appointed Carlos San Basilio of Comisión Nacional del Mercado de Valores (CNMV), as the new ",
-      "date": "2026-10-15T15:22:58.884562+00:00",
+      "date": "2026-10-15T19:31:14.485493+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -642,7 +614,7 @@
       "title": "ESMA promotes clarity in claims on impact and transition",
       "link": "https://www.esma.europa.eu/press-news/esma-news/esma-promotes-clarity-claims-impact-and-transition",
       "summary": "ESMA promotes clarity in claims on impact and transition\n  \n12 October 2026\n\n\n      \n              Sustainable finance\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published two additional thematic notes on sustainability-related claims.&nbsp;\n\n      \n            Impact claims\nThis thematic note examines po",
-      "date": "2026-10-15T15:22:58.884513+00:00",
+      "date": "2026-10-15T19:31:14.485449+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -669,7 +641,7 @@
       "title": "ESMA sets out 2026 European Common Enforcement Priorities",
       "link": "https://www.esma.europa.eu/press-news/esma-news/esma-sets-out-2026-european-common-enforcement-priorities",
       "summary": "ESMA sets out 2026 European Common Enforcement Priorities\n  \n13 October 2026\n\n\n      \n              Financial reporting\n              Issuer disclosure\n          \n  \n            The European Securities and Markets Authority (ESMA), the European financial markets regulator and supervisor, has outlined the European Common Enforcement Priorities (ECEP) for the 2026 annual financial reports of listed ",
-      "date": "2026-10-15T15:22:58.884464+00:00",
+      "date": "2026-10-15T19:31:14.485403+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -696,7 +668,7 @@
       "title": "European Supervisory Authorities set priorities for 2027",
       "link": "https://www.esma.europa.eu/press-news/esma-news/european-supervisory-authorities-set-priorities-2027",
       "summary": "European Supervisory Authorities set priorities for 2027\n  \n13 October 2026\n\n\n      \n              Joint Committee\n          \n  \n            The Joint Committee of the European Supervisory Authorities (EBA, EIOPA and ESMA – the ESAs) published today its Annual Work Programme for 2027, setting out its priorities for addressing cross-sectoral risks and strengthening coordination across the European ",
-      "date": "2026-10-15T15:22:58.884420+00:00",
+      "date": "2026-10-15T19:31:14.485362+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -725,7 +697,7 @@
       "title": "ESMA analysis shows continued growth in cross-border investment services",
       "link": "https://www.esma.europa.eu/press-news/esma-news/esma-analysis-shows-continued-growth-cross-border-investment-services",
       "summary": "ESMA analysis shows continued growth in cross-border investment services\n  \n14 October 2026\n\n\n      \n              Investor protection\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has completed its annual analysis of the cross-border provision of investment services, together with national competent authorities",
-      "date": "2026-10-15T15:22:58.884370+00:00",
+      "date": "2026-10-15T19:31:14.485314+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -752,7 +724,7 @@
       "title": "ESMA's third Sanctions Report highlights the need for greater convergence in enforcement",
       "link": "https://www.esma.europa.eu/press-news/esma-news/esmas-third-sanctions-report-highlights-need-greater-convergence-enforcement",
       "summary": "ESMA's third Sanctions Report highlights the need for greater convergence in enforcement\n  \n15 October 2026\n\n\n      \n              Market Abuse\n              Supervisory convergence\n              Transparency\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU's financial markets regulator and supervisor, published today its consolidated report on sanctions and m",
-      "date": "2026-10-15T15:22:58.884316+00:00",
+      "date": "2026-10-15T19:31:14.485262+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -779,7 +751,7 @@
       "title": "ESMA updates its manual on transparency with new guidance for OTC derivatives and tick-size regime",
       "link": "https://www.esma.europa.eu/press-news/esma-news/esma-updates-its-manual-transparency-new-guidance-otc-derivatives-and-tick",
       "summary": "ESMA updates its manual on transparency with new guidance for OTC derivatives and tick-size regime\n  \n15 October 2026\n\n\n      \n              Trading\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU regulator and supervisor, has updated its manual on transparency to provide further guidance on the identification of over-the-counter (OTC) derivatives subject to ",
-      "date": "2026-10-15T15:22:58.884257+00:00",
+      "date": "2026-10-15T19:31:14.485196+00:00",
       "source": "ESMA",
       "country": "EU",
       "flag": "🇪🇺",
@@ -803,71 +775,10 @@
       "is_uk": false
     },
     {
-      "title": "FCA announces new Board appointments",
-      "link": "https://www.fca.org.uk/news/news-stories/fca-announces-new-board-appointments-lea-paterson-matthew-tobin-sarah-pritchard",
-      "summary": "Three new appointments have been made to our Board, bringing additional experience in public policy, financial services, regulation and corporate leadership as we continue to deliver our strategy.\n\nLea Paterson CBE and Matthew Tobin have been appointed by the Treasury as non-executive directors, while deputy chief executive Sarah Pritchard has joined the Board as an executive member.Lea Paterson C",
-      "date": "2026-10-15T15:22:56.475223+00:00",
-      "source": "FCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "Conduct"
-      ],
-      "score": 77,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 7,
-        "aml_keywords": [
-          "sar",
-          "str"
-        ],
-        "uk_bonus": 15,
-        "impact": 5,
-        "impact_label": "policy",
-        "trust": 10
-      },
-      "is_aml": true,
-      "is_uk": true
-    },
-    {
-      "title": "Firms’ confidence, satisfaction and trust in the FCA rise",
-      "link": "https://www.fca.org.uk/news/news-stories/firms-confidence-satisfaction-and-trust-fca-rise",
-      "summary": "The latest FCA and Practitioner Panel survey shows rising levels of satisfaction, confidence and trust in the FCA among firms, alongside a strong understanding of Consumer Duty expectations.\n\nThe FCA and Practitioner Panel annual survey of regulated firms provides valuable insights into how firms think we’re performing.The latest survey shows 79% of firms are highly satisfied with their relationsh",
-      "date": "2026-10-15T15:22:56.475184+00:00",
-      "source": "FCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "Conduct"
-      ],
-      "score": 68,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 3,
-        "aml_keywords": [
-          "str"
-        ],
-        "uk_bonus": 15,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
       "title": "Reforming UK capital markets to ensure they work well for our economy",
       "link": "https://www.fca.org.uk/news/speeches/reforming-uk-capital-markets-ensure-they-work-well-our-economy",
       "summary": "Speech by Jon Relleen, director of infrastructure and exchanges, at the Reform of the UK Public and Private Capital Markets Summit 2026.\n\nThe Economic Secretary to the Treasury has discussed the contribution of UK markets to economic growth.I want to build on that by talking about the FCA’s role in reforming capital market rules.The headline is that we've been very busy over the past few years.We’",
-      "date": "2026-10-15T15:22:56.475145+00:00",
+      "date": "2026-10-15T19:31:12.149821+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -897,7 +808,7 @@
       "title": "Looking at how we interact with whistleblowers",
       "link": "https://www.fca.org.uk/news/blogs/looking-how-we-interact-whistleblowers",
       "summary": "Just over a week ago, we received the incredibly sad news that a whistleblower, Simon Andriesz, who we had been in contact with over many years, had died. We’ve shared our condolences, and our thoughts are with his family and loved ones.We’re often in contact with people in challenging circumstances.They may be sharing information about a firm we regulate that they’re concerned about, or in the mi",
-      "date": "2026-10-15T15:22:56.475104+00:00",
+      "date": "2026-10-15T19:31:12.149770+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -925,7 +836,7 @@
       "title": "New rules to make long-term investment funds clearer",
       "link": "https://www.fca.org.uk/news/press-releases/new-rules-make-long-term-investment-funds-clearer",
       "summary": "The FCA has set out clearer expectations for asset managers about long-term investments, such as property.\n\nThis will help give the market more confidence to invest in funds that support private markets.The new rules mean that investors will have to give 90 days' notice to access their funds but will be more certain that they will receive their money.For investors, this means the fund should be cl",
-      "date": "2026-10-15T15:22:56.475071+00:00",
+      "date": "2026-10-15T19:31:12.149727+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -953,7 +864,7 @@
       "title": "Strong compliance functions support trusted corporate finance markets",
       "link": "https://www.fca.org.uk/news/blogs/strong-compliance-functions-support-trusted-corporate-finance-markets",
       "summary": "Corporate finance firms help businesses raise funding and implement strategic transactions, supporting investment and growth.This brings responsibility: clients need to be able to trust that firms will act with integrity and manage any conflicts of interest. That trust underpins effective wholesale markets activity.In our Regulatory Priorities Report, we said we would assess corporate finance firm",
-      "date": "2026-10-15T15:22:56.475034+00:00",
+      "date": "2026-10-15T19:31:12.149681+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -983,7 +894,7 @@
       "title": "Liam Coleman appointed as chair of the Financial Ombudsman Service",
       "link": "https://www.fca.org.uk/news/press-releases/liam-coleman-appointed-chair-financial-ombudsman-service",
       "summary": "The FCA Board has appointed Liam Coleman as chair of the Financial Ombudsman Service, with the approval of the Treasury.\n\nLiam will take up the permanent role on 10 October 2026 for a 3-year term, having served as interim chair for the last year.Ashley Alder, chair of the FCA, commented: 'Liam has brought strong leadership and valuable insight to the Financial Ombudsman Service over the past year.",
-      "date": "2026-10-15T15:22:56.474995+00:00",
+      "date": "2026-10-15T19:31:12.149637+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -1013,7 +924,7 @@
       "title": "Motor finance legal challenge to be heard in February 2027",
       "link": "https://www.fca.org.uk/news/statements/motor-finance-legal-challenge-be-heard-february-2027",
       "summary": "The Upper Tribunal has confirmed it will hear the legal challenges to our motor finance compensation scheme between 16 to 26 February 2027.\n\nThe scheme was challenged by 3 lenders - Volkswagen Financial Services, Mercedes Benz Financial Services, and Crédit Agricole Auto Finance - and by Consumer Voice, represented by Courmacs Legal. The scheme is currently partially suspended. However, firms must",
-      "date": "2026-10-15T15:22:56.474951+00:00",
+      "date": "2026-10-15T19:31:12.149590+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -1041,7 +952,7 @@
       "title": "Two plead guilty after clients lose £2m in fraud case",
       "link": "https://www.fca.org.uk/news/press-releases/two-plead-guilty-after-clients-lose-2m-fraud-case",
       "summary": "Two people who worked at financial advice firms have pleaded guilty to fraud after 4 clients lost £2m.\n\nKerry Nelson, the director of Nexus Independent Financial Advisers Limited and Nexus Investment Managers Limited, and Jacqueline Stephens, the firms' business operations manager, admitted all charges brought by the FCA at Portsmouth Crown Court.They admitted defrauding clients between January 20",
-      "date": "2026-10-15T15:22:56.474908+00:00",
+      "date": "2026-10-15T19:31:12.149538+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -1069,7 +980,7 @@
       "title": "Three arrests in major FCA operation against criminal insider dealing ring",
       "link": "https://www.fca.org.uk/news/press-releases/three-arrests-major-fca-operation-against-criminal-insider-dealing-ring",
       "summary": "The FCA has conducted a major operation to disrupt a suspected organised criminal group for engaging in insider dealing and money laundering.\n\nOn 13 October, 3 individuals were arrested following a joint operation by the FCA and the National Crime Agency (NCA). More than 100 FCA and NCA staff took part in searches at 5 residential premises in London and Manchester.More than 30 mobile phones, lapto",
-      "date": "2026-10-15T15:22:56.474806+00:00",
+      "date": "2026-10-15T19:31:12.149477+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -1093,6 +1004,66 @@
         "trust": 10
       },
       "is_aml": true,
+      "is_uk": true
+    },
+    {
+      "title": "ePayments Systems Limited enters special administration",
+      "link": "https://www.fca.org.uk/news/news-stories/epayments-systems-limited-enters-special-administration",
+      "summary": "On 15 October 2026, ePayments Systems Limited (EPS) entered special administration. Mark Boast and Allister Manson of Opus Restructuring LLP (Opus) have been appointed as joint special administrators.\n\nEPS is authorised by the FCA to issue e-money under the Electronic Money Regulations 2011 (EMRs).See details on the Financial Services Register.Who to contactThe special administrators are responsib",
+      "date": "2026-10-15T19:31:12.149425+00:00",
+      "source": "FCA",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Financial Crime",
+        "Conduct"
+      ],
+      "score": 73,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 3,
+        "aml_keywords": [
+          "str"
+        ],
+        "uk_bonus": 15,
+        "impact": 5,
+        "impact_label": "regulation",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Jarvis Investment Management Limited enters special administration",
+      "link": "https://www.fca.org.uk/news/news-stories/jarvis-investment-management-limited-enters-special-administration",
+      "summary": "On 14 October 2026, Jarvis Investment Management Limited (Jarvis Investment) entered special administration. Adam Stephens and Philip Hemming of S&amp;W Partners LLP were appointed as special administrators.\n\nJarvis Investment (FRN 116413) is FCA authorised and regulated to provide wealth management services. On 16 September 2022, Jarvis Investment agreed to a voluntary requirement with the FCA, w",
+      "date": "2026-10-15T19:31:12.149283+00:00",
+      "source": "FCA",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Financial Crime",
+        "Conduct"
+      ],
+      "score": 68,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 3,
+        "aml_keywords": [
+          "str"
+        ],
+        "uk_bonus": 15,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
       "is_uk": true
     },
     {
@@ -1374,6 +1345,32 @@
       },
       "is_aml": false,
       "is_uk": true
+    },
+    {
+      "title": "Iran-related Designations; Cuba Designation; Issuance of New and Amended General Licenses and Frequently Asked Questions",
+      "link": "https://ofac.treasury.gov/recent-actions/20261015",
+      "summary": "",
+      "date": "2026-10-15T00:00:00+00:00",
+      "source": "OFAC",
+      "country": "US",
+      "flag": "🇺🇸",
+      "category": "Sanctions",
+      "tags": [
+        "Sanctions"
+      ],
+      "score": 50,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 0,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": false
     },
     {
       "title": "EBA E-mail alert 14 October, 2026",
@@ -1736,32 +1733,6 @@
         "AML",
         "Prudential",
         "Banking"
-      ],
-      "score": 10,
-      "score_breakdown": {
-        "recency": 0,
-        "recency_label": "older",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 0,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": false
-    },
-    {
-      "title": "Counter Terrorism and Transnational Criminal Organizations Designations; Belarus, Counter Narcotics, and Libya Designations Removals",
-      "link": "https://ofac.treasury.gov/recent-actions/20260930",
-      "summary": "",
-      "date": "2026-09-30T00:00:00+00:00",
-      "source": "OFAC",
-      "country": "US",
-      "flag": "🇺🇸",
-      "category": "Sanctions",
-      "tags": [
-        "Sanctions"
       ],
       "score": 10,
       "score_breakdown": {
