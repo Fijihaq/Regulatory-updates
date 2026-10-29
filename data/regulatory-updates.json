@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-10-29 03:11 UTC",
-  "total": 59,
-  "aml_count": 3,
+  "last_updated": "2026-10-29 10:30 UTC",
+  "total": 48,
+  "aml_count": 2,
   "uk_aml_count": 2,
   "top5_overall": [
     {
       "title": "Organised crime group sentenced for cocaine stash after PCTF investigation",
       "link": "https://www.nationalcrimeagency.gov.uk/news/organised-crime-group-sentenced-for-cocaine-stash-after-pctf-investigation",
       "summary": "",
-      "date": "2026-10-29T03:11:06.522531+00:00",
+      "date": "2026-10-29T10:30:11.681400+00:00",
       "source": "NCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -38,7 +38,7 @@
       "title": "FCA restricts 6 firms following concerns over anti-money laundering controls",
       "link": "https://www.fca.org.uk/news/press-releases/fca-restricts-6-firms-following-concerns-over-anti-money-laundering-controls",
       "summary": "Restrictions have been placed on 6 unregulated lenders, known as Annex 1 firms, after the FCA raised concerns about their anti-money laundering policies, controls and procedures while assessing their applications.\n\nThe restrictions were imposed by the FCA on each firm’s request and limit their ability to take on new customers or do new business with existing customers, including extending existing",
-      "date": "2026-10-29T03:10:56.129640+00:00",
+      "date": "2026-10-29T10:30:03.696110+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -67,41 +67,10 @@
       "is_uk": true
     },
     {
-      "title": "Reshaping regulation, deliberately",
-      "link": "https://www.fca.org.uk/news/speeches/reshaping-regulation-deliberately",
-      "summary": "Speech by Sarah Pritchard, deputy chief executive, at Investment Association Annual Dinner 2026.\n\nReform: more than writing rulesIn this sector, we’re just past peak rule making. The scale of change has been significant – and deliberate.But we’re not done yet.We want to see growth that benefits consumers, supports competitiveness and spurs innovation.Building a stronger retail investment culture t",
-      "date": "2026-10-29T03:10:56.129814+00:00",
-      "source": "FCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "Conduct"
-      ],
-      "score": 77,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 7,
-        "aml_keywords": [
-          "sar",
-          "str"
-        ],
-        "uk_bonus": 15,
-        "impact": 5,
-        "impact_label": "regulation",
-        "trust": 10
-      },
-      "is_aml": true,
-      "is_uk": true
-    },
-    {
       "title": "‘Show me the money!’ Fraudsters sentenced after spending PPE supply money on luxury car and house renovations",
       "link": "https://www.nationalcrimeagency.gov.uk/news/show-me-the-money-fraudsters-sentenced-after-spending-ppe-supply-money-on-luxury-car-and-house-renovations",
       "summary": "",
-      "date": "2026-10-29T03:11:06.522444+00:00",
+      "date": "2026-10-29T10:30:11.681356+00:00",
       "source": "NCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -129,7 +98,35 @@
       "title": "Child rapist sentenced after eight-year campaign of abuse",
       "link": "https://www.nationalcrimeagency.gov.uk/news/child-rapist-sentenced-after-eight-year-campaign-of-abuse",
       "summary": "",
-      "date": "2026-10-29T03:11:06.522361+00:00",
+      "date": "2026-10-29T10:30:11.681314+00:00",
+      "source": "NCA",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Financial Crime",
+        "SAR"
+      ],
+      "score": 75,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 10,
+        "impact_label": "sentenced",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "More couriers sentenced over £13.8 million cannabis importation attempt",
+      "link": "https://www.nationalcrimeagency.gov.uk/news/more-couriers-sentenced-over-13-8-million-cannabis-importation-attempt",
+      "summary": "",
+      "date": "2026-10-29T10:30:11.681220+00:00",
       "source": "NCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -159,7 +156,7 @@
       "title": "FCA restricts 6 firms following concerns over anti-money laundering controls",
       "link": "https://www.fca.org.uk/news/press-releases/fca-restricts-6-firms-following-concerns-over-anti-money-laundering-controls",
       "summary": "Restrictions have been placed on 6 unregulated lenders, known as Annex 1 firms, after the FCA raised concerns about their anti-money laundering policies, controls and procedures while assessing their applications.\n\nThe restrictions were imposed by the FCA on each firm’s request and limit their ability to take on new customers or do new business with existing customers, including extending existing",
-      "date": "2026-10-29T03:10:56.129640+00:00",
+      "date": "2026-10-29T10:30:03.696110+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -188,10 +185,10 @@
       "is_uk": true
     },
     {
-      "title": "Reshaping regulation, deliberately",
-      "link": "https://www.fca.org.uk/news/speeches/reshaping-regulation-deliberately",
-      "summary": "Speech by Sarah Pritchard, deputy chief executive, at Investment Association Annual Dinner 2026.\n\nReform: more than writing rulesIn this sector, we’re just past peak rule making. The scale of change has been significant – and deliberate.But we’re not done yet.We want to see growth that benefits consumers, supports competitiveness and spurs innovation.Building a stronger retail investment culture t",
-      "date": "2026-10-29T03:10:56.129814+00:00",
+      "title": "What does 'fair value' look like in practice? Three years into the Consumer Duty, here’s what we’ve learned.",
+      "link": "https://www.fca.org.uk/news/blogs/fair-value-look-practice-three-years-consumer-duty",
+      "summary": "Fair value is a simple yet important principle at the heart of the Consumer Duty: the price customers pay should be reasonable, relative to the benefits they get. But applying that principle in practice requires judgement.Three years into the Consumer Duty, we’re seeing clear differences between firms that have embedded fair value into their approach and those that still need to strengthen their a",
+      "date": "2026-10-29T10:30:03.695716+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -201,18 +198,18 @@
         "Financial Crime",
         "Conduct"
       ],
-      "score": 77,
+      "score": 72,
       "score_breakdown": {
         "recency": 40,
         "recency_label": "today",
         "aml": 7,
         "aml_keywords": [
-          "sar",
-          "str"
+          "str",
+          "edd"
         ],
         "uk_bonus": 15,
-        "impact": 5,
-        "impact_label": "regulation",
+        "impact": 0,
+        "impact_label": "informational",
         "trust": 10
       },
       "is_aml": true,
@@ -224,7 +221,7 @@
       "title": "Organised crime group sentenced for cocaine stash after PCTF investigation",
       "link": "https://www.nationalcrimeagency.gov.uk/news/organised-crime-group-sentenced-for-cocaine-stash-after-pctf-investigation",
       "summary": "",
-      "date": "2026-10-29T03:11:06.522531+00:00",
+      "date": "2026-10-29T10:30:11.681400+00:00",
       "source": "NCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -254,7 +251,7 @@
       "title": "‘Show me the money!’ Fraudsters sentenced after spending PPE supply money on luxury car and house renovations",
       "link": "https://www.nationalcrimeagency.gov.uk/news/show-me-the-money-fraudsters-sentenced-after-spending-ppe-supply-money-on-luxury-car-and-house-renovations",
       "summary": "",
-      "date": "2026-10-29T03:11:06.522444+00:00",
+      "date": "2026-10-29T10:30:11.681356+00:00",
       "source": "NCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -282,7 +279,7 @@
       "title": "Child rapist sentenced after eight-year campaign of abuse",
       "link": "https://www.nationalcrimeagency.gov.uk/news/child-rapist-sentenced-after-eight-year-campaign-of-abuse",
       "summary": "",
-      "date": "2026-10-29T03:11:06.522361+00:00",
+      "date": "2026-10-29T10:30:11.681314+00:00",
       "source": "NCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -310,7 +307,7 @@
       "title": "'Lord of Fraud’ Hugh Rodley admits child sexual abuse offences",
       "link": "https://www.nationalcrimeagency.gov.uk/news/lord-of-fraud-hugh-rodley-admits-child-sexual-abuse-offences",
       "summary": "",
-      "date": "2026-10-29T03:11:06.522268+00:00",
+      "date": "2026-10-29T10:30:11.681264+00:00",
       "source": "NCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -338,7 +335,7 @@
       "title": "More couriers sentenced over £13.8 million cannabis importation attempt",
       "link": "https://www.nationalcrimeagency.gov.uk/news/more-couriers-sentenced-over-13-8-million-cannabis-importation-attempt",
       "summary": "",
-      "date": "2026-10-29T03:11:06.522178+00:00",
+      "date": "2026-10-29T10:30:11.681220+00:00",
       "source": "NCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -366,7 +363,7 @@
       "title": "HGV people smuggling network dismantled by NCA as final members convicted",
       "link": "https://www.nationalcrimeagency.gov.uk/news/hgv-people-smuggling-network-dismantled-by-nca-as-final-members-convicted",
       "summary": "",
-      "date": "2026-10-29T03:11:06.522083+00:00",
+      "date": "2026-10-29T10:30:11.681178+00:00",
       "source": "NCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -394,7 +391,7 @@
       "title": "Four more men charged over ‘Mexican’ meth conspiracy plot",
       "link": "https://www.nationalcrimeagency.gov.uk/news/four-more-men-charged-over-mexican-meth-conspiracy-plot",
       "summary": "",
-      "date": "2026-10-29T03:11:06.521981+00:00",
+      "date": "2026-10-29T10:30:11.681128+00:00",
       "source": "NCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -422,7 +419,7 @@
       "title": "Five jailed over nearly half a tonne of cocaine in at-sea smuggling attempt",
       "link": "https://www.nationalcrimeagency.gov.uk/news/five-jailed-over-nearly-half-a-tonne-of-cocaine-in-at-sea-smuggling-attempt",
       "summary": "",
-      "date": "2026-10-29T03:11:06.521858+00:00",
+      "date": "2026-10-29T10:30:11.681074+00:00",
       "source": "NCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -450,7 +447,7 @@
       "title": "Fisherman who attempted to smuggle 17 migrants into the UK on a yacht is convicted",
       "link": "https://www.nationalcrimeagency.gov.uk/news/fisherman-who-attempted-to-smuggle-17-migrants-into-the-uk-on-a-yacht-is-convicted",
       "summary": "",
-      "date": "2026-10-29T03:11:06.521744+00:00",
+      "date": "2026-10-29T10:30:11.681016+00:00",
       "source": "NCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -478,7 +475,7 @@
       "title": "People smuggling network get combined jail terms of more than 84 years as final members sentenced",
       "link": "https://www.nationalcrimeagency.gov.uk/news/people-smuggling-network-get-combined-jail-terms-of-more-than-84-years-as-final-members-sentenced",
       "summary": "",
-      "date": "2026-10-29T03:11:06.521321+00:00",
+      "date": "2026-10-29T10:30:11.680735+00:00",
       "source": "NCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -503,344 +500,10 @@
       "is_uk": true
     },
     {
-      "title": "ESMA sets out 2026 European Common Enforcement Priorities",
-      "link": "https://www.esma.europa.eu/press-news/esma-news/esma-sets-out-2026-european-common-enforcement-priorities",
-      "summary": "ESMA sets out 2026 European Common Enforcement Priorities\n  \n13 October 2026\n\n\n      \n              Financial reporting\n              Issuer disclosure\n          \n  \n            The European Securities and Markets Authority (ESMA), the European financial markets regulator and supervisor, has outlined the European Common Enforcement Priorities (ECEP) for the 2026 annual financial reports of listed ",
-      "date": "2026-10-29T03:11:00.017634+00:00",
-      "source": "ESMA",
-      "country": "EU",
-      "flag": "🇪🇺",
-      "category": "Regulator",
-      "tags": [
-        "Market Integrity",
-        "Capital Markets"
-      ],
-      "score": 60,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 0,
-        "impact": 10,
-        "impact_label": "enforcement",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": false
-    },
-    {
-      "title": "European Supervisory Authorities set priorities for 2027",
-      "link": "https://www.esma.europa.eu/press-news/esma-news/european-supervisory-authorities-set-priorities-2027",
-      "summary": "European Supervisory Authorities set priorities for 2027\n  \n13 October 2026\n\n\n      \n              Joint Committee\n          \n  \n            The Joint Committee of the European Supervisory Authorities (EBA, EIOPA and ESMA – the ESAs) published today its Annual Work Programme for 2027, setting out its priorities for addressing cross-sectoral risks and strengthening coordination across the European ",
-      "date": "2026-10-29T03:11:00.017570+00:00",
-      "source": "ESMA",
-      "country": "EU",
-      "flag": "🇪🇺",
-      "category": "Regulator",
-      "tags": [
-        "Market Integrity",
-        "Capital Markets"
-      ],
-      "score": 53,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 3,
-        "aml_keywords": [
-          "str"
-        ],
-        "uk_bonus": 0,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": false
-    },
-    {
-      "title": "ESMA analysis shows continued growth in cross-border investment services",
-      "link": "https://www.esma.europa.eu/press-news/esma-news/esma-analysis-shows-continued-growth-cross-border-investment-services",
-      "summary": "ESMA analysis shows continued growth in cross-border investment services\n  \n14 October 2026\n\n\n      \n              Investor protection\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has completed its annual analysis of the cross-border provision of investment services, together with national competent authorities",
-      "date": "2026-10-29T03:11:00.017502+00:00",
-      "source": "ESMA",
-      "country": "EU",
-      "flag": "🇪🇺",
-      "category": "Regulator",
-      "tags": [
-        "Market Integrity",
-        "Capital Markets"
-      ],
-      "score": 50,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 0,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": false
-    },
-    {
-      "title": "ESMA's third Sanctions Report highlights the need for greater convergence in enforcement",
-      "link": "https://www.esma.europa.eu/press-news/esma-news/esmas-third-sanctions-report-highlights-need-greater-convergence-enforcement",
-      "summary": "ESMA's third Sanctions Report highlights the need for greater convergence in enforcement\n  \n15 October 2026\n\n\n      \n              Market Abuse\n              Supervisory convergence\n              Transparency\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU's financial markets regulator and supervisor, published today its consolidated report on sanctions and m",
-      "date": "2026-10-29T03:11:00.017427+00:00",
-      "source": "ESMA",
-      "country": "EU",
-      "flag": "🇪🇺",
-      "category": "Regulator",
-      "tags": [
-        "Market Integrity",
-        "Capital Markets"
-      ],
-      "score": 60,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 0,
-        "impact": 10,
-        "impact_label": "enforcement",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": false
-    },
-    {
-      "title": "ESMA updates its manual on transparency with new guidance for OTC derivatives and tick-size regime",
-      "link": "https://www.esma.europa.eu/press-news/esma-news/esma-updates-its-manual-transparency-new-guidance-otc-derivatives-and-tick",
-      "summary": "ESMA updates its manual on transparency with new guidance for OTC derivatives and tick-size regime\n  \n15 October 2026\n\n\n      \n              Trading\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU regulator and supervisor, has updated its manual on transparency to provide further guidance on the identification of over-the-counter (OTC) derivatives subject to ",
-      "date": "2026-10-29T03:11:00.017368+00:00",
-      "source": "ESMA",
-      "country": "EU",
-      "flag": "🇪🇺",
-      "category": "Regulator",
-      "tags": [
-        "Market Integrity",
-        "Capital Markets"
-      ],
-      "score": 56,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 0,
-        "impact": 6,
-        "impact_label": "guidance",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": false
-    },
-    {
-      "title": "One year to go for T+1 settlement: the regulatory framework is complete, now let’s make it happen",
-      "link": "https://www.esma.europa.eu/press-news/esma-news/one-year-go-t1-settlement-regulatory-framework-complete-now-lets-make-it",
-      "summary": "One year to go for T+1 settlement: the regulatory framework is complete, now let’s make it happen\n  \n16 October 2026\n\n\n      \n              Guidelines and Technical standards\n              Post Trading\n              Press Releases\n          \n  \n            The European Union (EU) will switch to T+1 settlement on 11 October 2027. Ahead of the transition, the European Securities and Markets Authorit",
-      "date": "2026-10-29T03:11:00.017292+00:00",
-      "source": "ESMA",
-      "country": "EU",
-      "flag": "🇪🇺",
-      "category": "Regulator",
-      "tags": [
-        "Market Integrity",
-        "Capital Markets"
-      ],
-      "score": 56,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 0,
-        "impact": 6,
-        "impact_label": "guideline",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": false
-    },
-    {
-      "title": "ESMA finalises the review of guidelines on the delay in disclosure of inside information",
-      "link": "https://www.esma.europa.eu/press-news/esma-news/esma-finalises-review-guidelines-delay-disclosure-inside-information",
-      "summary": "ESMA finalises the review of guidelines on the delay in disclosure of inside information\n  \n16 October 2026\n\n\n      \n              Guidelines and Technical standards\n              Market Abuse\n              Market Integrity\n              Simplification and Burden Reduction\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and super",
-      "date": "2026-10-29T03:11:00.017219+00:00",
-      "source": "ESMA",
-      "country": "EU",
-      "flag": "🇪🇺",
-      "category": "Regulator",
-      "tags": [
-        "Market Integrity",
-        "Capital Markets"
-      ],
-      "score": 56,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 0,
-        "impact": 6,
-        "impact_label": "guideline",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": false
-    },
-    {
-      "title": "New Q&As available",
-      "link": "https://www.esma.europa.eu/press-news/esma-news/new-qas-available-27",
-      "summary": "New Q&amp;As available\n  \n16 October 2026\n\n\n      \n              CCP\n              Digital Finance and Innovation\n          \n  \n            \n\n\nThe European Securities and Markets Authority (ESMA), the EU's securities markets regulator, has published the following question and answer:\n\n\n\n\n      \n            European crowdfunding service providers for business\n\nCrowdfunding service providers that ch",
-      "date": "2026-10-29T03:11:00.017162+00:00",
-      "source": "ESMA",
-      "country": "EU",
-      "flag": "🇪🇺",
-      "category": "Regulator",
-      "tags": [
-        "Market Integrity",
-        "Capital Markets"
-      ],
-      "score": 50,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 0,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": false
-    },
-    {
-      "title": "ESMA specifies requirements to facilitate safe use of post-trade risk reduction services",
-      "link": "https://www.esma.europa.eu/press-news/esma-news/esma-specifies-requirements-facilitate-safe-use-post-trade-risk-reduction",
-      "summary": "ESMA specifies requirements to facilitate safe use of post-trade risk reduction services\n  \n20 October 2026\n\n\n      \n              Guidelines and Technical standards\n              Post Trading\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has outlined the conditions that providers and users of post-trade risk re",
-      "date": "2026-10-29T03:11:00.017080+00:00",
-      "source": "ESMA",
-      "country": "EU",
-      "flag": "🇪🇺",
-      "category": "Regulator",
-      "tags": [
-        "Market Integrity",
-        "Capital Markets"
-      ],
-      "score": 56,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 0,
-        "impact": 6,
-        "impact_label": "guideline",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": false
-    },
-    {
-      "title": "ESMA streamlines several Q&As as part of simplification efforts",
-      "link": "https://www.esma.europa.eu/press-news/esma-news/esma-streamlines-several-qas-part-simplification-efforts",
-      "summary": "ESMA streamlines several Q&amp;As as part of simplification efforts\n  \n22 October 2026\n\n\n      \n              Market Abuse\n              MiFID - Secondary Markets\n              Short Selling\n              Simplification and Burden Reduction\n          \n  \n            The European Securities and Markets Authority (ESMA), the EU regulator and supervisor, has updated its Questions and Answers (Q&amp;A",
-      "date": "2026-10-29T03:11:00.016989+00:00",
-      "source": "ESMA",
-      "country": "EU",
-      "flag": "🇪🇺",
-      "category": "Regulator",
-      "tags": [
-        "Market Integrity",
-        "Capital Markets"
-      ],
-      "score": 58,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 8,
-        "aml_keywords": [
-          "aml",
-          "str"
-        ],
-        "uk_bonus": 0,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": true,
-      "is_uk": false
-    },
-    {
-      "title": "Former chief executive banned after misconduct led to £4m losses in high-risk investments",
-      "link": "https://www.fca.org.uk/news/press-releases/former-chief-executive-banned-after-misconduct-led-4m-losses-high-risk-investments",
-      "summary": "The FCA has banned Jeffrey Dawkins, the former chief executive of Vector Wealth Ltd, after he dishonestly acted as a front for a disqualified director using the company to sell high-risk bonds.\n\nMr Dawkins has also been fined nearly £270,000.In 2019, Mr Dawkins sold Vector Wealth to a disqualified director who described himself as CEO and wanted to use Vector Wealth’s FCA-authorised status to sell",
-      "date": "2026-10-29T03:10:56.129869+00:00",
-      "source": "FCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "Conduct"
-      ],
-      "score": 75,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 10,
-        "impact_label": "fine",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Reshaping regulation, deliberately",
-      "link": "https://www.fca.org.uk/news/speeches/reshaping-regulation-deliberately",
-      "summary": "Speech by Sarah Pritchard, deputy chief executive, at Investment Association Annual Dinner 2026.\n\nReform: more than writing rulesIn this sector, we’re just past peak rule making. The scale of change has been significant – and deliberate.But we’re not done yet.We want to see growth that benefits consumers, supports competitiveness and spurs innovation.Building a stronger retail investment culture t",
-      "date": "2026-10-29T03:10:56.129814+00:00",
-      "source": "FCA",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Financial Crime",
-        "Conduct"
-      ],
-      "score": 77,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 7,
-        "aml_keywords": [
-          "sar",
-          "str"
-        ],
-        "uk_bonus": 15,
-        "impact": 5,
-        "impact_label": "regulation",
-        "trust": 10
-      },
-      "is_aml": true,
-      "is_uk": true
-    },
-    {
       "title": "Leeds office move",
       "link": "https://www.fca.org.uk/news/news-stories/leeds-office-move",
       "summary": "We have signed an agreement for a new office at 2 Wellington Place, which will become our long-term home in Leeds from 2028.\n\nThe new office will provide 36,097 sq ft of space for our growing Leeds presence.Our Leeds office, currently at 6 Queen Street, has continued to grow since opening in 2022.Securing a new permanent base reflects our commitment to the city and supports our 5-year strategy amb",
-      "date": "2026-10-29T03:10:56.129755+00:00",
+      "date": "2026-10-29T10:30:03.696186+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -870,7 +533,7 @@
       "title": "Market integrity in a digital age",
       "link": "https://www.fca.org.uk/news/speeches/market-integrity-digital-age",
       "summary": "Speech by Nikhil Rathi, FCA chief executive at the Corporation of the City of London’s annual City Dinner, Mansion House.\n\nThe success of the UK’s financial servicesIn August, flight cancellations left my sons and I with an extra day in Boston. A Red Sox game, perhaps?No, the Rathi boys – naturally – headed straight to…the Museum of American Finance.Funded by industry, the museum celebrates the ro",
-      "date": "2026-10-29T03:10:56.129699+00:00",
+      "date": "2026-10-29T10:30:03.696150+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -900,7 +563,7 @@
       "title": "FCA restricts 6 firms following concerns over anti-money laundering controls",
       "link": "https://www.fca.org.uk/news/press-releases/fca-restricts-6-firms-following-concerns-over-anti-money-laundering-controls",
       "summary": "Restrictions have been placed on 6 unregulated lenders, known as Annex 1 firms, after the FCA raised concerns about their anti-money laundering policies, controls and procedures while assessing their applications.\n\nThe restrictions were imposed by the FCA on each firm’s request and limit their ability to take on new customers or do new business with existing customers, including extending existing",
-      "date": "2026-10-29T03:10:56.129640+00:00",
+      "date": "2026-10-29T10:30:03.696110+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -932,7 +595,7 @@
       "title": "Beyond borders: Regulating the risks we share",
       "link": "https://www.fca.org.uk/news/speeches/beyond-borders-regulating-risks-we-share",
       "summary": "Speech by Ashley Alder, FCA Chair, at the Michael D. Gill Lecture on International Financial Regulatory Understanding and Cooperation.\n\nI wasn’t fortunate enough to work as closely with Mike as many of you in this room.But I knew him well enough during my time with the IOSCO board to appreciate someone who was kind and unassuming, whilst being absolutely determined to make lives better through his",
-      "date": "2026-10-29T03:10:56.129582+00:00",
+      "date": "2026-10-29T10:30:03.696072+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -960,7 +623,7 @@
       "title": "FCA calls on private market firms to manage conflicts of interest in line with rapid growth",
       "link": "https://www.fca.org.uk/news/press-releases/fca-calls-private-market-firms-manage-conflicts-interest-line-rapid-growth",
       "summary": "Private market firms vary in how well they identify and manage conflicts of interest, according to an FCA review.\n\nPrivate markets refer to investments in assets, companies, or debt not listed or traded on public exchanges. They’ve grown significantly in recent years, and the UK is a leading international centre. Private markets play an increasingly important role in providing capital to businesse",
-      "date": "2026-10-29T03:10:56.129516+00:00",
+      "date": "2026-10-29T10:30:03.696032+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -988,7 +651,7 @@
       "title": "Chandler King (City) Limited enters creditors’ voluntary liquidation",
       "link": "https://www.fca.org.uk/news/news-stories/chandler-king-enters-creditors-voluntary-liquidation",
       "summary": "On 17 September 2026, Chandler King (City) Limited (Chandler King) went into creditors’ voluntary liquidation. Grace Jones and Karyn Jones of Parker Andrews were appointed as joint liquidators.\n\nChandler King, an FCA-authorised firm, was an independent financial adviser which advised on investments and pensions. On 28 April 2026, Chandler King agreed to a voluntary requirement with the FCA, which ",
-      "date": "2026-10-29T03:10:56.129444+00:00",
+      "date": "2026-10-29T10:30:03.695992+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -1016,7 +679,7 @@
       "title": "Defence SMEs need banking services that work",
       "link": "https://www.fca.org.uk/news/blogs/defence-smes-need-banking-services-work",
       "summary": "The UK's most innovative businesses often start small.Before they can develop new technologies, win contracts or expand into new markets, they need access to banking services to help them operate, invest and grow.Access to financial services can be easy to take for granted. When those services work well they're almost invisible. However, when access becomes difficult or delayed, the effects can ex",
-      "date": "2026-10-29T03:10:56.129381+00:00",
+      "date": "2026-10-29T10:30:03.695949+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -1044,7 +707,7 @@
       "title": "Bullseye Financial Ltd enters administration",
       "link": "https://www.fca.org.uk/news/news-stories/bullseye-financial-ltd-enters-administration",
       "summary": "On 23 October 2026, Bullseye Financial Ltd (Bullseye Financial) entered administration. Robert Young of Azets Holdings Limited and Matthew Haw of RSM UK Restructuring Advisory LLP were appointed as joint administrators.\n\nThe joint administrators are responsible for managing the affairs of the firm during the administration process.Bullseye Financial is authorised by the FCA. It served only profess",
-      "date": "2026-10-29T03:10:56.129228+00:00",
+      "date": "2026-10-29T10:30:03.695906+00:00",
       "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
@@ -1071,122 +734,69 @@
       "is_uk": true
     },
     {
-      "title": "Data Element 2/3: Documents and Other Reference Codes (National) of the Customs Declaration Service (CDS)",
-      "link": "https://www.gov.uk/guidance/data-element-23-documents-and-other-reference-codes-national-of-the-customs-declaration-service-cds",
-      "summary": "Find a list of codes for the relevant document codes, document status codes and details to be declared (for example, licences and certificates) in Data Element 2/3 (Appendix 5A).",
-      "date": "2026-10-29T00:15:02+00:00",
-      "source": "HMRC",
+      "title": "FCA stops HTX's crypto promotions",
+      "link": "https://www.fca.org.uk/news/press-releases/fca-stops-htxs-crypto-promotions",
+      "summary": "The FCA has secured High Court undertakings to ensure that HTX (formerly Huobi), a global crypto exchange, will not knowingly promote cryptoasset services unlawfully to UK consumers.\n\nThe FCA took legal action against HTX in October 2025 for breaking UK financial promotion rules. HTX had failed repeatedly to engage with the FCA. Following the commencement of proceedings, HTX took steps to exit the",
+      "date": "2026-10-29T10:30:03.695864+00:00",
+      "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
       "category": "Regulator",
       "tags": [
         "AML",
-        "Tax",
-        "Financial Crime"
+        "Financial Crime",
+        "Conduct"
       ],
-      "score": 65,
+      "score": 74,
       "score_breakdown": {
         "recency": 40,
         "recency_label": "today",
         "aml": 0,
         "aml_keywords": [],
         "uk_bonus": 15,
-        "impact": 0,
-        "impact_label": "informational",
+        "impact": 9,
+        "impact_label": "action against",
         "trust": 10
       },
       "is_aml": false,
       "is_uk": true
     },
     {
-      "title": "Official Statistics: UK trade in goods by business characteristics 2025",
-      "link": "https://www.gov.uk/government/statistics/announcements/uk-trade-in-goods-by-business-characteristics-2025",
-      "summary": "UK overseas trade statistics (OTS) trade in goods data has been linked with the Office for National Statistics (ONS) business statistics.",
-      "date": "2026-10-28T19:22:42+00:00",
-      "source": "HMRC",
+      "title": "What does 'fair value' look like in practice? Three years into the Consumer Duty, here’s what we’ve learned.",
+      "link": "https://www.fca.org.uk/news/blogs/fair-value-look-practice-three-years-consumer-duty",
+      "summary": "Fair value is a simple yet important principle at the heart of the Consumer Duty: the price customers pay should be reasonable, relative to the benefits they get. But applying that principle in practice requires judgement.Three years into the Consumer Duty, we’re seeing clear differences between firms that have embedded fair value into their approach and those that still need to strengthen their a",
+      "date": "2026-10-29T10:30:03.695716+00:00",
+      "source": "FCA",
       "country": "UK",
       "flag": "🇬🇧",
       "category": "Regulator",
       "tags": [
         "AML",
-        "Tax",
-        "Financial Crime"
+        "Financial Crime",
+        "Conduct"
       ],
-      "score": 65,
+      "score": 72,
       "score_breakdown": {
         "recency": 40,
         "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
+        "aml": 7,
+        "aml_keywords": [
+          "str",
+          "edd"
+        ],
         "uk_bonus": 15,
         "impact": 0,
         "impact_label": "informational",
         "trust": 10
       },
-      "is_aml": false,
+      "is_aml": true,
       "is_uk": true
     },
     {
-      "title": "Stamp Duty Land Tax relief for land or property transactions",
-      "link": "https://www.gov.uk/guidance/stamp-duty-land-tax-relief-for-land-or-property-transactions",
-      "summary": "Find out what the main Stamp Duty Land Tax (SDLT) reliefs are for land or property transactions.",
-      "date": "2026-10-28T18:09:07+00:00",
-      "source": "HMRC",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Tax",
-        "Financial Crime"
-      ],
-      "score": 65,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Zero rating medicines supplied free of charge (VAT Notice 1004)",
-      "link": "https://www.gov.uk/guidance/zero-rating-medicines-supplied-free-of-charge-vat-notice-1004",
-      "summary": "Find out when you can zero-rate medicines supplied free of charge, including medicines for NHS treatment, clinical trials and continued treatment after a clinical trial.",
-      "date": "2026-10-28T18:07:29+00:00",
-      "source": "HMRC",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Tax",
-        "Financial Crime"
-      ],
-      "score": 65,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Policy paper: Revenue and Customs Brief 13 (2026): VAT and Climate Change Levy on electric vehicle charging for non-domestic use",
-      "link": "https://www.gov.uk/government/publications/revenue-and-customs-brief-13-2026-vat-and-climate-change-levy-on-electric-vehicle-charging-for-non-domestic-use",
-      "summary": "This brief explains that publicly accessible electric vehicle charging points and charging points at workplaces are not for domestic use for the purposes of VAT and Climate Change Levy.",
-      "date": "2026-10-28T18:07:21+00:00",
+      "title": "Policy paper: Reduce the main rate writing-down allowance and increase the main rate first-year allowance",
+      "link": "https://www.gov.uk/government/publications/reduce-the-main-rate-writing-down-allowance-and-increase-the-main-rate-first-year-allowance",
+      "summary": "This tax information and impact note covers the reduction of the main rate of writing-down allowances and the increase to the main rate first-year allowance.",
+      "date": "2026-10-29T10:17:22+00:00",
       "source": "HMRC",
       "country": "UK",
       "flag": "🇬🇧",
@@ -1211,122 +821,10 @@
       "is_uk": true
     },
     {
-      "title": "Guidance: Rates and allowances for Landfill Tax",
-      "link": "https://www.gov.uk/government/publications/rates-and-allowances-landfill-tax",
-      "summary": "Find out the rates of Landfill Tax payable on material disposed of at a landfill site.",
-      "date": "2026-10-28T18:06:47+00:00",
-      "source": "HMRC",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Tax",
-        "Financial Crime"
-      ],
-      "score": 71,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 6,
-        "impact_label": "guidance",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Check if you need to pay Landfill Tax",
-      "link": "https://www.gov.uk/guidance/landfill-tax-rates-exemptions-and-taxable-activities",
-      "summary": "Find out what landfill activities are taxable at your landfill site if you’re a landfill operator or controller and what rates you’ll pay.",
-      "date": "2026-10-28T18:06:27+00:00",
-      "source": "HMRC",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Tax",
-        "Financial Crime"
-      ],
-      "score": 65,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Notice: Excise Notice LFT1: a general guide to Landfill Tax",
-      "link": "https://www.gov.uk/government/publications/excise-notice-lft1-a-general-guide-to-landfill-tax",
-      "summary": "This notice gives you detailed information about Landfill Tax rules and your obligations.",
-      "date": "2026-10-28T18:05:59+00:00",
-      "source": "HMRC",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Tax",
-        "Financial Crime"
-      ],
-      "score": 69,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 4,
-        "impact_label": "rule",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Fuel and power (VAT Notice 701/19)",
-      "link": "https://www.gov.uk/guidance/vat-on-fuel-and-power-notice-70119",
-      "summary": "Find out what VAT should be charged on supplies of fuel and power if you're a supplier or a user.",
-      "date": "2026-10-28T18:03:42+00:00",
-      "source": "HMRC",
-      "country": "UK",
-      "flag": "🇬🇧",
-      "category": "Regulator",
-      "tags": [
-        "AML",
-        "Tax",
-        "Financial Crime"
-      ],
-      "score": 65,
-      "score_breakdown": {
-        "recency": 40,
-        "recency_label": "today",
-        "aml": 0,
-        "aml_keywords": [],
-        "uk_bonus": 15,
-        "impact": 0,
-        "impact_label": "informational",
-        "trust": 10
-      },
-      "is_aml": false,
-      "is_uk": true
-    },
-    {
-      "title": "Policy paper: Revenue and Customs Brief 12 (2026): VAT zero rate on donated medicines",
-      "link": "https://www.gov.uk/government/publications/revenue-and-customs-brief-12-2026-vat-zero-rate-on-donated-medicines",
-      "summary": "This brief explains when the zero rate of VAT applies to medicines supplied free of charge.\nThis change applies from 23 June 2026.",
-      "date": "2026-10-28T18:03:09+00:00",
+      "title": "Policy paper: VAT: supply of certain passenger transport services through agents",
+      "link": "https://www.gov.uk/government/publications/vat-supply-of-certain-passenger-transport-services-through-agents",
+      "summary": "This tax information and impact note is about changes the VAT treatment of passenger transport services supplied by private hire vehicles or taxis through an agent.",
+      "date": "2026-10-29T10:17:12+00:00",
       "source": "HMRC",
       "country": "UK",
       "flag": "🇬🇧",
@@ -1345,6 +843,202 @@
         "uk_bonus": 15,
         "impact": 5,
         "impact_label": "policy",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Policy paper: Machine Games Duty: changes to stake and prize thresholds",
+      "link": "https://www.gov.uk/government/publications/machine-games-duty-changes-to-stake-and-prize-thresholds",
+      "summary": "This tax information and impact note explains changes to the stake and prize thresholds used to determine whether a machine is a type 2 or type 3 machine for Machine Games Duty.",
+      "date": "2026-10-29T10:16:49+00:00",
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 70,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 5,
+        "impact_label": "policy",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Policy paper: Capital Gains Tax: reduction in the Business Asset Disposal Relief lifetime limit",
+      "link": "https://www.gov.uk/government/publications/capital-gains-tax-reduction-in-the-business-asset-disposal-relief-lifetime-limit",
+      "summary": "This tax information and impact note is about the reduction in the Business Asset Disposal Relief lifetime limit.",
+      "date": "2026-10-29T10:16:44+00:00",
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 70,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 5,
+        "impact_label": "policy",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Corporate Intangibles Research and Development Manual",
+      "link": "https://www.gov.uk/hmrc-internal-manuals/corporate-intangibles-research-and-development-manual",
+      "summary": "Corporation Tax and the taxation of intangible assets, remediation of contaminated land, vaccines research relief and tax credits for research & development.",
+      "date": "2026-10-29T10:04:15+00:00",
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 65,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Employment related securities bulletin 69 (October 2026)",
+      "link": "https://www.gov.uk/guidance/employment-related-securities-bulletin-69-october-2026",
+      "summary": "Find out about the Budget 2026 changes to the Enterprise Management Incentive (EMI) and the Company Share Option Plan (CSOP) scheme, including rebranding CSOP as 'Enterprise Management Incentives 2 (EMI2)'.",
+      "date": "2026-10-29T10:00:05+00:00",
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 65,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Official Statistics: Council Tax: challenges and changes in England and Wales, March 2026",
+      "link": "https://www.gov.uk/government/statistics/council-tax-challenges-and-changes-in-england-and-wales-march-2026",
+      "summary": "Statistics on challenges against the England and Wales Council Tax valuation lists between 1 April 2025 and 31 March 2026.",
+      "date": "2026-10-29T09:30:08+00:00",
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 65,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Transparency data: HMRC: spending over £25,000, September 2026",
+      "link": "https://www.gov.uk/government/publications/hmrc-spending-over-25000-september-2026",
+      "summary": "Reports on departmental spending over £25,000.",
+      "date": "2026-10-29T09:30:07+00:00",
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 65,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 0,
+        "impact_label": "informational",
+        "trust": 10
+      },
+      "is_aml": false,
+      "is_uk": true
+    },
+    {
+      "title": "Notice: Duty free spirits — use in manufacture or for medical or scientific purposes (Excise Notice 47)",
+      "link": "https://www.gov.uk/government/publications/excise-notice-47-duty-free-spirits-use-in-manufacture-or-for-medical-or-scientific-purposes",
+      "summary": "This notice is about duty free spirits for use in manufacture or for medical or scientific purposes.",
+      "date": "2026-10-29T08:46:20+00:00",
+      "source": "HMRC",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "category": "Regulator",
+      "tags": [
+        "AML",
+        "Tax",
+        "Financial Crime"
+      ],
+      "score": 65,
+      "score_breakdown": {
+        "recency": 40,
+        "recency_label": "today",
+        "aml": 0,
+        "aml_keywords": [],
+        "uk_bonus": 15,
+        "impact": 0,
+        "impact_label": "informational",
         "trust": 10
       },
       "is_aml": false,
